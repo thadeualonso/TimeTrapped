@@ -1,0 +1,68 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Tiro : MonoBehaviour {
+
+    public float velocidade;
+    public Direcoes direcao;
+    public float dirX;
+    public float dirY;
+	
+	// Update is called once per frame
+	void Update ()
+    {
+        switch (direcao)
+        {
+            case Direcoes.Right:
+                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
+                break;
+            case Direcoes.Left:
+                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
+                break;
+            case Direcoes.Up:
+                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
+                break;
+            case Direcoes.Down:
+                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
+                break;
+            case Direcoes.UpRight:
+                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
+                break;
+            case Direcoes.UpLeft:
+                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
+                break;
+            case Direcoes.DownRight:
+                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
+                break;
+            case Direcoes.DownLeft:
+                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
+                break;
+        }
+    }
+
+    void OnTriggerEnter2D (Collider2D collider)
+    {
+        Debug.Log("Colisao: Trigger");
+
+        if (collider.gameObject.tag == "Inimigo")
+        {
+            Destroy(gameObject);
+        }
+
+        if (collider.gameObject.tag == "Limite")
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void OnCollisionEnter2D (Collision2D collision)
+    {
+
+        Debug.Log("Colisao");
+
+        if (collision.gameObject.tag == "Limite")
+        {
+            Destroy(gameObject);
+        }
+    }
+}

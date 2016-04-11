@@ -1,0 +1,4217 @@
+fileFormatVersion: 2
+guid: a62fd12ffc00f3a4092d205a8e249698
+timeCreated: 1458739669
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Master System - Gain Ground - Playable Characters_0
+    21300002: Master System - Gain Ground - Playable Characters_1
+    21300004: Master System - Gain Ground - Playable Characters_2
+    21300006: Master System - Gain Ground - Playable Characters_3
+    21300008: Master System - Gain Ground - Playable Characters_4
+    21300010: Master System - Gain Ground - Playable Characters_5
+    21300012: Master System - Gain Ground - Playable Characters_6
+    21300014: Master System - Gain Ground - Playable Characters_7
+    21300016: Master System - Gain Ground - Playable Characters_8
+    21300018: Master System - Gain Ground - Playable Characters_9
+    21300020: Master System - Gain Ground - Playable Characters_10
+    21300022: Master System - Gain Ground - Playable Characters_11
+    21300024: Master System - Gain Ground - Playable Characters_12
+    21300026: Master System - Gain Ground - Playable Characters_13
+    21300028: Master System - Gain Ground - Playable Characters_14
+    21300030: Master System - Gain Ground - Playable Characters_15
+    21300032: Master System - Gain Ground - Playable Characters_16
+    21300034: Master System - Gain Ground - Playable Characters_17
+    21300036: Master System - Gain Ground - Playable Characters_18
+    21300038: Master System - Gain Ground - Playable Characters_19
+    21300040: Master System - Gain Ground - Playable Characters_20
+    21300042: Master System - Gain Ground - Playable Characters_21
+    21300044: Master System - Gain Ground - Playable Characters_22
+    21300046: Master System - Gain Ground - Playable Characters_23
+    21300048: Master System - Gain Ground - Playable Characters_24
+    21300050: Master System - Gain Ground - Playable Characters_25
+    21300052: Master System - Gain Ground - Playable Characters_26
+    21300054: Master System - Gain Ground - Playable Characters_27
+    21300056: Master System - Gain Ground - Playable Characters_28
+    21300058: Master System - Gain Ground - Playable Characters_29
+    21300060: Master System - Gain Ground - Playable Characters_30
+    21300062: Master System - Gain Ground - Playable Characters_31
+    21300064: Master System - Gain Ground - Playable Characters_32
+    21300066: Master System - Gain Ground - Playable Characters_33
+    21300068: Master System - Gain Ground - Playable Characters_34
+    21300070: Master System - Gain Ground - Playable Characters_35
+    21300072: Master System - Gain Ground - Playable Characters_36
+    21300074: Master System - Gain Ground - Playable Characters_37
+    21300076: Master System - Gain Ground - Playable Characters_38
+    21300078: Master System - Gain Ground - Playable Characters_39
+    21300080: Master System - Gain Ground - Playable Characters_40
+    21300082: Master System - Gain Ground - Playable Characters_41
+    21300084: Master System - Gain Ground - Playable Characters_42
+    21300086: Master System - Gain Ground - Playable Characters_43
+    21300088: Master System - Gain Ground - Playable Characters_44
+    21300090: Master System - Gain Ground - Playable Characters_45
+    21300092: Master System - Gain Ground - Playable Characters_46
+    21300094: Master System - Gain Ground - Playable Characters_47
+    21300096: Master System - Gain Ground - Playable Characters_48
+    21300098: Master System - Gain Ground - Playable Characters_49
+    21300100: Master System - Gain Ground - Playable Characters_50
+    21300102: Master System - Gain Ground - Playable Characters_51
+    21300104: Master System - Gain Ground - Playable Characters_52
+    21300106: Master System - Gain Ground - Playable Characters_53
+    21300108: Master System - Gain Ground - Playable Characters_54
+    21300110: Master System - Gain Ground - Playable Characters_55
+    21300112: Master System - Gain Ground - Playable Characters_56
+    21300114: Master System - Gain Ground - Playable Characters_57
+    21300116: Master System - Gain Ground - Playable Characters_58
+    21300118: Master System - Gain Ground - Playable Characters_59
+    21300120: Master System - Gain Ground - Playable Characters_60
+    21300122: Master System - Gain Ground - Playable Characters_61
+    21300124: Master System - Gain Ground - Playable Characters_62
+    21300126: Master System - Gain Ground - Playable Characters_63
+    21300128: Master System - Gain Ground - Playable Characters_64
+    21300130: Master System - Gain Ground - Playable Characters_65
+    21300132: Master System - Gain Ground - Playable Characters_66
+    21300134: Master System - Gain Ground - Playable Characters_67
+    21300136: Master System - Gain Ground - Playable Characters_68
+    21300138: Master System - Gain Ground - Playable Characters_69
+    21300140: Master System - Gain Ground - Playable Characters_70
+    21300142: Master System - Gain Ground - Playable Characters_71
+    21300144: Master System - Gain Ground - Playable Characters_72
+    21300146: Master System - Gain Ground - Playable Characters_73
+    21300148: Master System - Gain Ground - Playable Characters_74
+    21300150: Master System - Gain Ground - Playable Characters_75
+    21300152: Master System - Gain Ground - Playable Characters_76
+    21300154: Master System - Gain Ground - Playable Characters_77
+    21300156: Master System - Gain Ground - Playable Characters_78
+    21300158: Master System - Gain Ground - Playable Characters_79
+    21300160: Master System - Gain Ground - Playable Characters_80
+    21300162: Master System - Gain Ground - Playable Characters_81
+    21300164: Master System - Gain Ground - Playable Characters_82
+    21300166: Master System - Gain Ground - Playable Characters_83
+    21300168: Master System - Gain Ground - Playable Characters_84
+    21300170: Master System - Gain Ground - Playable Characters_85
+    21300172: Master System - Gain Ground - Playable Characters_86
+    21300174: Master System - Gain Ground - Playable Characters_87
+    21300176: Master System - Gain Ground - Playable Characters_88
+    21300178: Master System - Gain Ground - Playable Characters_89
+    21300180: Master System - Gain Ground - Playable Characters_90
+    21300182: Master System - Gain Ground - Playable Characters_91
+    21300184: Master System - Gain Ground - Playable Characters_92
+    21300186: Master System - Gain Ground - Playable Characters_93
+    21300188: Master System - Gain Ground - Playable Characters_94
+    21300190: Master System - Gain Ground - Playable Characters_95
+    21300192: Master System - Gain Ground - Playable Characters_96
+    21300194: Master System - Gain Ground - Playable Characters_97
+    21300196: Master System - Gain Ground - Playable Characters_98
+    21300198: Master System - Gain Ground - Playable Characters_99
+    21300200: Master System - Gain Ground - Playable Characters_100
+    21300202: Master System - Gain Ground - Playable Characters_101
+    21300204: Master System - Gain Ground - Playable Characters_102
+    21300206: Master System - Gain Ground - Playable Characters_103
+    21300208: Master System - Gain Ground - Playable Characters_104
+    21300210: Master System - Gain Ground - Playable Characters_105
+    21300212: Master System - Gain Ground - Playable Characters_106
+    21300214: Master System - Gain Ground - Playable Characters_107
+    21300216: Master System - Gain Ground - Playable Characters_108
+    21300218: Master System - Gain Ground - Playable Characters_109
+    21300220: Master System - Gain Ground - Playable Characters_110
+    21300222: Master System - Gain Ground - Playable Characters_111
+    21300224: Master System - Gain Ground - Playable Characters_112
+    21300226: Master System - Gain Ground - Playable Characters_113
+    21300228: Master System - Gain Ground - Playable Characters_114
+    21300230: Master System - Gain Ground - Playable Characters_115
+    21300232: Master System - Gain Ground - Playable Characters_116
+    21300234: Master System - Gain Ground - Playable Characters_117
+    21300236: Master System - Gain Ground - Playable Characters_118
+    21300238: Master System - Gain Ground - Playable Characters_119
+    21300240: Master System - Gain Ground - Playable Characters_120
+    21300242: Master System - Gain Ground - Playable Characters_121
+    21300244: Master System - Gain Ground - Playable Characters_122
+    21300246: Master System - Gain Ground - Playable Characters_123
+    21300248: Master System - Gain Ground - Playable Characters_124
+    21300250: Master System - Gain Ground - Playable Characters_125
+    21300252: Master System - Gain Ground - Playable Characters_126
+    21300254: Master System - Gain Ground - Playable Characters_127
+    21300256: Master System - Gain Ground - Playable Characters_128
+    21300258: Master System - Gain Ground - Playable Characters_129
+    21300260: Master System - Gain Ground - Playable Characters_130
+    21300262: Master System - Gain Ground - Playable Characters_131
+    21300264: Master System - Gain Ground - Playable Characters_132
+    21300266: Master System - Gain Ground - Playable Characters_133
+    21300268: Master System - Gain Ground - Playable Characters_134
+    21300270: Master System - Gain Ground - Playable Characters_135
+    21300272: Master System - Gain Ground - Playable Characters_136
+    21300274: Master System - Gain Ground - Playable Characters_137
+    21300276: Master System - Gain Ground - Playable Characters_138
+    21300278: Master System - Gain Ground - Playable Characters_139
+    21300280: Master System - Gain Ground - Playable Characters_140
+    21300282: Master System - Gain Ground - Playable Characters_141
+    21300284: Master System - Gain Ground - Playable Characters_142
+    21300286: Master System - Gain Ground - Playable Characters_143
+    21300288: Master System - Gain Ground - Playable Characters_144
+    21300290: Master System - Gain Ground - Playable Characters_145
+    21300292: Master System - Gain Ground - Playable Characters_146
+    21300294: Master System - Gain Ground - Playable Characters_147
+    21300296: Master System - Gain Ground - Playable Characters_148
+    21300298: Master System - Gain Ground - Playable Characters_149
+    21300300: Master System - Gain Ground - Playable Characters_150
+    21300302: Master System - Gain Ground - Playable Characters_151
+    21300304: Master System - Gain Ground - Playable Characters_152
+    21300306: Master System - Gain Ground - Playable Characters_153
+    21300308: Master System - Gain Ground - Playable Characters_154
+    21300310: Master System - Gain Ground - Playable Characters_155
+    21300312: Master System - Gain Ground - Playable Characters_156
+    21300314: Master System - Gain Ground - Playable Characters_157
+    21300316: Master System - Gain Ground - Playable Characters_158
+    21300318: Master System - Gain Ground - Playable Characters_159
+    21300320: Master System - Gain Ground - Playable Characters_160
+    21300322: Master System - Gain Ground - Playable Characters_161
+    21300324: Master System - Gain Ground - Playable Characters_162
+    21300326: Master System - Gain Ground - Playable Characters_163
+    21300328: Master System - Gain Ground - Playable Characters_164
+    21300330: Master System - Gain Ground - Playable Characters_165
+    21300332: Master System - Gain Ground - Playable Characters_166
+    21300334: Master System - Gain Ground - Playable Characters_167
+    21300336: Master System - Gain Ground - Playable Characters_168
+    21300338: Master System - Gain Ground - Playable Characters_169
+    21300340: Master System - Gain Ground - Playable Characters_170
+    21300342: Master System - Gain Ground - Playable Characters_171
+    21300344: Master System - Gain Ground - Playable Characters_172
+    21300346: Master System - Gain Ground - Playable Characters_173
+    21300348: Master System - Gain Ground - Playable Characters_174
+    21300350: Master System - Gain Ground - Playable Characters_175
+    21300352: Master System - Gain Ground - Playable Characters_176
+    21300354: Master System - Gain Ground - Playable Characters_177
+    21300356: Master System - Gain Ground - Playable Characters_178
+    21300358: Master System - Gain Ground - Playable Characters_179
+    21300360: Master System - Gain Ground - Playable Characters_180
+    21300362: Master System - Gain Ground - Playable Characters_181
+    21300364: Master System - Gain Ground - Playable Characters_182
+    21300366: Master System - Gain Ground - Playable Characters_183
+    21300368: Master System - Gain Ground - Playable Characters_184
+    21300370: Master System - Gain Ground - Playable Characters_185
+    21300372: Master System - Gain Ground - Playable Characters_186
+    21300374: Master System - Gain Ground - Playable Characters_187
+    21300376: Master System - Gain Ground - Playable Characters_188
+    21300378: Master System - Gain Ground - Playable Characters_189
+    21300380: Master System - Gain Ground - Playable Characters_190
+    21300382: Master System - Gain Ground - Playable Characters_191
+    21300384: Master System - Gain Ground - Playable Characters_192
+    21300386: Master System - Gain Ground - Playable Characters_193
+    21300388: Master System - Gain Ground - Playable Characters_194
+    21300390: Master System - Gain Ground - Playable Characters_195
+    21300392: Master System - Gain Ground - Playable Characters_196
+    21300394: Master System - Gain Ground - Playable Characters_197
+    21300396: Master System - Gain Ground - Playable Characters_198
+    21300398: Master System - Gain Ground - Playable Characters_199
+    21300400: Master System - Gain Ground - Playable Characters_200
+    21300402: Master System - Gain Ground - Playable Characters_201
+    21300404: Master System - Gain Ground - Playable Characters_202
+    21300406: Master System - Gain Ground - Playable Characters_203
+    21300408: Master System - Gain Ground - Playable Characters_204
+    21300410: Master System - Gain Ground - Playable Characters_205
+    21300412: Master System - Gain Ground - Playable Characters_206
+    21300414: Master System - Gain Ground - Playable Characters_207
+    21300416: Master System - Gain Ground - Playable Characters_208
+    21300418: Master System - Gain Ground - Playable Characters_209
+    21300420: Master System - Gain Ground - Playable Characters_210
+    21300422: Master System - Gain Ground - Playable Characters_211
+    21300424: Master System - Gain Ground - Playable Characters_212
+    21300426: Master System - Gain Ground - Playable Characters_213
+    21300428: Master System - Gain Ground - Playable Characters_214
+    21300430: Master System - Gain Ground - Playable Characters_215
+    21300432: Master System - Gain Ground - Playable Characters_216
+    21300434: Master System - Gain Ground - Playable Characters_217
+    21300436: Master System - Gain Ground - Playable Characters_218
+    21300438: Master System - Gain Ground - Playable Characters_219
+    21300440: Master System - Gain Ground - Playable Characters_220
+    21300442: Master System - Gain Ground - Playable Characters_221
+    21300444: Master System - Gain Ground - Playable Characters_222
+    21300446: Master System - Gain Ground - Playable Characters_223
+    21300448: Master System - Gain Ground - Playable Characters_224
+    21300450: Master System - Gain Ground - Playable Characters_225
+    21300452: Master System - Gain Ground - Playable Characters_226
+    21300454: Master System - Gain Ground - Playable Characters_227
+    21300456: Master System - Gain Ground - Playable Characters_228
+    21300458: Master System - Gain Ground - Playable Characters_229
+    21300460: Master System - Gain Ground - Playable Characters_230
+    21300462: Master System - Gain Ground - Playable Characters_231
+    21300464: Master System - Gain Ground - Playable Characters_232
+    21300466: Master System - Gain Ground - Playable Characters_233
+    21300468: Master System - Gain Ground - Playable Characters_234
+    21300470: Master System - Gain Ground - Playable Characters_235
+    21300472: Master System - Gain Ground - Playable Characters_236
+    21300474: Master System - Gain Ground - Playable Characters_237
+    21300476: Master System - Gain Ground - Playable Characters_238
+    21300478: Master System - Gain Ground - Playable Characters_239
+    21300480: Master System - Gain Ground - Playable Characters_240
+    21300482: Master System - Gain Ground - Playable Characters_241
+    21300484: Master System - Gain Ground - Playable Characters_242
+    21300486: Master System - Gain Ground - Playable Characters_243
+    21300488: Master System - Gain Ground - Playable Characters_244
+    21300490: Master System - Gain Ground - Playable Characters_245
+    21300492: Master System - Gain Ground - Playable Characters_246
+    21300494: Master System - Gain Ground - Playable Characters_247
+    21300496: Master System - Gain Ground - Playable Characters_248
+    21300498: Master System - Gain Ground - Playable Characters_249
+    21300500: Master System - Gain Ground - Playable Characters_250
+    21300502: Master System - Gain Ground - Playable Characters_251
+    21300504: Master System - Gain Ground - Playable Characters_252
+    21300506: Master System - Gain Ground - Playable Characters_253
+    21300508: Master System - Gain Ground - Playable Characters_254
+    21300510: Master System - Gain Ground - Playable Characters_255
+    21300512: Master System - Gain Ground - Playable Characters_256
+    21300514: Master System - Gain Ground - Playable Characters_257
+    21300516: Master System - Gain Ground - Playable Characters_258
+    21300518: Master System - Gain Ground - Playable Characters_259
+    21300520: Master System - Gain Ground - Playable Characters_260
+    21300522: Master System - Gain Ground - Playable Characters_261
+    21300524: Master System - Gain Ground - Playable Characters_262
+    21300526: Master System - Gain Ground - Playable Characters_263
+    21300528: Master System - Gain Ground - Playable Characters_264
+    21300530: Master System - Gain Ground - Playable Characters_265
+    21300532: Master System - Gain Ground - Playable Characters_266
+    21300534: Master System - Gain Ground - Playable Characters_267
+    21300536: Master System - Gain Ground - Playable Characters_268
+    21300538: Master System - Gain Ground - Playable Characters_269
+    21300540: Master System - Gain Ground - Playable Characters_270
+    21300542: Master System - Gain Ground - Playable Characters_271
+    21300544: Master System - Gain Ground - Playable Characters_272
+    21300546: Master System - Gain Ground - Playable Characters_273
+    21300548: Master System - Gain Ground - Playable Characters_274
+    21300550: Master System - Gain Ground - Playable Characters_275
+    21300552: Master System - Gain Ground - Playable Characters_276
+    21300554: Master System - Gain Ground - Playable Characters_277
+    21300556: Master System - Gain Ground - Playable Characters_278
+    21300558: Master System - Gain Ground - Playable Characters_279
+    21300560: Master System - Gain Ground - Playable Characters_280
+    21300562: Master System - Gain Ground - Playable Characters_281
+    21300564: Master System - Gain Ground - Playable Characters_282
+    21300566: Master System - Gain Ground - Playable Characters_283
+    21300568: Master System - Gain Ground - Playable Characters_284
+    21300570: Master System - Gain Ground - Playable Characters_285
+    21300572: Master System - Gain Ground - Playable Characters_286
+    21300574: Master System - Gain Ground - Playable Characters_287
+    21300576: Master System - Gain Ground - Playable Characters_288
+    21300578: Master System - Gain Ground - Playable Characters_289
+    21300580: Master System - Gain Ground - Playable Characters_290
+    21300582: Master System - Gain Ground - Playable Characters_291
+    21300584: Master System - Gain Ground - Playable Characters_292
+    21300586: Master System - Gain Ground - Playable Characters_293
+    21300588: Master System - Gain Ground - Playable Characters_294
+    21300590: Master System - Gain Ground - Playable Characters_295
+    21300592: Master System - Gain Ground - Playable Characters_296
+    21300594: Master System - Gain Ground - Playable Characters_297
+    21300596: Master System - Gain Ground - Playable Characters_298
+    21300598: Master System - Gain Ground - Playable Characters_299
+    21300600: Master System - Gain Ground - Playable Characters_300
+    21300602: Master System - Gain Ground - Playable Characters_301
+    21300604: Master System - Gain Ground - Playable Characters_302
+    21300606: Master System - Gain Ground - Playable Characters_303
+    21300608: Master System - Gain Ground - Playable Characters_304
+    21300610: Master System - Gain Ground - Playable Characters_305
+    21300612: Master System - Gain Ground - Playable Characters_306
+    21300614: Master System - Gain Ground - Playable Characters_307
+    21300616: Master System - Gain Ground - Playable Characters_308
+    21300618: Master System - Gain Ground - Playable Characters_309
+    21300620: Master System - Gain Ground - Playable Characters_310
+    21300622: Master System - Gain Ground - Playable Characters_311
+    21300624: Master System - Gain Ground - Playable Characters_312
+    21300626: Master System - Gain Ground - Playable Characters_313
+    21300628: Master System - Gain Ground - Playable Characters_314
+    21300630: Master System - Gain Ground - Playable Characters_315
+    21300632: Master System - Gain Ground - Playable Characters_316
+    21300634: Master System - Gain Ground - Playable Characters_317
+    21300636: Master System - Gain Ground - Playable Characters_318
+    21300638: Master System - Gain Ground - Playable Characters_319
+    21300640: Master System - Gain Ground - Playable Characters_320
+    21300642: Master System - Gain Ground - Playable Characters_321
+    21300644: Master System - Gain Ground - Playable Characters_322
+    21300646: Master System - Gain Ground - Playable Characters_323
+    21300648: Master System - Gain Ground - Playable Characters_324
+    21300650: Master System - Gain Ground - Playable Characters_325
+    21300652: Master System - Gain Ground - Playable Characters_326
+    21300654: Master System - Gain Ground - Playable Characters_327
+    21300656: Master System - Gain Ground - Playable Characters_328
+    21300658: Master System - Gain Ground - Playable Characters_329
+    21300660: Master System - Gain Ground - Playable Characters_330
+    21300662: Master System - Gain Ground - Playable Characters_331
+    21300664: Master System - Gain Ground - Playable Characters_332
+    21300666: Master System - Gain Ground - Playable Characters_333
+    21300668: Master System - Gain Ground - Playable Characters_334
+    21300670: Master System - Gain Ground - Playable Characters_335
+    21300672: Master System - Gain Ground - Playable Characters_336
+    21300674: Master System - Gain Ground - Playable Characters_337
+    21300676: Master System - Gain Ground - Playable Characters_338
+    21300678: Master System - Gain Ground - Playable Characters_339
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Master System - Gain Ground - Playable Characters_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 552
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 552
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 552
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 552
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 552
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 552
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 552
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 552
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 552
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 552
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 552
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 552
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 552
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 552
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 552
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_15
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 552
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 528
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 528
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 528
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 528
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 528
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 528
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_22
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 528
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 528
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 528
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 528
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 528
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 528
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_28
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 528
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 528
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_30
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 528
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_31
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 528
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 504
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 504
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 504
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 504
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_36
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 504
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 504
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_38
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 504
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 504
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 504
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 504
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 504
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_43
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 504
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_44
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 504
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 504
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_46
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 504
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_47
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 504
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 480
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_50
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 480
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_52
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 480
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_54
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 480
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_55
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 480
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_56
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 480
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_58
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 480
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_59
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 480
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_60
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 480
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_62
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 480
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_63
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 480
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 456
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 456
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_66
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 456
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 456
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_68
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 456
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 456
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_70
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 456
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_71
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 456
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 456
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_73
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 456
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_74
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 456
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_75
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 456
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 456
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_77
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 456
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_78
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 456
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_79
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 456
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 432
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 432
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_82
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 432
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_83
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 432
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_84
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 432
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_86
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_87
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 432
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_88
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_89
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 432
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_90
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_91
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 432
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_93
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 432
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_94
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_95
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 432
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 408
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 408
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_98
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 408
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_99
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 408
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_100
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 408
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 408
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_102
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 408
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_103
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 408
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_104
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 408
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_105
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 408
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_106
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 408
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_107
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 408
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_108
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 408
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_109
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 408
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_110
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 408
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_111
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 408
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_112
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 384
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_114
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 384
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_115
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_116
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 384
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_117
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 384
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_118
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 384
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_119
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 384
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_120
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 384
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_121
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_122
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 384
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_123
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 384
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_124
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 384
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_126
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 384
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_127
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 384
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_128
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 360
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 360
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_130
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 360
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_131
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 360
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_132
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 360
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_133
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 360
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_134
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 360
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 360
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_136
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 360
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_137
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 360
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_138
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 360
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_139
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 360
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_140
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 360
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_141
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 360
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_142
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 360
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_143
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 360
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_144
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 336
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_146
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 336
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_148
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 336
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_149
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_150
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 336
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_151
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_152
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 336
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_153
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_154
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 336
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_155
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 336
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_156
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 336
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_157
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 336
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_158
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 336
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_159
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 336
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 312
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_161
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 312
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_162
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 312
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_163
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 312
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_164
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 312
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_165
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 312
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_166
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 312
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_167
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 312
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_168
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 312
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_169
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 312
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_170
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 312
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_171
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 312
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_172
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 312
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_173
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 312
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_174
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 312
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_175
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 312
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_176
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 288
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_177
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_178
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 288
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_179
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_180
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 288
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_181
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_182
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 288
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_183
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_184
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 288
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_185
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_186
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 288
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_187
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_188
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 288
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_189
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_190
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 288
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_191
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 288
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_192
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 264
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_193
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 264
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_194
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 264
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_195
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 264
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_196
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 264
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_197
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 264
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_198
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 264
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_199
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 264
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_200
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 264
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_201
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 264
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_202
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 264
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_203
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 264
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_204
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 264
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_205
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 264
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_206
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 264
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_207
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 264
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_208
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 240
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_209
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_210
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 240
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_211
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_212
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 240
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_213
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_214
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 240
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_215
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_216
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 240
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_217
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_218
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 240
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_219
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 240
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_220
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 240
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_221
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_222
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 240
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_223
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 240
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_224
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 216
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_225
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 216
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_226
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 216
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_227
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 216
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_228
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_229
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 216
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_230
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 216
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_231
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 216
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_232
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 216
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_233
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 216
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_234
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 216
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_235
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 216
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_236
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 216
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_237
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 216
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_238
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 216
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_239
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 216
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_240
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 192
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_241
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_242
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 192
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_243
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_244
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 192
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_245
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_246
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_247
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 192
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_248
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_249
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 192
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_250
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 192
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_251
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_252
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 192
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_253
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_254
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 192
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_255
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_256
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 168
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_257
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 168
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_258
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 168
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_259
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 168
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_260
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 168
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_261
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 168
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_262
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 168
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_263
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_264
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_265
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 168
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_266
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 168
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_267
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 168
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_268
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 168
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_269
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 168
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_270
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 168
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_271
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 168
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_272
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 144
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_273
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_274
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 144
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_275
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_276
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 144
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_277
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_278
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 144
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_279
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_280
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 144
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_281
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_282
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 144
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_283
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_284
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 144
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_285
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_286
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 144
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_287
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_288
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 120
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_289
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 120
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_290
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 120
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_291
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_292
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 120
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_293
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_294
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 120
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_295
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 120
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_296
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 120
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_297
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 120
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_298
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 120
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_299
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 120
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_300
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 120
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_301
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 120
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_302
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 120
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_303
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 120
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_304
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_305
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_306
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 96
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_307
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_308
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_309
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_310
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 96
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_311
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_312
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 96
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_313
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_314
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_315
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_316
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_317
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_318
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 96
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_319
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 96
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Master System - Gain Ground - Playable Characters_320
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_321
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_322
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_323
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_324
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_325
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_326
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_327
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_328
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_329
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 56
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_330
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_331
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_332
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_333
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_334
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_335
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_336
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_337
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_338
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    - name: Master System - Gain Ground - Playable Characters_339
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 16
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
