@@ -108,7 +108,7 @@ public class MenuOpcoes : MonoBehaviour
 
             if (opcaoSelecionada == 1)
             {
-                SceneManager.LoadScene("MenuInicial");
+                SceneManager.LoadScene("TelaInicial");
             }
 
         }

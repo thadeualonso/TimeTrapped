@@ -125,7 +125,7 @@ public class EnemyAI : MonoBehaviour {
 
         // Distância entre o inimigo e o próximo waypoint
         float dist = Vector3.Distance(transform.position, path.vectorPath[currentWayPoint]);
-
+        
         // Se a distância for menor que o waypoint mais proximo...
         if (dist < nextWayPointDistance)
         {

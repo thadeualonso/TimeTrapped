@@ -108,12 +108,12 @@ public class MenuInicial : MonoBehaviour {
         {
             if(opcaoSelecionada == 0)
             {
-                SceneManager.LoadScene("Game");
+                SceneManager.LoadScene("TelaJogo");
             }
 
             if (opcaoSelecionada == 1)
             {
-                SceneManager.LoadScene("Opcoes");
+                SceneManager.LoadScene("MenuOpcoes");
             }
 
             if (opcaoSelecionada == 2)
