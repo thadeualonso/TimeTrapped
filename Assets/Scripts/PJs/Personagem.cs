@@ -15,8 +15,6 @@ public class Personagem : Humanoid
         InputX = Input.GetAxisRaw("Horizontal");
         InputY = Input.GetAxisRaw("Vertical");
 
-        Debug.Log("InputX: " + InputX + " / InputY: " + InputY);
-
         animator.SetFloat("SpeedX", InputX);
         animator.SetFloat("SpeedY", InputY);
 
