@@ -6,6 +6,7 @@ public abstract class Humanoid : MonoBehaviour {
 
     public Direcoes direcao;
     public int hp;
+    public int hpMax;
     public int ataque;
     public float speed;
     public float InputX;
@@ -16,6 +17,7 @@ public abstract class Humanoid : MonoBehaviour {
     void Awake()
     {
         animator = GetComponent<Animator>();
+        hpMax = hp;
     }
 
     void Update()
@@ -23,11 +25,18 @@ public abstract class Humanoid : MonoBehaviour {
         Mover();
 
         Ataque();
+
+        if (hp <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+
+        ChecaDirecao();
     }
 
     void FixedUpdate()
     {
-        ChecaDirecao();
+        
     }
 
     // Implementar o ataque

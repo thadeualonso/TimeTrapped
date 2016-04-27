@@ -9,20 +9,7 @@ public class EnemyGun : MonoBehaviour {
 
     void Start()
     {
-        InvokeRepeating("FireEnemyBullet", 0f, fireRate);
-    }
-
-    void Update()
-    {
-
-
-    }
-
-    IEnumerator Shoot()
-    {
-        Debug.Log("Coroutine iniciada");
-        FireEnemyBullet();
-        yield return new WaitForSeconds(0.5f);
+        InvokeRepeating("FireEnemyBullet", 0f, 1f);
     }
 
     void FireEnemyBullet()

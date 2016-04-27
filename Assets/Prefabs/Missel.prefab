@@ -9,11 +9,11 @@ GameObject:
   m_Component:
   - 4: {fileID: 478670}
   - 212: {fileID: 21270460}
-  - 114: {fileID: 11495436}
   - 58: {fileID: 5846778}
   - 50: {fileID: 5061846}
+  - 114: {fileID: 11458998}
   m_Layer: 0
-  m_Name: Tiro
+  m_Name: Missel
   m_TagString: Tiro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.155
---- !u!114 &11495436
+--- !u!114 &11458998
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -70,11 +70,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 169780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19f661c974a51c84ab873800356b4ee6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ff059787fac50541881760c58727c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 5
-  direcao: 3
+  direcao: 0
   dirX: 0
   dirY: 0
 --- !u!212 &21270460
@@ -103,7 +103,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300336, guid: 7d7ac55c9c5cd624ab7f1d04163bc8c4, type: 3}
+  m_Sprite: {fileID: 21300388, guid: 7d7ac55c9c5cd624ab7f1d04163bc8c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -133,8 +133,12 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300336, guid: 7d7ac55c9c5cd624ab7f1d04163bc8c4,
+      objectReference: {fileID: 21300388, guid: 7d7ac55c9c5cd624ab7f1d04163bc8c4,
         type: 3}
+    - target: {fileID: 0}
+      propertyPath: direcao
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 169780}

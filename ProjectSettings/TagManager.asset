@@ -7,6 +7,8 @@ TagManager:
   - Inimigo
   - Tiro
   - Limite
+  - Vision
+  - TiroInimigo
   layers:
   - Default
   - TransparentFX

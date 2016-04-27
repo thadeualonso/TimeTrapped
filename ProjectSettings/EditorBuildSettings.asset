@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuControles.unity
   - enabled: 1
     path: Assets/Scenes/TelaJogo.unity
+  - enabled: 1
+    path: Assets/Scenes/TelaGameOver.unity

@@ -3,7 +3,6 @@ using Pathfinding;
 using System;
 using System.Collections;
 
-[RequireComponent (typeof (Seeker))]
 public class EnemyAI : MonoBehaviour {
 
     // O objeto que irá ser perseguido

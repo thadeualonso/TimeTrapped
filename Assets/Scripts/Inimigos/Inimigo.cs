@@ -17,27 +17,16 @@ public class Inimigo : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-	    if(hp <= 0) { Destroy(gameObject); }
-
-        moveX = transform.position.x;
-        moveY = transform.position.y;
-
-        if (moveY < 0)
-        {
-            anim.SetFloat("SpeedY", -1f);
+	    if(hp <= 0) {
+            Destroy(gameObject);
         }
-        else if (moveY > 0)
-        {
-            anim.SetFloat("SpeedY", 1f);
-        }
-
     }
 
-
-    void OnTriggerEnter2D (Collider2D collider)
+    void OnTriggerEnter2D (Collider2D other)
     {
-        if(collider.gameObject.tag == "Tiro")
+        if (other.gameObject.tag == "Tiro")
         {
+            Debug.Log("Colidindo com tiro do player");
             hp--;
         }
     }
