@@ -21,6 +21,12 @@ public class Inimigo : Humanoid {
             Debug.Log("Colidindo com tiro do player");
             hp--;
         }
+
+        if (other.gameObject.tag == "Missel")
+        {
+            Debug.Log("Colidindo com missel do player");
+            hp--;
+        }
     }
 
     public override void Ataque()

@@ -11,6 +11,7 @@ TagManager:
   - TiroInimigo
   - Obstaculo
   - Nivel Superior
+  - Missel
   layers:
   - Default
   - TransparentFX

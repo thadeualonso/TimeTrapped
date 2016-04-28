@@ -5,6 +5,7 @@ public class Missel : MonoBehaviour {
 
     public float velocidade;
     public Direcoes direcao;
+    public NiveisTerrenos nivelTerreno;
     public float dirX;
     public float dirY;
 
@@ -44,9 +45,10 @@ public class Missel : MonoBehaviour {
     {
         Debug.Log("Colisao: Trigger");
 
-        if (collider.gameObject.tag == "Inimigo")
+        if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Inimigo>().nivelTerreno == NiveisTerrenos.Superior)
         {
             Destroy(gameObject);
+            Debug.Log(collider.GetComponent<Inimigo>().nivelTerreno);
         }
 
         if (collider.gameObject.tag == "Limite")

@@ -17,8 +17,10 @@ public class PlayerLukaz : Personagem {
     public override void Ataque()
     {
         tiro.direcao = direcao;
-        missel.direcao = direcao;
         tiro.nivelTerreno = nivelTerreno;
+
+        missel.direcao = direcao;
+        missel.nivelTerreno = NiveisTerrenos.Superior;
 
         #region Ataque normal
         if (Input.GetButtonDown("X"))
@@ -65,8 +67,6 @@ public class PlayerLukaz : Personagem {
                 Missel missel1 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
                 Missel missel2 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
                 Missel missel3 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
-
-                Debug.Log("Instancio os misseis");
 
                 if (direcao == Direcoes.Right)
                 {
