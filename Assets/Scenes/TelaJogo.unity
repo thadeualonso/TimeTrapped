@@ -10617,6 +10617,10 @@ Prefab:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1528581736}
+    - target: {fileID: 11443772, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
+      propertyPath: coolDown
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
   m_IsPrefabParent: 0

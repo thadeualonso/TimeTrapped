@@ -11,7 +11,17 @@ public class PlayerLukaz : Personagem {
 
     void FixedUpdate()
     {
+        Debug.Log("coolDown = " + coolDown);
 
+        if (coolDown >= 0.1f)
+        {
+            coolDown -= Time.deltaTime;
+            canShoot = false;
+        }
+        else
+        {
+            canShoot = true;
+        }
     }
 
     public override void Ataque()
@@ -62,8 +72,10 @@ public class PlayerLukaz : Personagem {
         #region Ataque especial
         if (Input.GetButtonDown("Quadrado"))
         {
-            //if (canShoot)
-            //{
+            coolDown += 1f;
+
+            if (canShoot)
+            {
                 Missel missel1 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
                 Missel missel2 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
                 Missel missel3 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
@@ -189,7 +201,7 @@ public class PlayerLukaz : Personagem {
                     missel3.transform.rotation = Quaternion.Euler(0f, 0f, -300f);
                 }
                 #endregion
-            //}
+           }
         }
         #endregion
 
