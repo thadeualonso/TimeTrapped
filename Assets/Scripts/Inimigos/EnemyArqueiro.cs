@@ -11,7 +11,7 @@ public class EnemyArqueiro : Humanoid {
     {
         base.OnTriggerEnter2D(other);
 
-        if (other.gameObject.tag == "Tiro")
+        if (other.gameObject.tag == "Tiro" && other.GetComponent<Tiro>().nivelTerreno == nivelTerreno)
         {
             Debug.Log("Colidindo com tiro do player");
             hp--;

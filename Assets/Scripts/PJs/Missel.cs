@@ -45,10 +45,10 @@ public class Missel : MonoBehaviour {
     {
         Debug.Log("Colisao: Trigger");
 
-        if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<EnemyLanceiro>().nivelTerreno == NiveisTerrenos.Superior)
+        if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {
             Destroy(gameObject);
-            Debug.Log(collider.GetComponent<EnemyLanceiro>().nivelTerreno);
+            Debug.Log(collider.GetComponent<Humanoid>().nivelTerreno);
         }
 
         if (collider.gameObject.tag == "Limite")

@@ -43,8 +43,9 @@ public class Tiro : MonoBehaviour {
 
     void OnTriggerEnter2D (Collider2D collider)
     {
-        if (collider.gameObject.tag == "Inimigo")
+        if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {
+            Debug.Log("Colidiu com inimgo");
             Destroy(gameObject);
         }
 
