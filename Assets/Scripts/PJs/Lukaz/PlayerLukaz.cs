@@ -13,8 +13,6 @@ public class PlayerLukaz : Personagem {
 
     void FixedUpdate()
     {
-        Debug.Log("coolDown = " + coolDownMissel);
-
         if (coolDownTiro >= 0.1f)
         {
             coolDownTiro -= Time.deltaTime;
