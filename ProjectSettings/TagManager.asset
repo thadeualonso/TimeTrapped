@@ -9,6 +9,8 @@ TagManager:
   - Limite
   - Vision
   - TiroInimigo
+  - Obstaculo
+  - Nivel Superior
   layers:
   - Default
   - TransparentFX
@@ -20,8 +22,8 @@ TagManager:
   - 
   - Terreno
   - Obstaculo
-  - 
-  - 
+  - Limites
+  - Camera
   - 
   - 
   - 

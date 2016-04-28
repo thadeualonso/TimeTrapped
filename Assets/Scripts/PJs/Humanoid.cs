@@ -5,18 +5,18 @@ using System;
 public abstract class Humanoid : MonoBehaviour {
 
     public Direcoes direcao;
+    public NiveisTerrenos nivelTerreno;
     public int hp;
     public int hpMax;
     public int ataque;
     public float speed;
-    public float InputX;
-    public float InputY;
-    public Tiro tiro;
     public Animator animator;
+    public Collider2D collider2D;
 
     void Awake()
     {
         animator = GetComponent<Animator>();
+        collider2D = GetComponent<Collider2D>();
         hpMax = hp;
     }
 
@@ -37,6 +37,23 @@ public abstract class Humanoid : MonoBehaviour {
     void FixedUpdate()
     {
         
+    }
+
+    public void OnTriggerEnter2D (Collider2D other)
+    {
+        if (other.gameObject.tag == "Nivel Superior")
+        {
+            nivelTerreno = NiveisTerrenos.Montanha;
+            Debug.Log(gameObject.name + " entrou no nivel superior");
+        }
+    }
+
+    void OnTriggerExit2D (Collider2D other)
+    {
+        if (other.gameObject.tag == "Nivel Superior")
+        {
+            nivelTerreno = NiveisTerrenos.Chao;
+        }
     }
 
     // Implementar o ataque

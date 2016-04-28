@@ -1,29 +1,21 @@
-﻿ using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class Inimigo : MonoBehaviour {
+public class Inimigo : Humanoid {
 
-    public int hp;
     public float moveX;
     public float moveY;
-
-    private Animator anim;
-
-    void Awake()
-    {
-        anim = GetComponent<Animator>();
-    }
 	
 	// Update is called once per frame
 	void Update () {
 
-	    if(hp <= 0) {
-            Destroy(gameObject);
-        }
     }
 
     void OnTriggerEnter2D (Collider2D other)
     {
+        base.OnTriggerEnter2D(other);
+
         if (other.gameObject.tag == "Tiro")
         {
             Debug.Log("Colidindo com tiro do player");
@@ -31,4 +23,18 @@ public class Inimigo : MonoBehaviour {
         }
     }
 
+    public override void Ataque()
+    {
+        
+    }
+
+    public override void Mover()
+    {
+        
+    }
+
+    public override void ChecaDirecao()
+    {
+        
+    }
 }

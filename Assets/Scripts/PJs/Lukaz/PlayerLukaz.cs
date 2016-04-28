@@ -18,12 +18,11 @@ public class PlayerLukaz : Personagem {
     {
         tiro.direcao = direcao;
         missel.direcao = direcao;
+        tiro.nivelTerreno = nivelTerreno;
 
         #region Ataque normal
         if (Input.GetButtonDown("X"))
         {
-            Debug.Log("Apertando O");
-
             Tiro tiro1 = (Tiro)Instantiate(tiro, transform.position, Quaternion.identity);
 
             if (direcao == Direcoes.Up) { tiro1.dirY = 1f; }
@@ -61,11 +60,13 @@ public class PlayerLukaz : Personagem {
         #region Ataque especial
         if (Input.GetButtonDown("Quadrado"))
         {
-            if (canShoot)
-            {
+            //if (canShoot)
+            //{
                 Missel missel1 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
                 Missel missel2 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
                 Missel missel3 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
+
+                Debug.Log("Instancio os misseis");
 
                 if (direcao == Direcoes.Right)
                 {
@@ -188,18 +189,10 @@ public class PlayerLukaz : Personagem {
                     missel3.transform.rotation = Quaternion.Euler(0f, 0f, -300f);
                 }
                 #endregion
-            }
+            //}
         }
         #endregion
 
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("TiroInimigo"))
-        {
-            this.hp--;
-            SceneManager.LoadScene("TelaGameOver");
-        }
-    }
 }

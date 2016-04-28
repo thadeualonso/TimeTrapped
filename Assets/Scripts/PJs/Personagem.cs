@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Personagem : Humanoid
 {
+    public Tiro tiro;
+    public float InputX;
+    public float InputY;
+
     public override void Ataque()
     {
         
@@ -96,5 +100,15 @@ public class Personagem : Humanoid
         #endregion
     }
 
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        base.OnTriggerEnter2D(other);
+
+        if (other.gameObject.CompareTag("TiroInimigo"))
+        {
+            this.hp--;
+            SceneManager.LoadScene("TelaGameOver");
+        }
+    }
 
 }

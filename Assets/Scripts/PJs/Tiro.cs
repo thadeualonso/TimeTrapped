@@ -5,6 +5,7 @@ public class Tiro : MonoBehaviour {
 
     public float velocidade;
     public Direcoes direcao;
+    public NiveisTerrenos nivelTerreno;
     public float dirX;
     public float dirY;
 	
@@ -42,8 +43,6 @@ public class Tiro : MonoBehaviour {
 
     void OnTriggerEnter2D (Collider2D collider)
     {
-        Debug.Log("Colisao: Trigger");
-
         if (collider.gameObject.tag == "Inimigo")
         {
             Destroy(gameObject);
@@ -51,8 +50,16 @@ public class Tiro : MonoBehaviour {
 
         if (collider.gameObject.tag == "Limite")
         {
+            Debug.Log("Colidiu com limites da fase");
             Destroy(gameObject);
         }
+
+        if (collider.gameObject.tag == "Obstaculo" && nivelTerreno == NiveisTerrenos.Chao)
+        {
+            Debug.Log("Colidiu com algum obstaculo");
+            Destroy(gameObject);
+        }
+
     }
 
 }
