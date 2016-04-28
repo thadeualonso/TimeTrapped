@@ -2,15 +2,10 @@
 using System.Collections;
 using System;
 
-public class Inimigo : Humanoid {
+public class EnemyArqueiro : Humanoid {
 
     public float moveX;
     public float moveY;
-	
-	// Update is called once per frame
-	void Update () {
-
-    }
 
     void OnTriggerEnter2D (Collider2D other)
     {
@@ -22,7 +17,7 @@ public class Inimigo : Humanoid {
             hp--;
         }
 
-        if (other.gameObject.tag == "Missel")
+        if (other.gameObject.tag == "Missel" && nivelTerreno == other.gameObject.GetComponent<Missel>().nivelTerreno)
         {
             Debug.Log("Colidindo com missel do player");
             hp--;

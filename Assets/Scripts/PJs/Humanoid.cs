@@ -44,7 +44,6 @@ public abstract class Humanoid : MonoBehaviour {
         if (other.gameObject.tag == "Nivel Superior")
         {
             nivelTerreno = NiveisTerrenos.Superior;
-            Debug.Log(gameObject.name + " entrou no nivel superior");
         }
     }
 
