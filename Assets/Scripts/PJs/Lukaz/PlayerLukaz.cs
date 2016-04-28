@@ -5,22 +5,35 @@ using UnityEngine.SceneManagement;
 public class PlayerLukaz : Personagem {
 
     public Missel missel;
-    public float coolDown;
+    public float coolDownMissel;
+    public float coolDownTiro;
 
-    private bool canShoot;
+    private bool canShootMissel;
+    private bool canShootTiro;
 
     void FixedUpdate()
     {
-        Debug.Log("coolDown = " + coolDown);
+        Debug.Log("coolDown = " + coolDownMissel);
 
-        if (coolDown >= 0.1f)
+        if (coolDownTiro >= 0.1f)
         {
-            coolDown -= Time.deltaTime;
-            canShoot = false;
+            coolDownTiro -= Time.deltaTime;
+            canShootTiro = false;
         }
         else
         {
-            canShoot = true;
+            canShootTiro = true;
+        }
+
+
+        if (coolDownMissel >= 0.1f)
+        {
+            coolDownMissel -= Time.deltaTime;
+            canShootMissel = false;
+        }
+        else
+        {
+            canShootMissel = true;
         }
     }
 
@@ -35,35 +48,40 @@ public class PlayerLukaz : Personagem {
         #region Ataque normal
         if (Input.GetButtonDown("X"))
         {
-            Tiro tiro1 = (Tiro)Instantiate(tiro, transform.position, Quaternion.identity);
-
-            if (direcao == Direcoes.Up) { tiro1.dirY = 1f; }
-            if (direcao == Direcoes.Down) { tiro1.dirY = -1f; }
-            if (direcao == Direcoes.Right) { tiro1.dirX = 1f; }
-            if (direcao == Direcoes.Left) { tiro1.dirX = -1f; }
-
-            if (direcao == Direcoes.UpRight)
+            if (canShootTiro)
             {
-                tiro1.dirX = 1f;
-                tiro1.dirY = 1f;
-            }
+                coolDownTiro += 0.3f;
 
-            if (direcao == Direcoes.DownRight)
-            {
-                tiro1.dirX = 1f;
-                tiro1.dirY = -1f;
-            }
+                Tiro tiro1 = (Tiro)Instantiate(tiro, transform.position, Quaternion.identity);
 
-            if (direcao == Direcoes.UpLeft)
-            {
-                tiro1.dirX = -1f;
-                tiro1.dirY = 1f;
-            }
+                if (direcao == Direcoes.Up) { tiro1.dirY = 1f; }
+                if (direcao == Direcoes.Down) { tiro1.dirY = -1f; }
+                if (direcao == Direcoes.Right) { tiro1.dirX = 1f; }
+                if (direcao == Direcoes.Left) { tiro1.dirX = -1f; }
 
-            if (direcao == Direcoes.DownLeft)
-            {
-                tiro1.dirX = -1f;
-                tiro1.dirY = -1f;
+                if (direcao == Direcoes.UpRight)
+                {
+                    tiro1.dirX = 1f;
+                    tiro1.dirY = 1f;
+                }
+
+                if (direcao == Direcoes.DownRight)
+                {
+                    tiro1.dirX = 1f;
+                    tiro1.dirY = -1f;
+                }
+
+                if (direcao == Direcoes.UpLeft)
+                {
+                    tiro1.dirX = -1f;
+                    tiro1.dirY = 1f;
+                }
+
+                if (direcao == Direcoes.DownLeft)
+                {
+                    tiro1.dirX = -1f;
+                    tiro1.dirY = -1f;
+                }
             }
 
         }
@@ -72,9 +90,9 @@ public class PlayerLukaz : Personagem {
         #region Ataque especial
         if (Input.GetButtonDown("Quadrado"))
         {
-            if (canShoot)
+            if (canShootMissel)
             {
-                coolDown += 1f;
+                coolDownMissel += 3f;
 
                 Missel missel1 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
                 Missel missel2 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
