@@ -72,10 +72,10 @@ public class PlayerLukaz : Personagem {
         #region Ataque especial
         if (Input.GetButtonDown("Quadrado"))
         {
-            coolDown += 1f;
-
             if (canShoot)
             {
+                coolDown += 1f;
+
                 Missel missel1 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
                 Missel missel2 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
                 Missel missel3 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
