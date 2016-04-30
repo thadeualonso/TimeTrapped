@@ -6,6 +6,7 @@ public class EnemyLanceiro : Humanoid {
 
     public float moveX;
     public float moveY;
+    public GameObject explosao;
 
     void OnTriggerEnter2D (Collider2D other)
     {
@@ -20,7 +21,8 @@ public class EnemyLanceiro : Humanoid {
         if (other.gameObject.tag == "Missel" && nivelTerreno == other.gameObject.GetComponent<Missel>().nivelTerreno)
         {
             Debug.Log("Colidindo com missel do player");
-            hp--;
+            Instantiate(explosao, transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
     }
 

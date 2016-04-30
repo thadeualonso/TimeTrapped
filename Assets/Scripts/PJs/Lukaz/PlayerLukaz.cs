@@ -106,9 +106,11 @@ public class PlayerLukaz : Personagem {
             {
                 coolDownMissel += 3f;
 
-                Missel missel1 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
-                Missel missel2 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
-                Missel missel3 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
+                Vector3 misselPos = new Vector3(transform.position.x, transform.position.y, transform.position.z - 3f);
+
+                Missel missel1 = (Missel)Instantiate(missel, misselPos, Quaternion.identity);
+                /*Missel missel2 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);
+                Missel missel3 = (Missel)Instantiate(missel, transform.position, Quaternion.identity);*/
 
                 if (direcao == Direcoes.Right)
                 {
@@ -116,13 +118,13 @@ public class PlayerLukaz : Personagem {
                     missel1.dirY = 0f;
                     missel1.transform.rotation = Quaternion.Euler(0f, 0f, -90f);
 
-                    missel2.dirX = 1f;
+                    /*missel2.dirX = 1f;
                     missel2.dirY = 0.5f;
                     missel2.transform.rotation = Quaternion.Euler(0f, 0f, 290f);
 
                     missel3.dirX = 1f;
                     missel3.dirY = -0.5f;
-                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -120f);
+                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -120f);*/
                 }
 
                 if (direcao == Direcoes.Left)
@@ -131,13 +133,13 @@ public class PlayerLukaz : Personagem {
                     missel1.dirY = 0f;
                     missel1.transform.rotation = Quaternion.Euler(0f, 0f, 90f);
 
-                    missel2.dirX = -1f;
+                    /*missel2.dirX = -1f;
                     missel2.dirY = 0.5f;
                     missel2.transform.rotation = Quaternion.Euler(0f, 0f, -290f);
 
                     missel3.dirX = -1f;
                     missel3.dirY = -0.5f;
-                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, 120f);
+                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, 120f);*/
                 }
 
                 if (direcao == Direcoes.Up)
@@ -146,13 +148,13 @@ public class PlayerLukaz : Personagem {
                     missel1.dirY = 1f;
                     missel1.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
 
-                    missel2.dirX = 0.5f;
+                    /*missel2.dirX = 0.5f;
                     missel2.dirY = 1f;
                     missel2.transform.rotation = Quaternion.Euler(0f, 0f, 340f);
 
                     missel3.dirX = -0.5f;
                     missel3.dirY = 1f;
-                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -340f);
+                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -340f);*/
                 }
 
                 if (direcao == Direcoes.Down)
@@ -161,13 +163,13 @@ public class PlayerLukaz : Personagem {
                     missel1.dirY = -1f;
                     missel1.transform.rotation = Quaternion.Euler(0f, 0f, 180f);
 
-                    missel2.dirX = 0.5f;
+                    /*missel2.dirX = 0.5f;
                     missel2.dirY = -1f;
                     missel2.transform.rotation = Quaternion.Euler(0f, 0f, 200f);
 
                     missel3.dirX = -0.5f;
                     missel3.dirY = -1f;
-                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -200f);
+                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -200f);*/
                 }
 
                 #region Diagonais
@@ -175,15 +177,15 @@ public class PlayerLukaz : Personagem {
                 {
                     missel1.dirX = 1f;
                     missel1.dirY = 1f;
-                    missel1.transform.rotation = Quaternion.Euler(0f, 0f, 300f);
+                    missel1.transform.rotation = Quaternion.Euler(0f, 0f, 316f);
 
-                    missel2.dirX = 1f;
+                    /*missel2.dirX = 1f;
                     missel2.dirY = 0.5f;
                     missel2.transform.rotation = Quaternion.Euler(0f, 0f, 300f);
 
                     missel3.dirX = 1f;
                     missel3.dirY = 1.8f;
-                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, 300f);
+                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, 300f);*/
                 }
 
                 if (direcao == Direcoes.DownRight)
@@ -192,13 +194,13 @@ public class PlayerLukaz : Personagem {
                     missel1.dirY = -1f;
                     missel1.transform.rotation = Quaternion.Euler(0f, 0f, -120f);
 
-                    missel2.dirX = 1f;
+                    /*missel2.dirX = 1f;
                     missel2.dirY = -0.5f;
                     missel2.transform.rotation = Quaternion.Euler(0f, 0f, -120f);
 
                     missel3.dirX = 1f;
                     missel3.dirY = -1.8f;
-                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -120f);
+                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -120f);*/
                 }
 
                 if (direcao == Direcoes.DownLeft)
@@ -207,13 +209,13 @@ public class PlayerLukaz : Personagem {
                     missel1.dirY = -1f;
                     missel1.transform.rotation = Quaternion.Euler(0f, 0f, 120f);
 
-                    missel2.dirX = -1f;
+                    /*missel2.dirX = -1f;
                     missel2.dirY = -0.5f;
                     missel2.transform.rotation = Quaternion.Euler(0f, 0f, 120f);
 
                     missel3.dirX = -1f;
                     missel3.dirY = -1.8f;
-                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, 120f);
+                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, 120f);*/
                 }
 
                 if (direcao == Direcoes.UpLeft)
@@ -222,13 +224,13 @@ public class PlayerLukaz : Personagem {
                     missel1.dirY = 1f;
                     missel1.transform.rotation = Quaternion.Euler(0f, 0f, -300f);
 
-                    missel2.dirX = -1f;
+                    /*missel2.dirX = -1f;
                     missel2.dirY = 0.5f;
                     missel2.transform.rotation = Quaternion.Euler(0f, 0f, -300f);
 
                     missel3.dirX = -1f;
                     missel3.dirY = 1.8f;
-                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -300f);
+                    missel3.transform.rotation = Quaternion.Euler(0f, 0f, -300f);*/
                 }
                 #endregion
            }

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8719db355049bef45bb5ddabff5980ef
-timeCreated: 1461989403
+timeCreated: 1462051456
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -131,19 +131,19 @@ TextureImporter:
         x: 43
         y: 295
         width: 33
-        height: 33
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14.5, y: 16.5}
-        - {x: -16.5, y: 15.5}
-        - {x: -16.5, y: -10.5}
-        - {x: -13.5, y: -16.5}
-        - {x: 8.5, y: -16.5}
-        - {x: 16.5, y: -10.5}
-        - {x: 16.5, y: 8.5}
-        - {x: 13.5, y: 16.5}
+      - - {x: -13.5, y: 17}
+        - {x: -16.5, y: 15}
+        - {x: -16.5, y: -11}
+        - {x: -13.5, y: -17}
+        - {x: 8.5, y: -17}
+        - {x: 16.5, y: -11}
+        - {x: 16.5, y: 8}
+        - {x: 13.5, y: 17}
     - name: Lukaz_ShootingDown_1
       rect:
         serializedVersion: 2
@@ -260,19 +260,19 @@ TextureImporter:
         x: 43
         y: 255
         width: 33
-        height: 33
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14.5, y: 16.5}
-        - {x: -16.5, y: 15.5}
-        - {x: -16.5, y: -10.5}
-        - {x: -13.5, y: -16.5}
-        - {x: 8.5, y: -16.5}
-        - {x: 16.5, y: -10.5}
-        - {x: 16.5, y: 8.5}
-        - {x: 13.5, y: 16.5}
+      - - {x: -13.5, y: 17}
+        - {x: -16.5, y: 15}
+        - {x: -16.5, y: -11}
+        - {x: -13.5, y: -17}
+        - {x: 8.5, y: -17}
+        - {x: 16.5, y: -11}
+        - {x: 16.5, y: 8}
+        - {x: 13.5, y: 17}
     - name: Lukaz_ShootingUp_1
       rect:
         serializedVersion: 2
@@ -1341,7 +1341,7 @@ TextureImporter:
         x: 46
         y: 215
         width: 27
-        height: 33
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -12170,7 +12170,7 @@ TextureImporter:
         x: 46
         y: 174
         width: 27
-        height: 33
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

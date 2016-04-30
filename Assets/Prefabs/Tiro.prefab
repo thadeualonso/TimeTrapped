@@ -12,6 +12,7 @@ GameObject:
   - 114: {fileID: 11495436}
   - 50: {fileID: 5061846}
   - 61: {fileID: 6117626}
+  - 95: {fileID: 9529728}
   m_Layer: 0
   m_Name: Tiro
   m_TagString: Tiro
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.619401, y: -2.8884435, z: -1}
+  m_LocalPosition: {x: -8.134141, y: -2.919329, z: -1}
   m_LocalScale: {x: 4, y: 4, z: 0.48784682}
   m_Children: []
   m_Father: {fileID: 0}
@@ -62,6 +63,23 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0.014797598}
   serializedVersion: 2
   m_Size: {x: 0.04, y: 0.07040483}
+--- !u!95 &9529728
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169780}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b97f487599815324b99ab5b16090a687, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11495436
 MonoBehaviour:
   m_ObjectHideFlags: 1
