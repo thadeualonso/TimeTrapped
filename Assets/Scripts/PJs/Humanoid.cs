@@ -8,7 +8,7 @@ public abstract class Humanoid : MonoBehaviour {
     public NiveisTerrenos nivelTerreno;
     public int hp;
     public int hpMax;
-    public int ataque;
+    public int dano;
     public float speed;
     public Animator animator;
     public Collider2D collider2D;

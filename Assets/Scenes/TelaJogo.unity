@@ -10442,6 +10442,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300014, guid: 8719db355049bef45bb5ddabff5980ef,
         type: 3}
+    - target: {fileID: 11443772, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
+      propertyPath: dano
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
   m_IsPrefabParent: 0

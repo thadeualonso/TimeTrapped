@@ -8,6 +8,7 @@ public class Missel : MonoBehaviour {
     public NiveisTerrenos nivelTerreno;
     public float dirX;
     public float dirY;
+    public int dano;
 
     private ParticleSystem smokeParticle;
 

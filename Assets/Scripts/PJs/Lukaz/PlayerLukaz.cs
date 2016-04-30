@@ -37,6 +37,9 @@ public class PlayerLukaz : Personagem {
 
     public override void Ataque()
     {
+        missel.dano = dano * 5;
+        tiro.dano = dano;
+
         tiro.direcao = direcao;
         tiro.nivelTerreno = nivelTerreno;
 

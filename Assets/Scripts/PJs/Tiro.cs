@@ -8,6 +8,7 @@ public class Tiro : MonoBehaviour {
     public NiveisTerrenos nivelTerreno;
     public float dirX;
     public float dirY;
+    public int dano;
 	
 	// Update is called once per frame
 	void Update ()
