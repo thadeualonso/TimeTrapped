@@ -9,6 +9,18 @@ public class Missel : MonoBehaviour {
     public float dirX;
     public float dirY;
 
+    private ParticleSystem smokeParticle;
+
+    void Awake()
+    {
+        smokeParticle = GetComponentInChildren<ParticleSystem>();
+    }
+
+    void Start()
+    {
+        Invoke("AtivarSmokeParticle", 0.25f);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -51,9 +63,15 @@ public class Missel : MonoBehaviour {
             Debug.Log(collider.GetComponent<Humanoid>().nivelTerreno);
         }
 
-        if (collider.gameObject.tag == "Limite")
+        if (collider.gameObject.tag == "Limites Mundo")
         {
             Destroy(gameObject);
         }
+    }
+
+    void AtivarSmokeParticle()
+    {
+        Debug.Log("Ativar smoke particle chamada");
+        smokeParticle.Play();
     }
 }

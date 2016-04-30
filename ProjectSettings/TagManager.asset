@@ -12,6 +12,8 @@ TagManager:
   - Obstaculo
   - Nivel Superior
   - Missel
+  - HeroBullet
+  - Limites Mundo
   layers:
   - Default
   - TransparentFX
@@ -48,4 +50,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Chao
+    uniqueID: 2663526083
+    locked: 0
+  - name: Terreno nv1
+    uniqueID: 4165868125
+    locked: 0
+  - name: Terreno nv2
+    uniqueID: 2123227987
+    locked: 0
+  - name: Objetos
+    uniqueID: 1842745683
+    locked: 0
+  - name: Entidades
+    uniqueID: 97114541
+    locked: 0
+  - name: Projeteis
+    uniqueID: 2994195133
     locked: 0
