@@ -12,7 +12,10 @@ public class Tiro : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        switch (direcao)
+
+        GetComponent<Rigidbody2D>().velocity = transform.up * velocidade;
+
+        /*switch (direcao)
         {
             case Direcoes.Right:
                 transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
@@ -38,7 +41,7 @@ public class Tiro : MonoBehaviour {
             case Direcoes.DownLeft:
                 transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
                 break;
-        }
+        }*/
     }
 
     void OnTriggerEnter2D (Collider2D collider)

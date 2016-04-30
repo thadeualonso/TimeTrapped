@@ -24,6 +24,9 @@ public class Missel : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+
+        GetComponent<Rigidbody2D>().velocity = transform.up * velocidade;
+        /*
         switch (direcao)
         {
             case Direcoes.Right:
@@ -50,7 +53,7 @@ public class Missel : MonoBehaviour {
             case Direcoes.DownLeft:
                 transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f, Space.World);
                 break;
-        }
+        }*/
     }
 
     void OnTriggerEnter2D(Collider2D collider)
