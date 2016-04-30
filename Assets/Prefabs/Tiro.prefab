@@ -10,8 +10,8 @@ GameObject:
   - 4: {fileID: 478670}
   - 212: {fileID: 21270460}
   - 114: {fileID: 11495436}
-  - 58: {fileID: 5846778}
   - 50: {fileID: 5061846}
+  - 61: {fileID: 6117626}
   m_Layer: 0
   m_Name: Tiro
   m_TagString: Tiro
@@ -26,8 +26,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.144, y: -1.06, z: 0}
-  m_LocalScale: {x: 0.48784682, y: 0.48784682, z: 0.48784682}
+  m_LocalPosition: {x: 2.619401, y: -2.8884435, z: -1}
+  m_LocalScale: {x: 4, y: 4, z: 0.48784682}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -48,8 +48,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &5846778
-CircleCollider2D:
+--- !u!61 &6117626
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -59,9 +59,9 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.014797598}
   serializedVersion: 2
-  m_Radius: 0.155
+  m_Size: {x: 0.04, y: 0.07040483}
 --- !u!114 &11495436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -74,7 +74,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 5
-  direcao: 3
+  direcao: 0
+  nivelTerreno: 0
   dirX: 0
   dirY: 0
 --- !u!212 &21270460
@@ -103,7 +104,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300336, guid: 7d7ac55c9c5cd624ab7f1d04163bc8c4, type: 3}
+  m_Sprite: {fileID: 21300012, guid: 50fd02fa8e03504449581ce27588f290, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,6 +136,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300336, guid: 7d7ac55c9c5cd624ab7f1d04163bc8c4,
         type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 169780}

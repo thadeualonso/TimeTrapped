@@ -28,8 +28,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1433016, y: -3.4521098, z: 1}
-  m_LocalScale: {x: 5.116218, y: 5.2395244, z: 0.74674207}
+  m_LocalPosition: {x: 0.13, y: -3.98, z: -2}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 0.74674207}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -172,13 +172,14 @@ MonoBehaviour:
   hpMax: 0
   ataque: 1
   speed: 2
-  animator: {fileID: 0}
+  animator: {fileID: 9544656}
   collider2D: {fileID: 0}
   tiro: {fileID: 11495436, guid: 42617ad28d6dc1c4ea1f8cf0b2cb12cb, type: 2}
   InputX: 0
   InputY: 0
   missel: {fileID: 11458998, guid: bae1034e618a8804993c691271b3badc, type: 2}
-  coolDown: 0
+  coolDownMissel: 0
+  coolDownTiro: 0
 --- !u!212 &21279198
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -205,7 +206,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300066, guid: a62fd12ffc00f3a4092d205a8e249698, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8719db355049bef45bb5ddabff5980ef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

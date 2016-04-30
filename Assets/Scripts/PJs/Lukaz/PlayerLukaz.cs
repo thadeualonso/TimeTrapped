@@ -48,14 +48,28 @@ public class PlayerLukaz : Personagem {
         {
             if (canShootTiro)
             {
+                //animator.SetBool("shooting", true);
+
                 coolDownTiro += 0.3f;
 
                 Tiro tiro1 = (Tiro)Instantiate(tiro, transform.position, Quaternion.identity);
 
-                if (direcao == Direcoes.Up) { tiro1.dirY = 1f; }
-                if (direcao == Direcoes.Down) { tiro1.dirY = -1f; }
-                if (direcao == Direcoes.Right) { tiro1.dirX = 1f; }
-                if (direcao == Direcoes.Left) { tiro1.dirX = -1f; }
+                if (direcao == Direcoes.Up) {
+                    tiro1.dirY = 1f;
+                }
+
+                if (direcao == Direcoes.Down) {
+                    tiro1.dirY = 1f;
+                    tiro1.transform.rotation = Quaternion.Euler(0f, 0f, 180f);
+                }
+
+                if (direcao == Direcoes.Right) {
+                    tiro1.dirX = 1f;
+                }
+
+                if (direcao == Direcoes.Left) {
+                    tiro1.dirX = -1f;
+                }
 
                 if (direcao == Direcoes.UpRight)
                 {
@@ -221,6 +235,7 @@ public class PlayerLukaz : Personagem {
         }
         #endregion
 
+        //animator.SetBool("shooting", false);
     }
 
 }
