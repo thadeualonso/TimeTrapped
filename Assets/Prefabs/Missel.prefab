@@ -213,10 +213,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 5
-  direcao: 0
+  direcao: 4
   nivelTerreno: 1
   dirX: 0
   dirY: 0
+  dano: 5
+  explosao: {fileID: 100192, guid: 6ef75a8dbcc8039498f8e3991df8fbdd, type: 2}
 --- !u!198 &19852718
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -1906,6 +1908,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0a31ab7c319d5bb4cbd65553e16563b6, type: 2}
+    - target: {fileID: 0}
+      propertyPath: explosao
+      value: 
+      objectReference: {fileID: 100192, guid: 6ef75a8dbcc8039498f8e3991df8fbdd, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 169780}

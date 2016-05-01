@@ -9,6 +9,7 @@ public class Missel : MonoBehaviour {
     public float dirX;
     public float dirY;
     public int dano;
+    public GameObject explosao;
 
     private ParticleSystem smokeParticle;
 
@@ -36,6 +37,7 @@ public class Missel : MonoBehaviour {
         {
             Destroy(gameObject);
             collider.SendMessageUpwards("AplicarDano", 5);
+            Instantiate(explosao, collider.transform.position, Quaternion.identity);
             Debug.Log(collider.GetComponent<Humanoid>().nivelTerreno);
         }
 

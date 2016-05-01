@@ -9,6 +9,7 @@ public class Tiro : MonoBehaviour {
     public float dirX;
     public float dirY;
     public int dano;
+    public GameObject explosao;
 	
 	// Update is called once per frame
 	void Update ()
@@ -20,8 +21,8 @@ public class Tiro : MonoBehaviour {
     {
         if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {
-            Debug.Log("Colidiu com inimgo");
             collider.SendMessageUpwards("AplicarDano", dano);
+            Instantiate(explosao, collider.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 
