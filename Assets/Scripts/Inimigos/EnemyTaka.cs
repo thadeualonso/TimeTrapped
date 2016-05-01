@@ -27,12 +27,16 @@ public class EnemyTaka : Enemy
 
             if (direcao == Direcoes.Left)
             {
-                Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, -180f));
+                Debug.Log("Instancia Left");
+                GameObject lanca = (GameObject) Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, 90f));
+                lanca.GetComponent<TakaLanca>().direcao = direcao;
             }
 
             if (direcao == Direcoes.Right)
             {
-                Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, 0f));
+                Debug.Log("Instancia Right");
+                GameObject lanca = (GameObject) Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, -90f));
+                lanca.GetComponent<TakaLanca>().direcao = direcao;
             }
 
         }
@@ -65,12 +69,14 @@ public class EnemyTaka : Enemy
 
                 if (direcao == Direcoes.Left)
                 {
-                    Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, -180f));
+                    GameObject lanca = (GameObject)Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, 90f));
+                    lanca.GetComponent<TakaLanca>().direcao = direcao;
                 }
 
                 if (direcao == Direcoes.Right)
                 {
-                    Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, 0f));
+                    GameObject lanca = (GameObject)Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, -90f));
+                    lanca.GetComponent<TakaLanca>().direcao = direcao;
                 }
 
             }

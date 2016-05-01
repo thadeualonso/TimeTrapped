@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ca2d6c156e13a184c8b95cfd6dd48c15
-timeCreated: 1462078801
+timeCreated: 1462136851
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -18,8 +18,10 @@ TextureImporter:
     21300022: TakaAttackLeft_1
     21300024: TakaIdleAttackLeft_2
     21300026: TakaIdleAttackLeft_1
-    21300028: "Lan\xE7a_2"
-    21300030: "Lan\xE7a_1"
+    21300028: "Lan\xE7a_DownRight"
+    21300030: "Lan\xE7a_Right"
+    21300032: "Lan\xE7a_3"
+    21300034: "Lan\xE7a_Left"
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -253,7 +255,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: "Lan\xE7a_2"
+    - name: "Lan\xE7a_DownRight"
       rect:
         serializedVersion: 2
         x: 145
@@ -264,11 +266,33 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: "Lan\xE7a_1"
+    - name: "Lan\xE7a_Right"
       rect:
         serializedVersion: 2
         x: 145
         y: 192
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: "Lan\xE7a_3"
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 132
+        width: 5
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: "Lan\xE7a_Left"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 203
         width: 27
         height: 5
       alignment: 0
