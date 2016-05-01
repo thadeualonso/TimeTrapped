@@ -7,12 +7,35 @@ public class PlayerLukaz : Personagem {
     public Missel missel;
     public float coolDownMissel;
     public float coolDownTiro;
+    public AudioClip[] soundEffects;
 
     private bool canShootMissel;
     private bool canShootTiro;
+    private AudioSource sourceAudio;
+
+    private bool shooting;
+    private float shootingTimer = 0;
+    private float shootingCD = 0.3f;
+
+    void Awake()
+    {
+        sourceAudio = GetComponent<AudioSource>();
+    }
 
     void FixedUpdate()
     {
+        if (shooting)
+        {
+            if (shootingTimer > 0)
+            {
+                shootingTimer -= Time.deltaTime;
+            }
+            else
+            {
+                shooting = false;
+            }
+        }
+
         if (coolDownTiro >= 0.1f)
         {
             coolDownTiro -= Time.deltaTime;
@@ -47,11 +70,12 @@ public class PlayerLukaz : Personagem {
         missel.nivelTerreno = NiveisTerrenos.Superior;
 
         #region Ataque normal
-        if (Input.GetButtonDown("X"))
+        if (Input.GetButtonDown("X") && !shooting)
         {
             if (canShootTiro)
             {
-                //animator.SetBool("shooting", true);
+                sourceAudio.clip = soundEffects[0];
+                sourceAudio.Play();
 
                 coolDownTiro += 0.3f;
 
@@ -98,10 +122,18 @@ public class PlayerLukaz : Personagem {
         #endregion
 
         #region Ataque especial
-        if (Input.GetButtonDown("Quadrado"))
+        if (Input.GetButtonDown("Quadrado") && !shooting)
         {
             if (canShootMissel)
             {
+                shooting = true;
+                shootingTimer = shootingCD;
+
+                sourceAudio.clip = soundEffects[1];
+                sourceAudio.Play();
+
+                animator.SetBool("shooting", true);
+
                 coolDownMissel += 3f;
 
                 Vector3 misselPos = new Vector3(transform.position.x, transform.position.y, transform.position.z - 3f);
@@ -154,7 +186,8 @@ public class PlayerLukaz : Personagem {
         }
         #endregion
 
-        //animator.SetBool("shooting", false);
+        animator.SetBool("shooting", shooting);
+
     }
 
 }

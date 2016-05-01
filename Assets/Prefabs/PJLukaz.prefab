@@ -28,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.13, y: -3.98, z: -2}
+  m_LocalPosition: {x: 0.13, y: -3.98, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 0.74674207}
   m_Children: []
   m_Father: {fileID: 0}
@@ -73,9 +73,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d8714bff0fa7b3045b8604569e1679a9, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   nivelTerreno: 0
   hp: 1
   hpMax: 0
-  ataque: 1
+  dano: 1
   speed: 2
   animator: {fileID: 9544656}
   collider2D: {fileID: 0}
@@ -180,6 +180,9 @@ MonoBehaviour:
   missel: {fileID: 11458998, guid: bae1034e618a8804993c691271b3badc, type: 2}
   coolDownMissel: 0
   coolDownTiro: 0
+  soundEffects:
+  - {fileID: 8300000, guid: 1db1fad6d68fa5743907574da22b0201, type: 3}
+  - {fileID: 8300000, guid: e51810aaf09f86442b100cf338968e0a, type: 3}
 --- !u!212 &21279198
 SpriteRenderer:
   m_ObjectHideFlags: 1
