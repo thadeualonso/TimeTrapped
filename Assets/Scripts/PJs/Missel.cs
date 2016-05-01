@@ -25,36 +25,7 @@ public class Missel : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
         GetComponent<Rigidbody2D>().velocity = transform.up * velocidade;
-        /*
-        switch (direcao)
-        {
-            case Direcoes.Right:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f, Space.World);
-                break;
-            case Direcoes.Left:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f, Space.World);
-                break;
-            case Direcoes.Up:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f, Space.World);
-                break;
-            case Direcoes.Down:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f, Space.World);
-                break;
-            case Direcoes.UpRight:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f, Space.World);
-                break;
-            case Direcoes.UpLeft:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f, Space.World);
-                break;
-            case Direcoes.DownRight:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f, Space.World);
-                break;
-            case Direcoes.DownLeft:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f, Space.World);
-                break;
-        }*/
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -64,6 +35,7 @@ public class Missel : MonoBehaviour {
         if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {
             Destroy(gameObject);
+            collider.SendMessageUpwards("AplicarDano", 5);
             Debug.Log(collider.GetComponent<Humanoid>().nivelTerreno);
         }
 

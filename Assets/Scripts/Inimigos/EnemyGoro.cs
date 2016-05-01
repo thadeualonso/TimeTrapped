@@ -15,7 +15,7 @@ public class EnemyGoro : Humanoid {
         if (other.gameObject.tag == "Tiro" && other.GetComponent<Tiro>().nivelTerreno == nivelTerreno)
         {
             Debug.Log("Colidindo com tiro do player");
-            hp -= other.GetComponent<Tiro>().dano;
+            //hp -= other.GetComponent<Tiro>().dano;
             Instantiate(explosao, transform.position, Quaternion.identity);
         }
 
@@ -24,7 +24,6 @@ public class EnemyGoro : Humanoid {
             Debug.Log("Colidindo com missel do player");
             hp -= other.GetComponent<Missel>().dano;
             Instantiate(explosao, transform.position, Quaternion.identity);
-            Destroy(gameObject);
         }
     }
 

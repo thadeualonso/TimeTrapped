@@ -13,36 +13,7 @@ public class Tiro : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-
         GetComponent<Rigidbody2D>().velocity = transform.up * velocidade;
-
-        /*switch (direcao)
-        {
-            case Direcoes.Right:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
-                break;
-            case Direcoes.Left:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
-                break;
-            case Direcoes.Up:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
-                break;
-            case Direcoes.Down:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
-                break;
-            case Direcoes.UpRight:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
-                break;
-            case Direcoes.UpLeft:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
-                break;
-            case Direcoes.DownRight:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
-                break;
-            case Direcoes.DownLeft:
-                transform.Translate(dirX * velocidade * Time.deltaTime, dirY * velocidade * Time.deltaTime, 0.0f);
-                break;
-        }*/
     }
 
     void OnTriggerEnter2D (Collider2D collider)
@@ -50,6 +21,7 @@ public class Tiro : MonoBehaviour {
         if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {
             Debug.Log("Colidiu com inimgo");
+            collider.SendMessageUpwards("AplicarDano", dano);
             Destroy(gameObject);
         }
 

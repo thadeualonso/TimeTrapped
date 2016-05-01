@@ -8,6 +8,8 @@ public class Personagem : Humanoid
     public Tiro tiro;
     public float InputX;
     public float InputY;
+    public int danoAtaqueNormal;
+    public int danoAtaqueEspecial;
 
     public override void Ataque()
     {

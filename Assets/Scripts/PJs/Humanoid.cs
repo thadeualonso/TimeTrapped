@@ -61,4 +61,9 @@ public abstract class Humanoid : MonoBehaviour {
     public abstract void Mover();
 
     public abstract void ChecaDirecao();
+
+    public void AplicarDano(int dano)
+    {
+        hp -= dano;
+    }
 }
