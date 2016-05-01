@@ -10,7 +10,9 @@ public abstract class Humanoid : MonoBehaviour {
     public int hpMax;
     public int dano;
     public float speed;
+    [HideInInspector]
     public Animator animator;
+    [HideInInspector]
     public Collider2D collider2D;
 
     void Awake()
@@ -39,7 +41,7 @@ public abstract class Humanoid : MonoBehaviour {
         
     }
 
-    public void OnTriggerEnter2D (Collider2D other)
+    public void OnCollisionEnter2D (Collision2D other)
     {
         if (other.gameObject.tag == "Nivel Superior")
         {
@@ -47,7 +49,7 @@ public abstract class Humanoid : MonoBehaviour {
         }
     }
 
-    void OnTriggerExit2D (Collider2D other)
+    void OnCollisionExit2D (Collision2D other)
     {
         if (other.gameObject.tag == "Nivel Superior")
         {

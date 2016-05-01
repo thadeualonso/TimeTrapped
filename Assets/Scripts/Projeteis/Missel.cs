@@ -31,14 +31,11 @@ public class Missel : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log("Colisao: Trigger");
-
         if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {
             Destroy(gameObject);
-            collider.SendMessageUpwards("AplicarDano", 5);
+            collider.SendMessageUpwards("AplicarDano", dano);
             Instantiate(explosao, collider.transform.position, Quaternion.identity);
-            Debug.Log(collider.GetComponent<Humanoid>().nivelTerreno);
         }
 
         if (collider.gameObject.tag == "Limites Mundo")

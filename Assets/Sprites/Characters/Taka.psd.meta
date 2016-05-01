@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: ca2d6c156e13a184c8b95cfd6dd48c15
+timeCreated: 1462078801
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TakaIdleRight_1
+    21300002: TakaIdleLeft_2
+    21300004: TakaAlertRight_1
+    21300006: TakaIdleAttackRight_1
+    21300008: TakaIdleAttackRight_2
+    21300010: TakaAttackRight_1
+    21300012: TakaAttackRight_2
+    21300014: TakaIdleLeft_1
+    21300016: TakaIdleRight_2
+    21300018: TakaAlertLeft_1
+    21300020: TakaAttackLeft_2
+    21300022: TakaAttackLeft_1
+    21300024: TakaIdleAttackLeft_2
+    21300026: TakaIdleAttackLeft_1
+    21300028: "Lan\xE7a_2"
+    21300030: "Lan\xE7a_1"
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TakaIdleRight_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 175
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaIdleLeft_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 175
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaAlertRight_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 64
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaIdleAttackRight_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 122
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaIdleAttackRight_2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 122
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaAttackRight_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 122
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 16}
+        - {x: -21.5, y: 6}
+        - {x: -21.5, y: -2}
+        - {x: -4.5, y: -24}
+        - {x: -3.5, y: -25}
+        - {x: 11.5, y: -25}
+        - {x: 21.5, y: -14}
+        - {x: 21.5, y: 0}
+        - {x: 16.5, y: 16}
+    - name: TakaAttackRight_2
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 123
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -25}
+        - {x: 8.5, y: -25}
+        - {x: 18.5, y: -20}
+        - {x: 18.5, y: 6}
+        - {x: 15.5, y: 11}
+        - {x: 10.5, y: 12}
+        - {x: -5.5, y: 12}
+        - {x: -10.5, y: 9}
+    - name: TakaIdleLeft_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 173
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaIdleRight_2
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 173
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaAlertLeft_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 64
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaAttackLeft_2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 78
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 12}
+        - {x: -16.5, y: 11}
+        - {x: -18.5, y: 5}
+        - {x: -18.5, y: -18}
+        - {x: -14.5, y: -25}
+        - {x: 10.5, y: -25}
+        - {x: 10.5, y: 7}
+        - {x: 6.5, y: 12}
+    - name: TakaAttackLeft_1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 120
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 16}
+        - {x: -21.5, y: 3}
+        - {x: -21.5, y: -21}
+        - {x: -17.5, y: -25}
+        - {x: 4.5, y: -25}
+        - {x: 21.5, y: -8}
+        - {x: 21.5, y: 11}
+        - {x: 5.5, y: 16}
+    - name: TakaIdleAttackLeft_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 120
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaIdleAttackLeft_1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 120
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: "Lan\xE7a_2"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 168
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: "Lan\xE7a_1"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 192
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

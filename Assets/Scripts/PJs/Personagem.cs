@@ -104,8 +104,6 @@ public class Personagem : Humanoid
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        base.OnTriggerEnter2D(other);
-
         if (other.gameObject.CompareTag("TiroInimigo"))
         {
             this.hp--;

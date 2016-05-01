@@ -44,8 +44,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 161964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6157153, y: 0.015959471, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalPosition: {x: -1.01, y: 0.77, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 484216}
   m_Father: {fileID: 0}
@@ -143,12 +143,13 @@ MonoBehaviour:
   speed: 0
   animator: {fileID: 0}
   collider2D: {fileID: 0}
-  moveX: 0
-  moveY: 0
+  explosao: {fileID: 0}
   projetil: {fileID: 100716, guid: 65892d96b29575c479ee90985a3c05d2, type: 2}
   attackCoolDown: 1.6
   attackCounter: 1.6
   attacking: 0
+  currentState: 0
+  anim: {fileID: 0}
 --- !u!114 &11424720
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -198,7 +199,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 161964}

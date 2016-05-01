@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6d20064d2d61ce541a5fc96546e8d24f
-timeCreated: 1462049827
+timeCreated: 1462080408
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,11 @@ TextureImporter:
     21300002: Explosao_2
     21300004: Explosao_3
     21300006: Explosao_4
+    21300008: BloodHit_3
+    21300010: BloodHit_2
+    21300012: BloodHit_1
+    21300014: TakaHitLanca_1
+    21300016: TakaHitLanca_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -94,6 +99,61 @@ TextureImporter:
         y: 130
         width: 27
         height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BloodHit_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 260
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BloodHit_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 261
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BloodHit_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 263
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaHitLanca_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 166
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaHitLanca_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 163
+        width: 24
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

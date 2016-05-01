@@ -2,57 +2,10 @@
 using System.Collections;
 using System;
 
-public class EnemyGoro : Humanoid {
+public class EnemyGoro : Enemy {
 
-    public float moveX;
-    public float moveY;
-    public GameObject projetil;
-
-    public float attackCoolDown;
-    public float attackCounter;
-    public bool attacking;
-
-    private EnemyStates currentState;
-    private Animator anim;
-
-    void Awake()
+    public override void Patrulhando()
     {
-        anim = GetComponent<Animator>();
-    }
-
-    void FixedUpdate()
-    {
-        switch (currentState)
-        {
-            case EnemyStates.Patrulhando: Patrulhando(); break;
-            case EnemyStates.Atacando   : Atacando();    break; 
-        }
-    }
-
-    void OnTriggerEnter2D (Collider2D other)
-    {
-        base.OnTriggerEnter2D(other);
-
-        if (other.gameObject.tag == "Player")
-        {
-            Debug.Log("Player no campo de visao");
-            currentState = EnemyStates.Atacando;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            Debug.Log("Player no campo de visao");
-            currentState = EnemyStates.Patrulhando;
-        }
-    }
-
-    void Patrulhando()
-    {
-        Debug.Log("Patrulhando");
-
         if (attacking)
         {
             if (attackCounter > 0)
@@ -70,10 +23,8 @@ public class EnemyGoro : Humanoid {
         anim.SetBool("attacking", attacking);
     }
 
-    void Atacando()
+    public override void Atacando()
     {
-        Debug.Log("Atacando");
-
         attacking = true;
 
         if (attacking)

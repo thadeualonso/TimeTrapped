@@ -201,6 +201,10 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!4 &23705608 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+  m_PrefabInternal: {fileID: 491453177}
 --- !u!1 &36010148
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,6 +553,14 @@ Prefab:
       propertyPath: m_Name
       value: EnemyGoro (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199026, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9767834a74bed91449f96fe83048f664, type: 2}
   m_IsPrefabParent: 0
@@ -556,6 +568,52 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
   m_PrefabInternal: {fileID: 48597532}
+--- !u!1001 &63604694
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1733878857}
+    m_Modifications:
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_Name
+      value: EnemyGoro (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &63812789
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +672,48 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &70882371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 70882372}
+  - 58: {fileID: 70882373}
+  m_Layer: 9
+  m_Name: Collider (6)
+  m_TagString: Obstaculo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &70882372
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 70882371}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -5.93, y: -3.08, z: -0.06398463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 948119303}
+  m_RootOrder: 6
+--- !u!58 &70882373
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 70882371}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.72149205
 --- !u!1 &73120816
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,7 +781,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 78824595}
   - 212: {fileID: 78824596}
-  - 61: {fileID: 78824597}
   m_Layer: 8
   m_Name: Tileset_37 (3)
   m_TagString: Obstaculo
@@ -731,20 +830,48 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!61 &78824597
+--- !u!1 &84177857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 84177858}
+  - 61: {fileID: 84177859}
+  m_Layer: 9
+  m_Name: Collider (4)
+  m_TagString: Obstaculo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &84177858
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84177857}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -6.3900003, y: 2.1400003, z: -0.06905866}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 948119303}
+  m_RootOrder: 4
+--- !u!61 &84177859
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 78824594}
+  m_GameObject: {fileID: 84177857}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
+  m_Offset: {x: 0.15469456, y: -1.5442915}
   serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.43}
+  m_Size: {x: 0.33702374, y: 6.9614916}
 --- !u!1 &89199031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1221,7 +1348,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 133034778}
   - 212: {fileID: 133034780}
-  - 61: {fileID: 133034779}
   m_Layer: 8
   m_Name: Tileset_22 (3)
   m_TagString: Obstaculo
@@ -1240,21 +1366,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 957487060}
-  m_RootOrder: 8
---- !u!61 &133034779
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 133034777}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.18, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.39, y: 0.9142857}
+  m_RootOrder: 7
 --- !u!212 &133034780
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1343,6 +1455,10 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!4 &145582013 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+  m_PrefabInternal: {fileID: 742025394}
 --- !u!1 &145936099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,7 +1803,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 180775110}
   - 212: {fileID: 180775112}
-  - 61: {fileID: 180775111}
   m_Layer: 8
   m_Name: Tileset_80 (3)
   m_TagString: Obstaculo
@@ -1706,21 +1821,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 624005189}
-  m_RootOrder: 16
---- !u!61 &180775111
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 180775109}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
+  m_RootOrder: 15
 --- !u!212 &180775112
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2124,7 +2225,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 236633815}
   - 212: {fileID: 236633817}
-  - 61: {fileID: 236633816}
   m_Layer: 8
   m_Name: Tileset_64 (12)
   m_TagString: Obstaculo
@@ -2143,21 +2243,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 624005189}
-  m_RootOrder: 17
---- !u!61 &236633816
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 236633814}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
+  m_RootOrder: 16
 --- !u!212 &236633817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2420,6 +2506,39 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &295979217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 295979218}
+  m_Layer: 0
+  m_Name: Wave Taka Esquerda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &295979218
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 295979217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1115709072}
+  - {fileID: 384967244}
+  m_Father: {fileID: 729213953}
+  m_RootOrder: 2
+--- !u!4 &321209983 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+  m_PrefabInternal: {fileID: 2144817082}
 --- !u!1 &328193604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,7 +2642,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 328383570}
   - 212: {fileID: 328383572}
-  - 61: {fileID: 328383571}
   m_Layer: 8
   m_Name: Tileset_22 (3)
   m_TagString: Obstaculo
@@ -2543,20 +2661,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328211715}
   m_RootOrder: 4
---- !u!61 &328383571
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 328383569}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: -0.24, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.39, y: 0.9142857}
 --- !u!212 &328383572
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3042,7 +3146,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 370869503}
   - 212: {fileID: 370869504}
-  - 61: {fileID: 370869505}
   m_Layer: 8
   m_Name: Tileset_22
   m_TagString: Obstaculo
@@ -3061,7 +3164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 957487060}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!212 &370869504
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3092,20 +3195,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!61 &370869505
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 370869502}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.18, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.39, y: 0.9142857}
 --- !u!1 &372214521
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,7 +3204,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 372214522}
   - 212: {fileID: 372214524}
-  - 61: {fileID: 372214523}
   m_Layer: 8
   m_Name: Tileset_80
   m_TagString: Obstaculo
@@ -3135,20 +3223,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 12
---- !u!61 &372214523
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 372214521}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &372214524
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3386,6 +3460,60 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &384967243
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 295979218}
+    m_Modifications:
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.6442847
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.0959594
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199658, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_Name
+      value: EnemyTaka (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 11474936, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: direcao
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &384967244 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+  m_PrefabInternal: {fileID: 384967243}
 --- !u!1 &390956435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3453,7 +3581,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 394999103}
   - 212: {fileID: 394999105}
-  - 61: {fileID: 394999104}
   m_Layer: 8
   m_Name: Tileset_64 (8)
   m_TagString: Obstaculo
@@ -3473,20 +3600,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 8
---- !u!61 &394999104
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 394999102}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &394999105
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3994,7 +4107,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 422102735}
   - 212: {fileID: 422102737}
-  - 61: {fileID: 422102736}
   m_Layer: 8
   m_Name: Tileset_64 (11)
   m_TagString: Obstaculo
@@ -4014,20 +4126,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 11
---- !u!61 &422102736
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 422102734}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &422102737
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4125,13 +4223,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 437422145}
   - 61: {fileID: 437422146}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Nivel Superior (1)
   m_TagString: Nivel Superior
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &437422145
 Transform:
   m_ObjectHideFlags: 0
@@ -4225,7 +4323,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 443143403}
   - 212: {fileID: 443143404}
-  - 58: {fileID: 443143405}
   m_Layer: 8
   m_Name: Tileset_38
   m_TagString: Obstaculo
@@ -4244,7 +4341,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 957487060}
-  m_RootOrder: 4
+  m_RootOrder: 8
 --- !u!212 &443143404
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4275,20 +4372,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!58 &443143405
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 443143402}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.03, y: -0.03}
-  serializedVersion: 2
-  m_Radius: 0.4032178
 --- !u!1 &446440619
 GameObject:
   m_ObjectHideFlags: 0
@@ -4405,6 +4488,48 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &451515156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 451515157}
+  - 58: {fileID: 451515158}
+  m_Layer: 9
+  m_Name: Collider (10)
+  m_TagString: Obstaculo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &451515157
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451515156}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -2.53, y: 0, z: 0.34374583}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1789969631}
+  m_RootOrder: 8
+--- !u!58 &451515158
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451515156}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.43370247
 --- !u!1 &455177636
 GameObject:
   m_ObjectHideFlags: 0
@@ -4414,7 +4539,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 455177637}
   - 212: {fileID: 455177639}
-  - 61: {fileID: 455177638}
   m_Layer: 8
   m_Name: Tileset_64 (13)
   m_TagString: Obstaculo
@@ -4433,21 +4557,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 624005189}
-  m_RootOrder: 18
---- !u!61 &455177638
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 455177636}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
+  m_RootOrder: 17
 --- !u!212 &455177639
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4487,7 +4597,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 463070470}
   - 212: {fileID: 463070472}
-  - 61: {fileID: 463070471}
   m_Layer: 8
   m_Name: Tileset_64
   m_TagString: Obstaculo
@@ -4507,20 +4616,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 0
---- !u!61 &463070471
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 463070469}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &463070472
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4899,59 +4994,51 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1001 &501356689
+--- !u!1001 &491453177
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 655304158}
+    m_TransformParent: {fileID: 1733878857}
     m_Modifications:
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.331
+      value: -1.01
       objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.07498181
+      value: 0.77
       objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 119064, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_Name
-      value: EnemyLanceiro (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
+      value: EnemyGoro (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 9767834a74bed91449f96fe83048f664, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &514347726
 GameObject:
@@ -5474,6 +5561,60 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &550358448
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2099228544}
+    m_Modifications:
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.6557152
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.8959594
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199658, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_Name
+      value: EnemyTaka (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 11474936, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: direcao
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &550358449 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+  m_PrefabInternal: {fileID: 550358448}
 --- !u!1 &552001736
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,7 +5666,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 557573222}
   - 212: {fileID: 557573224}
-  - 61: {fileID: 557573223}
   m_Layer: 8
   m_Name: Tileset_64 (4)
   m_TagString: Obstaculo
@@ -5545,20 +5685,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 4
---- !u!61 &557573223
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 557573221}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &557573224
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5739,7 +5865,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 572947595}
   - 212: {fileID: 572947596}
-  - 61: {fileID: 572947597}
   m_Layer: 8
   m_Name: Tileset_22 (2)
   m_TagString: Obstaculo
@@ -5758,7 +5883,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 957487060}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!212 &572947596
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5789,20 +5914,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!61 &572947597
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 572947594}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.18, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.39, y: 0.9142857}
 --- !u!1 &578215904
 GameObject:
   m_ObjectHideFlags: 0
@@ -6191,11 +6302,11 @@ Transform:
   - {fileID: 372214522}
   - {fileID: 798384015}
   - {fileID: 1956754371}
-  - {fileID: 1690138277}
   - {fileID: 180775110}
   - {fileID: 236633815}
   - {fileID: 455177637}
   - {fileID: 1845498548}
+  - {fileID: 1690138277}
   m_Father: {fileID: 948119303}
   m_RootOrder: 1
 --- !u!1 &630461318
@@ -6207,7 +6318,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 630461319}
   - 212: {fileID: 630461320}
-  - 61: {fileID: 630461321}
   m_Layer: 8
   m_Name: Tileset_37 (2)
   m_TagString: Obstaculo
@@ -6257,20 +6367,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!61 &630461321
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 630461318}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.43}
 --- !u!1 &650201996
 GameObject:
   m_ObjectHideFlags: 0
@@ -6280,7 +6376,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 650201997}
   - 212: {fileID: 650201998}
-  - 61: {fileID: 650201999}
   m_Layer: 8
   m_Name: Tileset_22 (1)
   m_TagString: Obstaculo
@@ -6299,7 +6394,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 957487060}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!212 &650201998
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6330,51 +6425,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!61 &650201999
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 650201996}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.18, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.39, y: 0.9142857}
---- !u!1 &655304157
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 655304158}
-  m_Layer: 0
-  m_Name: Lanceiros
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &655304158
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 655304157}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.73428476, y: 2.5660686, z: -2}
-  m_LocalScale: {x: 6, y: 6, z: 1}
-  m_Children:
-  - {fileID: 1641899142}
-  - {fileID: 1982261655}
-  - {fileID: 700861288}
-  - {fileID: 1091323040}
-  m_Father: {fileID: 729213953}
-  m_RootOrder: 0
 --- !u!1 &660169671
 GameObject:
   m_ObjectHideFlags: 0
@@ -6880,13 +6930,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 693148468}
   - 61: {fileID: 693148469}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Nivel Superior
   m_TagString: Nivel Superior
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &693148468
 Transform:
   m_ObjectHideFlags: 0
@@ -6922,7 +6972,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 697265614}
   - 212: {fileID: 697265616}
-  - 61: {fileID: 697265615}
   m_Layer: 8
   m_Name: Tileset_37 (1)
   m_TagString: Obstaculo
@@ -6942,20 +6991,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328211715}
   m_RootOrder: 1
---- !u!61 &697265615
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 697265613}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.43}
 --- !u!212 &697265616
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6986,10 +7021,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!4 &700861288 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-  m_PrefabInternal: {fileID: 501356689}
 --- !u!1 &704363672
 GameObject:
   m_ObjectHideFlags: 0
@@ -7173,7 +7204,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 722915448}
   - 212: {fileID: 722915449}
-  - 61: {fileID: 722915450}
   m_Layer: 8
   m_Name: Tileset_37
   m_TagString: Obstaculo
@@ -7223,70 +7253,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!61 &722915450
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 722915447}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.43}
---- !u!1001 &726669260
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1733878857}
-    m_Modifications:
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.5759594
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_Name
-      value: EnemyGoro (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &726669261 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-  m_PrefabInternal: {fileID: 726669260}
 --- !u!1 &729213952
 GameObject:
   m_ObjectHideFlags: 0
@@ -7312,9 +7278,9 @@ Transform:
   m_LocalPosition: {x: -0.42571524, y: 0.16404054, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 655304158}
   - {fileID: 1733878857}
-  - {fileID: 1275810546}
+  - {fileID: 2099228544}
+  - {fileID: 295979218}
   m_Father: {fileID: 0}
   m_RootOrder: 4
 --- !u!1 &738036876
@@ -7375,6 +7341,52 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &742025394
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2099228544}
+    m_Modifications:
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.6557152
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.0959594
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11474936, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: direcao
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &749815619
 GameObject:
   m_ObjectHideFlags: 0
@@ -7674,7 +7686,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 796474522}
   - 212: {fileID: 796474524}
-  - 58: {fileID: 796474523}
   m_Layer: 8
   m_Name: Tileset_37
   m_TagString: Obstaculo
@@ -7694,20 +7705,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328211715}
   m_RootOrder: 0
---- !u!58 &796474523
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 796474521}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: -0.03, y: -0.03}
-  serializedVersion: 2
-  m_Radius: 0.40027714
 --- !u!212 &796474524
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7820,7 +7817,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 798384015}
   - 212: {fileID: 798384017}
-  - 61: {fileID: 798384016}
   m_Layer: 8
   m_Name: Tileset_80 (1)
   m_TagString: Obstaculo
@@ -7840,20 +7836,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 13
---- !u!61 &798384016
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 798384014}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &798384017
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8341,7 +8323,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 848077193}
   - 212: {fileID: 848077195}
-  - 61: {fileID: 848077194}
   m_Layer: 8
   m_Name: Tileset_64 (2)
   m_TagString: Obstaculo
@@ -8361,20 +8342,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 2
---- !u!61 &848077194
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 848077192}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &848077195
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8705,6 +8672,10 @@ Prefab:
       value: EnemyGoro (1)
       objectReference: {fileID: 0}
     - target: {fileID: 199026, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -9224,58 +9195,12 @@ Transform:
   - {fileID: 328211715}
   - {fileID: 624005189}
   - {fileID: 862386144}
+  - {fileID: 1984646667}
+  - {fileID: 84177858}
+  - {fileID: 986104293}
+  - {fileID: 70882372}
   m_Father: {fileID: 1008675669}
   m_RootOrder: 1
---- !u!1001 &949082356
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1275810546}
-    m_Modifications:
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.5759594
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_Name
-      value: EnemyGoro (5)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &949082357 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-  m_PrefabInternal: {fileID: 949082356}
 --- !u!1 &957487059
 GameObject:
   m_ObjectHideFlags: 0
@@ -9305,11 +9230,11 @@ Transform:
   - {fileID: 2139919849}
   - {fileID: 630461319}
   - {fileID: 78824595}
-  - {fileID: 443143403}
   - {fileID: 370869503}
   - {fileID: 650201997}
   - {fileID: 572947595}
   - {fileID: 133034778}
+  - {fileID: 443143403}
   m_Father: {fileID: 1789969631}
   m_RootOrder: 0
 --- !u!1 &958081639
@@ -9543,7 +9468,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 982034677}
   - 212: {fileID: 982034679}
-  - 61: {fileID: 982034678}
   m_Layer: 8
   m_Name: Tileset_22 (4)
   m_TagString: Obstaculo
@@ -9563,20 +9487,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328211715}
   m_RootOrder: 5
---- !u!61 &982034678
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 982034676}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: -0.24, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.39, y: 0.9142857}
 --- !u!212 &982034679
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9607,6 +9517,48 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &986104292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 986104293}
+  - 61: {fileID: 986104294}
+  m_Layer: 9
+  m_Name: Collider (5)
+  m_TagString: Obstaculo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &986104293
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 986104292}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -3.94, y: 0, z: 0.069057465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 948119303}
+  m_RootOrder: 5
+--- !u!61 &986104294
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 986104292}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0.10381746, y: -1.871413}
+  serializedVersion: 2
+  m_Size: {x: 3.6385493, y: 3.9914517}
 --- !u!1 &990542130
 GameObject:
   m_ObjectHideFlags: 0
@@ -10009,7 +9961,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1024487635}
   - 212: {fileID: 1024487637}
-  - 61: {fileID: 1024487636}
   m_Layer: 8
   m_Name: Tileset_64 (3)
   m_TagString: Obstaculo
@@ -10029,20 +9980,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 3
---- !u!61 &1024487636
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1024487634}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &1024487637
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10247,6 +10184,48 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &1051995504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1051995505}
+  - 61: {fileID: 1051995506}
+  m_Layer: 9
+  m_Name: Collider (8)
+  m_TagString: Obstaculo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1051995505
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1051995504}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -4.78, y: 0, z: -0.37100554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1789969631}
+  m_RootOrder: 6
+--- !u!61 &1051995506
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1051995504}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0.10381746, y: -1.871413}
+  serializedVersion: 2
+  m_Size: {x: 3.6385493, y: 3.9914517}
 --- !u!1 &1052918765
 GameObject:
   m_ObjectHideFlags: 0
@@ -10471,10 +10450,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!4 &1091323040 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-  m_PrefabInternal: {fileID: 1558934051}
 --- !u!1 &1102893366
 GameObject:
   m_ObjectHideFlags: 0
@@ -10606,6 +10581,56 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1001 &1115709071
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 295979218}
+    m_Modifications:
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.6442847
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.8959594
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199658, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+      propertyPath: m_Name
+      value: EnemyTaka (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1115709072 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 478070, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
+  m_PrefabInternal: {fileID: 1115709071}
 --- !u!1 &1117815976
 GameObject:
   m_ObjectHideFlags: 0
@@ -11093,7 +11118,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1212850104}
   - 212: {fileID: 1212850106}
-  - 61: {fileID: 1212850105}
   m_Layer: 8
   m_Name: Tileset_64 (7)
   m_TagString: Obstaculo
@@ -11113,20 +11137,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 7
---- !u!61 &1212850105
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1212850103}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &1212850106
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11636,86 +11646,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &1275810545
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1275810546}
-  m_Layer: 0
-  m_Name: Wave Goro
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1275810546
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1275810545}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2107272992}
-  - {fileID: 1279692931}
-  - {fileID: 949082357}
-  m_Father: {fileID: 729213953}
-  m_RootOrder: 2
---- !u!1001 &1279692930
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1275810546}
-    m_Modifications:
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.42571524
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.5759594
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-      propertyPath: m_Name
-      value: EnemyGoro (4)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &1279692931 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
-  m_PrefabInternal: {fileID: 1279692930}
 --- !u!1 &1280142124
 GameObject:
   m_ObjectHideFlags: 0
@@ -13247,7 +13177,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1453152518}
   - 212: {fileID: 1453152520}
-  - 61: {fileID: 1453152519}
   m_Layer: 8
   m_Name: Tileset_37 (3)
   m_TagString: Obstaculo
@@ -13267,20 +13196,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328211715}
   m_RootOrder: 3
---- !u!61 &1453152519
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1453152517}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.43}
 --- !u!212 &1453152520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13320,7 +13235,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1455399143}
   - 212: {fileID: 1455399145}
-  - 61: {fileID: 1455399144}
   m_Layer: 8
   m_Name: Tileset_37 (2)
   m_TagString: Obstaculo
@@ -13340,20 +13254,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328211715}
   m_RootOrder: 2
---- !u!61 &1455399144
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1455399142}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.43}
 --- !u!212 &1455399145
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13853,7 +13753,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1526381870}
   - 212: {fileID: 1526381872}
-  - 61: {fileID: 1526381871}
   m_Layer: 8
   m_Name: Tileset_64 (6)
   m_TagString: Obstaculo
@@ -13873,20 +13772,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 6
---- !u!61 &1526381871
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1526381869}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &1526381872
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13917,60 +13802,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1001 &1558934051
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 655304158}
-    m_Modifications:
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.331
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.12246047
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 119064, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_Name
-      value: EnemyLanceiro (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1561643650
 GameObject:
   m_ObjectHideFlags: 0
@@ -14388,7 +14219,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1617840523}
   - 212: {fileID: 1617840525}
-  - 61: {fileID: 1617840524}
   m_Layer: 8
   m_Name: Tileset_64 (10)
   m_TagString: Obstaculo
@@ -14408,20 +14238,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 10
---- !u!61 &1617840524
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1617840522}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &1617840525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14461,7 +14277,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1627066217}
   - 212: {fileID: 1627066219}
-  - 61: {fileID: 1627066218}
   m_Layer: 8
   m_Name: Tileset_22 (6)
   m_TagString: Obstaculo
@@ -14481,20 +14296,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328211715}
   m_RootOrder: 8
---- !u!61 &1627066218
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1627066216}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: -0.24, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.39, y: 0.9142857}
 --- !u!212 &1627066219
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14583,52 +14384,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1001 &1641899141
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 655304158}
-    m_Modifications:
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.73476285
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.12246047
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &1641899142 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-  m_PrefabInternal: {fileID: 1641899141}
 --- !u!1 &1644024747
 GameObject:
   m_ObjectHideFlags: 0
@@ -15005,6 +14760,10 @@ BoxCollider2D:
   m_Offset: {x: -0.26611137, y: -0.42801523}
   serializedVersion: 2
   m_Size: {x: 0.46777797, y: 14.892457}
+--- !u!4 &1680930171 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+  m_PrefabInternal: {fileID: 63604694}
 --- !u!1 &1687698966
 GameObject:
   m_ObjectHideFlags: 0
@@ -15072,9 +14831,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1690138277}
   - 212: {fileID: 1690138279}
-  - 58: {fileID: 1690138278}
   m_Layer: 8
-  m_Name: Tileset_81 (1)
+  m_Name: Quina
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15091,21 +14849,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 624005189}
-  m_RootOrder: 15
---- !u!58 &1690138278
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1690138276}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0.11, y: 0.29}
-  serializedVersion: 2
-  m_Radius: 0.46
+  m_RootOrder: 19
 --- !u!212 &1690138279
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15145,7 +14889,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1702833412}
   - 212: {fileID: 1702833414}
-  - 61: {fileID: 1702833413}
   m_Layer: 8
   m_Name: Tileset_64 (1)
   m_TagString: Obstaculo
@@ -15165,20 +14908,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 1
---- !u!61 &1702833413
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1702833411}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &1702833414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15214,7 +14943,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1275810546}
+    m_TransformParent: {fileID: 1733878857}
     m_Modifications:
     - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_LocalPosition.x
@@ -15246,7 +14975,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199026, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9767834a74bed91449f96fe83048f664, type: 2}
@@ -15381,7 +15118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1733878857
 Transform:
   m_ObjectHideFlags: 0
@@ -15394,9 +15131,12 @@ Transform:
   m_Children:
   - {fileID: 872785101}
   - {fileID: 48597533}
-  - {fileID: 726669261}
+  - {fileID: 2107272992}
+  - {fileID: 1680930171}
+  - {fileID: 321209983}
+  - {fileID: 23705608}
   m_Father: {fileID: 729213953}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!1 &1744474380
 GameObject:
   m_ObjectHideFlags: 0
@@ -15659,6 +15399,10 @@ Transform:
   - {fileID: 915630617}
   - {fileID: 693148468}
   - {fileID: 437422145}
+  - {fileID: 1986473322}
+  - {fileID: 1051995505}
+  - {fileID: 2136903180}
+  - {fileID: 451515157}
   m_Father: {fileID: 1008675669}
   m_RootOrder: 0
 --- !u!1 &1794470003
@@ -16153,7 +15897,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1845498548}
   - 212: {fileID: 1845498550}
-  - 61: {fileID: 1845498549}
   m_Layer: 8
   m_Name: Tileset_64 (14)
   m_TagString: Obstaculo
@@ -16172,21 +15915,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 624005189}
-  m_RootOrder: 19
---- !u!61 &1845498549
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1845498547}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
+  m_RootOrder: 18
 --- !u!212 &1845498550
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16284,7 +16013,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1861081570}
   - 212: {fileID: 1861081572}
-  - 61: {fileID: 1861081571}
   m_Layer: 8
   m_Name: Tileset_22 (5)
   m_TagString: Obstaculo
@@ -16304,20 +16032,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328211715}
   m_RootOrder: 6
---- !u!61 &1861081571
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1861081569}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: -0.24, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.39, y: 0.9142857}
 --- !u!212 &1861081572
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16357,7 +16071,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1867976309}
   - 212: {fileID: 1867976311}
-  - 61: {fileID: 1867976310}
   m_Layer: 8
   m_Name: Tileset_64 (5)
   m_TagString: Obstaculo
@@ -16377,20 +16090,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 5
---- !u!61 &1867976310
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1867976308}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &1867976311
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16751,7 +16450,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1927738764}
   - 212: {fileID: 1927738766}
-  - 61: {fileID: 1927738765}
   m_Layer: 8
   m_Name: Tileset_37 (3)
   m_TagString: Obstaculo
@@ -16771,20 +16469,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 328211715}
   m_RootOrder: 7
---- !u!61 &1927738765
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1927738763}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.43}
 --- !u!212 &1927738766
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16975,7 +16659,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1956754371}
   - 212: {fileID: 1956754373}
-  - 61: {fileID: 1956754372}
   m_Layer: 8
   m_Name: Tileset_80 (2)
   m_TagString: Obstaculo
@@ -16995,20 +16678,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 14
---- !u!61 &1956754372
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1956754370}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &1956754373
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17213,64 +16882,90 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1001 &1982261654
-Prefab:
+--- !u!1 &1984646666
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 655304158}
-    m_Modifications:
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.73476285
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.07498181
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 119064, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_Name
-      value: EnemyLanceiro (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &1982261655 stripped
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1984646667}
+  - 58: {fileID: 1984646668}
+  m_Layer: 9
+  m_Name: Collider (3)
+  m_TagString: Obstaculo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1984646667
 Transform:
-  m_PrefabParentObject: {fileID: 444088, guid: b8b16178083fcaf4b884e8b61bc09aef, type: 2}
-  m_PrefabInternal: {fileID: 1982261654}
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1984646666}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -6.3, y: 0, z: -0.06398463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 948119303}
+  m_RootOrder: 3
+--- !u!58 &1984646668
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1984646666}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.43370247
+--- !u!1 &1986473321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1986473322}
+  - 58: {fileID: 1986473323}
+  m_Layer: 9
+  m_Name: Collider (7)
+  m_TagString: Obstaculo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1986473322
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1986473321}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -2.88, y: -3.08, z: 0.25189376}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1789969631}
+  m_RootOrder: 5
+--- !u!58 &1986473323
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1986473321}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.72149205
 --- !u!1 &1989808277
 GameObject:
   m_ObjectHideFlags: 0
@@ -18165,7 +17860,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 2098794535}
   - 212: {fileID: 2098794537}
-  - 61: {fileID: 2098794536}
   m_Layer: 8
   m_Name: Tileset_64 (9)
   m_TagString: Obstaculo
@@ -18185,20 +17879,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624005189}
   m_RootOrder: 9
---- !u!61 &2098794536
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2098794534}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.9142857}
 --- !u!212 &2098794537
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18229,6 +17909,35 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &2099228543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2099228544}
+  m_Layer: 0
+  m_Name: Wave Taka Direita
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2099228544
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2099228543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 145582013}
+  - {fileID: 550358449}
+  m_Father: {fileID: 729213953}
+  m_RootOrder: 1
 --- !u!1 &2103015306
 GameObject:
   m_ObjectHideFlags: 0
@@ -18581,6 +18290,48 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &2136903179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2136903180}
+  - 61: {fileID: 2136903181}
+  m_Layer: 9
+  m_Name: Collider (9)
+  m_TagString: Obstaculo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2136903180
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2136903179}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -2.27, y: 2.1400003, z: 0.37100375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1789969631}
+  m_RootOrder: 7
+--- !u!61 &2136903181
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2136903179}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0.15469456, y: -1.5442915}
+  serializedVersion: 2
+  m_Size: {x: 0.33702374, y: 6.9614916}
 --- !u!1 &2139919848
 GameObject:
   m_ObjectHideFlags: 0
@@ -18590,7 +18341,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 2139919849}
   - 212: {fileID: 2139919850}
-  - 61: {fileID: 2139919851}
   m_Layer: 8
   m_Name: Tileset_37 (1)
   m_TagString: Obstaculo
@@ -18640,20 +18390,60 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!61 &2139919851
-BoxCollider2D:
+--- !u!1001 &2144817082
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2139919848}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.12}
   serializedVersion: 2
-  m_Size: {x: 0.9142857, y: 0.43}
+  m_Modification:
+    m_TransformParent: {fileID: 1733878857}
+    m_Modifications:
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.42571524
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 401220, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_Name
+      value: EnemyGoro (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199026, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 161964, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2146814638
 GameObject:
   m_ObjectHideFlags: 0
