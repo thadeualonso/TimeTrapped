@@ -12,17 +12,15 @@ public class EnemyGoro : Humanoid {
     public float attackCounter;
     public bool attacking;
 
-    private CircleCollider2D visao;
     private EnemyStates currentState;
     private Animator anim;
 
     void Awake()
     {
-        visao = GetComponentInChildren<CircleCollider2D>();
         anim = GetComponent<Animator>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         switch (currentState)
         {
@@ -40,7 +38,6 @@ public class EnemyGoro : Humanoid {
             Debug.Log("Player no campo de visao");
             currentState = EnemyStates.Atacando;
         }
-
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -50,7 +47,6 @@ public class EnemyGoro : Humanoid {
             Debug.Log("Player no campo de visao");
             currentState = EnemyStates.Patrulhando;
         }
-
     }
 
     void Patrulhando()
@@ -71,8 +67,6 @@ public class EnemyGoro : Humanoid {
             }
         }
 
-        //attacking = false;
-        //attackCounter = 0;
         anim.SetBool("attacking", attacking);
     }
 

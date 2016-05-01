@@ -28,7 +28,7 @@ public abstract class Humanoid : MonoBehaviour {
 
         if (hp <= 0)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
 
         ChecaDirecao();

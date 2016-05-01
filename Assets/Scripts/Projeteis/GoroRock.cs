@@ -4,6 +4,7 @@ using System.Collections;
 public class GoroRock : MonoBehaviour {
 
     public float velocidade;
+    public GameObject explosao;
 
     private Rigidbody2D rgbd2D;
 
@@ -22,6 +23,7 @@ public class GoroRock : MonoBehaviour {
         if (collider.gameObject.tag == "Player")
         {
             collider.SendMessageUpwards("AplicarDano", 2);
+            Instantiate(explosao, collider.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

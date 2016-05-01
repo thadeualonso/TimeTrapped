@@ -269,7 +269,7 @@ GameObject:
   - 4: {fileID: 40756277}
   - 212: {fileID: 40756279}
   - 61: {fileID: 40756278}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (7)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -682,7 +682,7 @@ GameObject:
   - 4: {fileID: 78824595}
   - 212: {fileID: 78824596}
   - 61: {fileID: 78824597}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_37 (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -1222,7 +1222,7 @@ GameObject:
   - 4: {fileID: 133034778}
   - 212: {fileID: 133034780}
   - 61: {fileID: 133034779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_22 (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -1353,7 +1353,7 @@ GameObject:
   - 4: {fileID: 145936100}
   - 212: {fileID: 145936102}
   - 61: {fileID: 145936101}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -1484,7 +1484,7 @@ GameObject:
   - 4: {fileID: 153461680}
   - 212: {fileID: 153461682}
   - 61: {fileID: 153461681}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (11)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -1615,7 +1615,7 @@ GameObject:
   - 4: {fileID: 164217669}
   - 212: {fileID: 164217671}
   - 61: {fileID: 164217670}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_80 (2)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -1688,7 +1688,7 @@ GameObject:
   - 4: {fileID: 180775110}
   - 212: {fileID: 180775112}
   - 61: {fileID: 180775111}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_80 (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -2125,7 +2125,7 @@ GameObject:
   - 4: {fileID: 236633815}
   - 212: {fileID: 236633817}
   - 61: {fileID: 236633816}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (12)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -2524,7 +2524,7 @@ GameObject:
   - 4: {fileID: 328383570}
   - 212: {fileID: 328383572}
   - 61: {fileID: 328383571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_22 (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -2854,7 +2854,7 @@ GameObject:
   - 4: {fileID: 358896025}
   - 212: {fileID: 358896027}
   - 61: {fileID: 358896026}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (8)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -3043,7 +3043,7 @@ GameObject:
   - 4: {fileID: 370869503}
   - 212: {fileID: 370869504}
   - 61: {fileID: 370869505}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_22
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -3116,7 +3116,7 @@ GameObject:
   - 4: {fileID: 372214522}
   - 212: {fileID: 372214524}
   - 61: {fileID: 372214523}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_80
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -3454,7 +3454,7 @@ GameObject:
   - 4: {fileID: 394999103}
   - 212: {fileID: 394999105}
   - 61: {fileID: 394999104}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (8)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -3854,122 +3854,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!1 &419929847
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 419929849}
-  - 114: {fileID: 419929848}
-  m_Layer: 0
-  m_Name: A*
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &419929848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 419929847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  astarData:
-    dataString: UEsDBBQAAAgIAACwn+shQZAdAAIAAOMDAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFdUtuOmzAQ/ZXKz0kELEmAt22STSttu9Fmqz4PYIIVYyNfmssq/96xIRfWD0icGc+ciz/JzrKSZJ/kH3BLSUYgh1mSz/IIonk8DctxFc6TpHyKYR4leRpV5DIioFtamHcwTJIsHBGmZUONYsWz2HGcEoyIFaySqlmVO7qQ2miSVcA1HREljbsn3NIjyVLsPfkbZ/zi7IIKQ1VffSyGFze14NC0tNyyM+17wqfJ1LeFwWSeuhNhp5Al7ZqCSYpTJedM92vNqXVS3+FERqRkgNzdRhRSU7arDcmihxtvVaWp8SwUnJZMoXQ/iHyXpsYJDej9g4XT0O3vJv0alsZOQ6Vk86PfEwY41dSs2COZArS52fQILh8pWnEAvoec0781Fb/lWkkrMEKjLF6zmkbL689NwqKmxf6KdswGkG0Hfk8n6SyIZ3GcrMZB0iUzSbsTXy5O8XHBWZM7PL7/Ph+Z9t4hsOXSmezipQqz+In8fe7ab0HMEfuj6Qfs7o+jh1+Y0gYLXjBYI1+Z2K8VK++dV3TJtHllDfNmYuxOXC6twk6y8iajD9YspBLUgZ3glgrg5rTBbWYY8ZfKbd8X/AUKI7tA+kr/9IftHrz1BsGwsJGHPlQmcCrwTVf0RNA+caUrMH/U4xz4tlbQuldXKjis2bmRN1FMVHJbKErFm7/rqVz+A1BLAwQUAAAIAAAAsJ/rHn9ddjIAAAAyAAAAEgAkAGdyYXBoMF9lZGl0b3IuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAXsibG9ja2VkIjp0cnVlLCJzaG93RXh0cmEiOmZhbHNlLCJwaXZvdCI6IkNlbnRlciJ9UEsDBBQAAAgIAACwn+tbHApadQAAAIMAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BHYyxDoMgFAD/5c2WFLRCXR3cmu6NwyMP9A0Fg9ikMf57pdsNd7fDx6WVY4AOamGEggqmhMu8QidP3JhOegFabI1trUKlm5uki5faGKob1MrYu/IwVpC/i3vg2/2LJ+bZcyAOkxgS01CuxQqRXB+3kIt2HY8fUEsBAi0AFAAACAgAALCf6yFBkB0AAgAA4wMAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAAAALCf6x5/XXYyAAAAMgAAABIAJAAAAAAAAAAAAAAATQIAAGdyYXBoMF9lZGl0b3IuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACwn+tbHApadQAAAIMAAAAJACQAAAAAAAAAAAAAANMCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAMAAwAcAQAAkwMAAAAA
-    upgradeData: 
-    data_backup: 
-    file_cachedStartup: {fileID: 0}
-    data_cachedStartup: 
-    cacheStartup: 0
-  showNavGraphs: 1
-  showUnwalkableNodes: 1
-  debugMode: 0
-  debugFloor: 0
-  debugRoof: 1
-  manualDebugFloorRoof: 0
-  showSearchTree: 0
-  unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
-  maxNearestNodeDistance: 100
-  scanOnStartup: 1
-  fullGetNearestSearch: 0
-  prioritizeGraphs: 0
-  prioritizeGraphsLimit: 1
-  colorSettings:
-    _NodeConnection: {r: 1, g: 1, b: 1, a: 0.9}
-    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
-    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
-    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
-    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
-    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
-    _MeshColor: {r: 0.125, g: 0.686, b: 0, a: 0.19}
-    _AreaColors: []
-  tagNames:
-  - Basic Ground
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
-  - 12
-  - 13
-  - 14
-  - 15
-  - 16
-  - 17
-  - 18
-  - 19
-  - 20
-  - 21
-  - 22
-  - 23
-  - 24
-  - 25
-  - 26
-  - 27
-  - 28
-  - 29
-  - 30
-  - 31
-  heuristic: 2
-  heuristicScale: 1
-  threadCount: 0
-  maxFrameTime: 1
-  minAreaSize: 0
-  batchGraphUpdates: 0
-  graphUpdateBatchingInterval: 0.2
-  euclideanEmbedding:
-    mode: 0
-    seed: 0
-    pivotPointRoot: {fileID: 0}
-    spreadOutCount: 1
-  showGraphs: 1
-  lastUniqueAreaIndex: 1
---- !u!4 &419929849
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 419929847}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1353359, y: -0.5949058, z: -2.3867188}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
 --- !u!1 &420821236
 GameObject:
   m_ObjectHideFlags: 0
@@ -4038,7 +3922,7 @@ GameObject:
   - 4: {fileID: 421926526}
   - 212: {fileID: 421926528}
   - 61: {fileID: 421926527}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_80 (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -4111,7 +3995,7 @@ GameObject:
   - 4: {fileID: 422102735}
   - 212: {fileID: 422102737}
   - 61: {fileID: 422102736}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (11)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -4241,7 +4125,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 437422145}
   - 61: {fileID: 437422146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Nivel Superior (1)
   m_TagString: Nivel Superior
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -4342,7 +4226,7 @@ GameObject:
   - 4: {fileID: 443143403}
   - 212: {fileID: 443143404}
   - 58: {fileID: 443143405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_38
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -4531,7 +4415,7 @@ GameObject:
   - 4: {fileID: 455177637}
   - 212: {fileID: 455177639}
   - 61: {fileID: 455177638}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (13)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -4604,7 +4488,7 @@ GameObject:
   - 4: {fileID: 463070470}
   - 212: {fileID: 463070472}
   - 61: {fileID: 463070471}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -5527,7 +5411,7 @@ GameObject:
   - 4: {fileID: 546949385}
   - 212: {fileID: 546949387}
   - 61: {fileID: 546949386}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (10)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -5642,7 +5526,7 @@ GameObject:
   - 4: {fileID: 557573222}
   - 212: {fileID: 557573224}
   - 61: {fileID: 557573223}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (4)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -5715,7 +5599,7 @@ GameObject:
   - 4: {fileID: 560752498}
   - 212: {fileID: 560752500}
   - 61: {fileID: 560752499}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (4)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -5856,7 +5740,7 @@ GameObject:
   - 4: {fileID: 572947595}
   - 212: {fileID: 572947596}
   - 61: {fileID: 572947597}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_22 (2)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -6324,7 +6208,7 @@ GameObject:
   - 4: {fileID: 630461319}
   - 212: {fileID: 630461320}
   - 61: {fileID: 630461321}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_37 (2)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -6397,7 +6281,7 @@ GameObject:
   - 4: {fileID: 650201997}
   - 212: {fileID: 650201998}
   - 61: {fileID: 650201999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_22 (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -6996,7 +6880,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 693148468}
   - 61: {fileID: 693148469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Nivel Superior
   m_TagString: Nivel Superior
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -7039,7 +6923,7 @@ GameObject:
   - 4: {fileID: 697265614}
   - 212: {fileID: 697265616}
   - 61: {fileID: 697265615}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_37 (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -7290,7 +7174,7 @@ GameObject:
   - 4: {fileID: 722915448}
   - 212: {fileID: 722915449}
   - 61: {fileID: 722915450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_37
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -7432,7 +7316,7 @@ Transform:
   - {fileID: 1733878857}
   - {fileID: 1275810546}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1 &738036876
 GameObject:
   m_ObjectHideFlags: 0
@@ -7791,7 +7675,7 @@ GameObject:
   - 4: {fileID: 796474522}
   - 212: {fileID: 796474524}
   - 58: {fileID: 796474523}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_37
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -7864,7 +7748,7 @@ GameObject:
   - 4: {fileID: 797032659}
   - 212: {fileID: 797032661}
   - 61: {fileID: 797032660}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_65
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -7937,7 +7821,7 @@ GameObject:
   - 4: {fileID: 798384015}
   - 212: {fileID: 798384017}
   - 61: {fileID: 798384016}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_80 (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -8196,7 +8080,7 @@ GameObject:
   - 4: {fileID: 829993025}
   - 212: {fileID: 829993027}
   - 61: {fileID: 829993026}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_65 (2)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -8458,7 +8342,7 @@ GameObject:
   - 4: {fileID: 848077193}
   - 212: {fileID: 848077195}
   - 61: {fileID: 848077194}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (2)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -8550,7 +8434,7 @@ Transform:
   - {fileID: 1166751027}
   - {fileID: 1008675669}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1 &861684195
 GameObject:
   m_ObjectHideFlags: 0
@@ -8820,6 +8704,10 @@ Prefab:
       propertyPath: m_Name
       value: EnemyGoro (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 199026, guid: 9767834a74bed91449f96fe83048f664, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9767834a74bed91449f96fe83048f664, type: 2}
   m_IsPrefabParent: 0
@@ -8895,7 +8783,7 @@ GameObject:
   - 4: {fileID: 877165804}
   - 212: {fileID: 877165806}
   - 61: {fileID: 877165805}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_80
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -9036,7 +8924,7 @@ GameObject:
   - 4: {fileID: 900898161}
   - 212: {fileID: 900898163}
   - 61: {fileID: 900898162}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (6)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -9109,7 +8997,7 @@ GameObject:
   - 4: {fileID: 911838032}
   - 212: {fileID: 911838034}
   - 61: {fileID: 911838033}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_80 (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -9500,7 +9388,7 @@ Transform:
   m_LocalScale: {x: 1.8613609, y: 1.9023776, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!58 &958081643
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9656,7 +9544,7 @@ GameObject:
   - 4: {fileID: 982034677}
   - 212: {fileID: 982034679}
   - 61: {fileID: 982034678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_22 (4)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -10122,7 +10010,7 @@ GameObject:
   - 4: {fileID: 1024487635}
   - 212: {fileID: 1024487637}
   - 61: {fileID: 1024487636}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -10516,7 +10404,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 123726, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
       propertyPath: m_Name
-      value: PJLukaz (1)
+      value: PJLukaz
+      objectReference: {fileID: 0}
+    - target: {fileID: 11443772, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
+      propertyPath: hp
+      value: 99
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
@@ -10593,7 +10485,7 @@ GameObject:
   - 4: {fileID: 1102893367}
   - 212: {fileID: 1102893369}
   - 61: {fileID: 1102893368}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (5)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -11202,7 +11094,7 @@ GameObject:
   - 4: {fileID: 1212850104}
   - 212: {fileID: 1212850106}
   - 61: {fileID: 1212850105}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (7)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -11507,7 +11399,7 @@ GameObject:
   - 4: {fileID: 1252486954}
   - 212: {fileID: 1252486956}
   - 61: {fileID: 1252486955}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -11834,7 +11726,7 @@ GameObject:
   - 4: {fileID: 1280142125}
   - 212: {fileID: 1280142127}
   - 61: {fileID: 1280142126}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -12023,7 +11915,7 @@ GameObject:
   - 4: {fileID: 1320262367}
   - 212: {fileID: 1320262369}
   - 58: {fileID: 1320262368}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_81
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -13356,7 +13248,7 @@ GameObject:
   - 4: {fileID: 1453152518}
   - 212: {fileID: 1453152520}
   - 61: {fileID: 1453152519}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_37 (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -13429,7 +13321,7 @@ GameObject:
   - 4: {fileID: 1455399143}
   - 212: {fileID: 1455399145}
   - 61: {fileID: 1455399144}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_37 (2)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -13560,7 +13452,7 @@ GameObject:
   - 4: {fileID: 1472284373}
   - 212: {fileID: 1472284375}
   - 61: {fileID: 1472284374}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (9)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -13962,7 +13854,7 @@ GameObject:
   - 4: {fileID: 1526381870}
   - 212: {fileID: 1526381872}
   - 61: {fileID: 1526381871}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (6)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -14266,7 +14158,7 @@ GameObject:
   - 4: {fileID: 1598549743}
   - 212: {fileID: 1598549745}
   - 61: {fileID: 1598549744}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_65 (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -14497,7 +14389,7 @@ GameObject:
   - 4: {fileID: 1617840523}
   - 212: {fileID: 1617840525}
   - 61: {fileID: 1617840524}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (10)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -14570,7 +14462,7 @@ GameObject:
   - 4: {fileID: 1627066217}
   - 212: {fileID: 1627066219}
   - 61: {fileID: 1627066218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_22 (6)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -15181,7 +15073,7 @@ GameObject:
   - 4: {fileID: 1690138277}
   - 212: {fileID: 1690138279}
   - 58: {fileID: 1690138278}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_81 (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -15254,7 +15146,7 @@ GameObject:
   - 4: {fileID: 1702833412}
   - 212: {fileID: 1702833414}
   - 61: {fileID: 1702833413}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -16131,7 +16023,7 @@ GameObject:
   - 4: {fileID: 1840588489}
   - 212: {fileID: 1840588491}
   - 61: {fileID: 1840588490}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (2)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -16262,7 +16154,7 @@ GameObject:
   - 4: {fileID: 1845498548}
   - 212: {fileID: 1845498550}
   - 61: {fileID: 1845498549}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (14)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -16393,7 +16285,7 @@ GameObject:
   - 4: {fileID: 1861081570}
   - 212: {fileID: 1861081572}
   - 61: {fileID: 1861081571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_22 (5)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -16466,7 +16358,7 @@ GameObject:
   - 4: {fileID: 1867976309}
   - 212: {fileID: 1867976311}
   - 61: {fileID: 1867976310}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (5)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -16860,7 +16752,7 @@ GameObject:
   - 4: {fileID: 1927738764}
   - 212: {fileID: 1927738766}
   - 61: {fileID: 1927738765}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_37 (3)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -17084,7 +16976,7 @@ GameObject:
   - 4: {fileID: 1956754371}
   - 212: {fileID: 1956754373}
   - 61: {fileID: 1956754372}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_80 (2)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -18274,7 +18166,7 @@ GameObject:
   - 4: {fileID: 2098794535}
   - 212: {fileID: 2098794537}
   - 61: {fileID: 2098794536}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tileset_64 (9)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}
@@ -18699,7 +18591,7 @@ GameObject:
   - 4: {fileID: 2139919849}
   - 212: {fileID: 2139919850}
   - 61: {fileID: 2139919851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_37 (1)
   m_TagString: Obstaculo
   m_Icon: {fileID: 0}

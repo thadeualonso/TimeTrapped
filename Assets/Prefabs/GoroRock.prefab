@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 4
+  explosao: {fileID: 121728, guid: fb20e9db9d7e5244e9c02b9705d4ab87, type: 2}
 --- !u!212 &21234920
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -131,6 +132,10 @@ Prefab:
       propertyPath: velocidade
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: explosao
+      value: 
+      objectReference: {fileID: 121728, guid: fb20e9db9d7e5244e9c02b9705d4ab87, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100716}

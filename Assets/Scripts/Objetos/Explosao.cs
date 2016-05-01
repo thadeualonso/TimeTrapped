@@ -3,9 +3,11 @@ using System.Collections;
 
 public class Explosao : MonoBehaviour {
 
+    public float delay;
+
     void Start()
     {
-        Invoke("Explode", 0.5f);
+        Invoke("Explode", delay);
     }
 
     void Explode()
