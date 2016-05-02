@@ -3,12 +3,10 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class MenuInicial : MonoBehaviour
-{
+public class MenuGameOver : MonoBehaviour {
 
     public Image selecao;
-    public Text txtIniciar;
-    public Text txtOpcoes;
+    public Text txtJogarNovamente;
     public Text txtSair;
     public string[] menuOpcoes;
     public int opcaoSelecionada;
@@ -17,9 +15,8 @@ public class MenuInicial : MonoBehaviour
 
     void Awake()
     {
-        menuOpcoes[0] = "Iniciar";
-        menuOpcoes[1] = "Opções";
-        menuOpcoes[2] = "Sair";
+        menuOpcoes[0] = "Jogar Novamente";
+        menuOpcoes[1] = "Sair";
 
         opcaoSelecionada = 0;
     }
@@ -32,9 +29,9 @@ public class MenuInicial : MonoBehaviour
 
     int MenuSelecao(string[] menuItems, int itemSelecionado, string direcao)
     {
-        if (direcao == "cima")
+        if(direcao == "direita")
         {
-            if (itemSelecionado == 0)
+            if(itemSelecionado == 0)
             {
                 itemSelecionado = menuItems.Length - 1;
             }
@@ -44,7 +41,7 @@ public class MenuInicial : MonoBehaviour
             }
         }
 
-        if (direcao == "baixo")
+        if (direcao == "esquerda")
         {
             if (itemSelecionado == menuItems.Length - 1)
             {
@@ -61,20 +58,20 @@ public class MenuInicial : MonoBehaviour
 
     void MoverSelecao()
     {
-        if (Input.GetButtonDown("Down") || Input.GetAxisRaw("DPad Vertical") == -1)
+        if (Input.GetButtonDown("Right") || Input.GetAxisRaw("DPad Vertical") == -1)
         {
             if (stickInUse == false)
             {
-                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "baixo");
+                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "direita");
                 stickInUse = true;
             }
         }
 
-        if (Input.GetButtonDown("Up") || Input.GetAxis("DPad Vertical") == 1)
+        if (Input.GetButtonDown("Left") || Input.GetAxis("DPad Vertical") == 1)
         {
             if (stickInUse == false)
             {
-                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "cima");
+                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "esquerda");
                 stickInUse = true;
             }
         }
@@ -90,14 +87,10 @@ public class MenuInicial : MonoBehaviour
         switch (opcaoSelecionada)
         {
             case 0:
-                selecao.transform.position = txtIniciar.transform.position;
+                selecao.transform.position = txtJogarNovamente.transform.position;
                 break;
-
+        
             case 1:
-                selecao.transform.position = txtOpcoes.transform.position;
-                break;
-
-            case 2:
                 selecao.transform.position = txtSair.transform.position;
                 break;
         }
@@ -107,17 +100,12 @@ public class MenuInicial : MonoBehaviour
     {
         if (Input.GetButtonDown("X"))
         {
-            if (opcaoSelecionada == 0)
+            if(opcaoSelecionada == 0)
             {
-                SceneManager.LoadScene("TelaJogo");
+                SceneManager.LoadScene("TelaInicial");
             }
 
             if (opcaoSelecionada == 1)
-            {
-                SceneManager.LoadScene("MenuOpcoes");
-            }
-
-            if (opcaoSelecionada == 2)
             {
                 Application.Quit();
             }

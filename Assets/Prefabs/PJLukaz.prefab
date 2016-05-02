@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direcao: 0
   nivelTerreno: 0
-  hp: 4
+  hp: 5
   hpMax: 0
   dano: 1
   speed: 2

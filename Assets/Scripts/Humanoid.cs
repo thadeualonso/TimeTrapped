@@ -14,6 +14,7 @@ public abstract class Humanoid : MonoBehaviour {
     public Animator animator;
     [HideInInspector]
     public Collider2D collider2D;
+    public EnemyManager enemyManager;
 
     void Awake()
     {
@@ -31,6 +32,11 @@ public abstract class Humanoid : MonoBehaviour {
         if (hp <= 0)
         {
             Destroy(gameObject);
+
+            if (gameObject.tag == "Player")
+            {
+                FindObjectOfType<GameManager>().Invoke("ChamaGameOver", 2f);
+            }
         }
 
         ChecaDirecao();

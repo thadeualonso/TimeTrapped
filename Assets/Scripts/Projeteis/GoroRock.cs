@@ -26,6 +26,12 @@ public class GoroRock : MonoBehaviour {
             Instantiate(explosao, collider.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+
+        if (collider.gameObject.tag == "Limites Mundo")
+        {
+            Debug.Log("Colidiu com limites da fase");
+            Destroy(gameObject);
+        }
     }
 
 }

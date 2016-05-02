@@ -18,13 +18,18 @@ public class TakaLanca : MonoBehaviour {
 
     void Start()
     {
-        Invoke("MudaNivelTerreno", 0.8f);
-        StartCoroutine(Curva());
+        Invoke("MudaNivelTerreno", 0.6f);
+        Invoke("ChamarCurva", 0.6f);
     }
 
     void Update()
     {
         rgbd2D.velocity = transform.up * velocidade;
+    }
+
+    void ChamarCurva()
+    {
+        StartCoroutine(Curva());
     }
 
     IEnumerator Curva()
