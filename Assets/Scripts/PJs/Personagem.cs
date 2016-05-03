@@ -19,8 +19,8 @@ public class Personagem : Humanoid
     // Chamar no Update
     public override void Mover()
     {
-        InputX = Input.GetAxisRaw("Horizontal");
-        InputY = Input.GetAxisRaw("Vertical");
+        InputX = Input.GetAxisRaw("DPad Horizontal");
+        InputY = Input.GetAxisRaw("DPad Vertical");
 
         animator.SetFloat("SpeedX", InputX);
         animator.SetFloat("SpeedY", InputY);
@@ -37,20 +37,20 @@ public class Personagem : Humanoid
     // Chamar no FixedUpdate
     public override void ChecaDirecao()
     {
-        float lastInputX = Input.GetAxisRaw("Horizontal");
-        float lastInputY = Input.GetAxisRaw("Vertical");
+        float lastInputX = Input.GetAxisRaw("DPad Horizontal");
+        float lastInputY = Input.GetAxisRaw("DPad Vertical");
 
-        if (lastInputX != 0 || lastInputY != 0)
+        if (lastInputX != 0f || lastInputY != 0f)
         {
             animator.SetBool("walking", true);
 
             #region Checa o eixo X
-            if (lastInputX > 0)
+            if (lastInputX > 0f)
             {
                 animator.SetFloat("LastX", 1f);
                 direcao = Direcoes.Right;
             }
-            else if (lastInputX < 0)
+            else if (lastInputX < 0f)
             {
                 animator.SetFloat("LastX", -1f);
                 direcao = Direcoes.Left;
@@ -62,30 +62,30 @@ public class Personagem : Humanoid
             #endregion
 
             #region Checa o eixo Y e diagonais
-            if (lastInputY > 0)
+            if (lastInputY > 0f)
             {
                 animator.SetFloat("LastY", 1f);
                 direcao = Direcoes.Up;
 
-                if (lastInputX > 0)
+                if (lastInputX > 0f)
                 {
                     direcao = Direcoes.UpRight;
                 }
-                else if (lastInputX < 0)
+                else if (lastInputX < 0f)
                 {
                     direcao = Direcoes.UpLeft;
                 }
             }
-            else if (lastInputY < 0)
+            else if (lastInputY < 0f)
             {
                 animator.SetFloat("LastY", -1f);
                 direcao = Direcoes.Down;
 
-                if (lastInputX > 0)
+                if (lastInputX > 0f)
                 {
                     direcao = Direcoes.DownRight;
                 }
-                else if (lastInputX < 0)
+                else if (lastInputX < 0f)
                 {
                     direcao = Direcoes.DownLeft;
                 }

@@ -22,26 +22,18 @@ public class GameManager : MonoBehaviour {
 
         timer -= Time.deltaTime;
 
-        float coolDownMissel = 0f;
-
-        if (FindObjectOfType<PlayerLukaz>() != null)
-        {
-            coolDownMissel = Mathf.Round(FindObjectOfType<PlayerLukaz>().coolDownMissel);
-        }
-
-        if (coolDownMissel != 0)
-        {
-            txtCoolDownMissel.enabled = true;
-            txtCoolDownMissel.text = coolDownMissel.ToString();
-        }
-
-        txtCoolDownMissel.enabled = false;
 	}
+
+    public void CarregaFase(string fase)
+    {
+        SceneManager.LoadScene(fase);
+    }
 
     public void ChamaGameOver()
     {
         StartCoroutine(ScreenFade());
         Invoke("CarregaGameOver", 3f);
+        
     }
 
     void CarregaGameOver()
