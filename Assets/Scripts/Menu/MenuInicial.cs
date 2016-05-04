@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class MenuInicial : MonoBehaviour
 {
-
     public Image selecao;
     public Text txtIniciar;
     public Text txtOpcoes;
     public Text txtSair;
     public string[] menuOpcoes;
     public int opcaoSelecionada;
+    public AudioClip confirmaSFX;
+    public AudioClip bgmGainGround;
+    public AudioManager audioManager;
 
     private bool stickInUse = false;
 
@@ -22,6 +24,8 @@ public class MenuInicial : MonoBehaviour
         menuOpcoes[2] = "Sair";
 
         opcaoSelecionada = 0;
+
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     void Update()
@@ -107,8 +111,11 @@ public class MenuInicial : MonoBehaviour
     {
         if (Input.GetButtonDown("X"))
         {
+            audioManager.Play(confirmaSFX);
+
             if (opcaoSelecionada == 0)
             {
+                audioManager.Play(bgmGainGround);
                 SceneManager.LoadScene("TelaJogo");
             }
 

@@ -5,3 +5,4 @@ public enum Direcoes { Up, Down, Left, Right, UpRight, UpLeft, DownRight, DownLe
 public enum Telas { TelaInicial, MenuOpcoes, MenuControles, TelaJogo, MenuPausa, TelaGameOver} 
 public enum NiveisTerrenos { Chao, Superior }
 public enum EnemyStates { Patrulhando, Atacando }
+public enum PortalStates { Abrindo, Normal }

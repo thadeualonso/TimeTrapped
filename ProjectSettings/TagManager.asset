@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Inimigo
   - Tiro
   - Limite
   - Visao
@@ -14,6 +13,8 @@ TagManager:
   - Missel
   - HeroBullet
   - Limites Mundo
+  - Vision
+  - Inimigo
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Obstaculo
   - Limites
   - Camera
-  - 
+  - ScreenFader
   - 
   - 
   - 

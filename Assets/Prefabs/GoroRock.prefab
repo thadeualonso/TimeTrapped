@@ -75,6 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidade: 4
   explosao: {fileID: 121728, guid: fb20e9db9d7e5244e9c02b9705d4ab87, type: 2}
+  hitSound: {fileID: 8300000, guid: d81c8c09e0ea8434c9364b59dd3840de, type: 3}
 --- !u!212 &21234920
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -101,7 +102,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1300772163
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300016, guid: 06eb5a18cc8897846996dafebc5f7d12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0463a2806aa0a1143ac9cddbf98b93ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -136,6 +137,15 @@ Prefab:
       propertyPath: explosao
       value: 
       objectReference: {fileID: 121728, guid: fb20e9db9d7e5244e9c02b9705d4ab87, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0463a2806aa0a1143ac9cddbf98b93ee,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d81c8c09e0ea8434c9364b59dd3840de, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100716}

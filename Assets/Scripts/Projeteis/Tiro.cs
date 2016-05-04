@@ -11,10 +11,20 @@ public class Tiro : MonoBehaviour {
     public int dano;
     public GameObject explosao;
 	
+    void Start()
+    {
+        Invoke("DestruirTiro", 0.6f);
+    }
+
 	// Update is called once per frame
 	void Update ()
     {
         GetComponent<Rigidbody2D>().velocity = transform.up * velocidade;
+    }
+
+    void DestruirTiro()
+    {
+        Destroy(gameObject);
     }
 
     void OnTriggerEnter2D (Collider2D collider)

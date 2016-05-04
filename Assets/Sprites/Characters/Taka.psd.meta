@@ -1,27 +1,20 @@
 fileFormatVersion: 2
 guid: ca2d6c156e13a184c8b95cfd6dd48c15
-timeCreated: 1462136851
+timeCreated: 1462334152
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: TakaIdleRight_1
-    21300002: TakaIdleLeft_2
-    21300004: TakaAlertRight_1
-    21300006: TakaIdleAttackRight_1
-    21300008: TakaIdleAttackRight_2
-    21300010: TakaAttackRight_1
-    21300012: TakaAttackRight_2
-    21300014: TakaIdleLeft_1
-    21300016: TakaIdleRight_2
-    21300018: TakaAlertLeft_1
-    21300020: TakaAttackLeft_2
-    21300022: TakaAttackLeft_1
-    21300024: TakaIdleAttackLeft_2
-    21300026: TakaIdleAttackLeft_1
-    21300028: "Lan\xE7a_DownRight"
-    21300030: "Lan\xE7a_Right"
-    21300032: "Lan\xE7a_3"
-    21300034: "Lan\xE7a_Left"
+    21300002: TakaIdleRight_2
+    21300004: TakaIdleLeft_1
+    21300006: TakaIdleLeft_2
+    21300008: TakaAttackRight_1
+    21300010: TakaAttackRight_2
+    21300012: TakaAttackLeft_1
+    21300014: TakaAttackLeft_2
+    21300016: TakaAlertRight
+    21300018: TakaAlertLeft
+    21300020: "TakaLan\xE7a"
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -71,104 +64,10 @@ TextureImporter:
     - name: TakaIdleRight_1
       rect:
         serializedVersion: 2
-        x: 396
-        y: 175
+        x: 443
+        y: 172
         width: 30
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: TakaIdleLeft_2
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 175
-        width: 30
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: TakaAlertRight_1
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 64
-        width: 30
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: TakaIdleAttackRight_1
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 122
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: TakaIdleAttackRight_2
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 122
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: TakaAttackRight_1
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 122
-        width: 43
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9.5, y: 16}
-        - {x: -21.5, y: 6}
-        - {x: -21.5, y: -2}
-        - {x: -4.5, y: -24}
-        - {x: -3.5, y: -25}
-        - {x: 11.5, y: -25}
-        - {x: 21.5, y: -14}
-        - {x: 21.5, y: 0}
-        - {x: 16.5, y: 16}
-    - name: TakaAttackRight_2
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 123
-        width: 43
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10.5, y: -25}
-        - {x: 8.5, y: -25}
-        - {x: 18.5, y: -20}
-        - {x: 18.5, y: 6}
-        - {x: 15.5, y: 11}
-        - {x: 10.5, y: 12}
-        - {x: -5.5, y: 12}
-        - {x: -10.5, y: 9}
-    - name: TakaIdleLeft_1
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 173
-        width: 30
-        height: 50
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,125 +75,144 @@ TextureImporter:
     - name: TakaIdleRight_2
       rect:
         serializedVersion: 2
-        x: 559
-        y: 173
+        x: 479
+        y: 172
         width: 30
-        height: 50
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: TakaAlertLeft_1
+    - name: TakaIdleLeft_1
       rect:
         serializedVersion: 2
-        x: 308
-        y: 64
+        x: 360
+        y: 172
         width: 30
-        height: 50
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: TakaAttackLeft_2
+    - name: TakaIdleLeft_2
       rect:
         serializedVersion: 2
-        x: 555
-        y: 78
+        x: 396
+        y: 172
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TakaAttackRight_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 119
         width: 43
-        height: 50
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10.5, y: 12}
-        - {x: -16.5, y: 11}
-        - {x: -18.5, y: 5}
-        - {x: -18.5, y: -18}
-        - {x: -14.5, y: -25}
-        - {x: 10.5, y: -25}
-        - {x: 10.5, y: 7}
-        - {x: 6.5, y: 12}
+      - - {x: -11.5, y: 17.5}
+        - {x: -21.5, y: 11.5}
+        - {x: -21.5, y: -5.5}
+        - {x: -15.5, y: -25.5}
+        - {x: -13.5, y: -26.5}
+        - {x: 20.5, y: -26.5}
+        - {x: 21.5, y: -21.5}
+        - {x: 21.5, y: 1.5}
+        - {x: 16.5, y: 17.5}
+    - name: TakaAttackRight_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 119
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 13.5}
+        - {x: -14.5, y: 6.5}
+        - {x: -15.5, y: -2.5}
+        - {x: -15.5, y: -24.5}
+        - {x: -14.5, y: -26.5}
+        - {x: 15.5, y: -26.5}
+        - {x: 15.5, y: 13.5}
     - name: TakaAttackLeft_1
       rect:
         serializedVersion: 2
-        x: 513
-        y: 120
+        x: 479
+        y: 119
         width: 43
-        height: 50
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16.5, y: 16}
-        - {x: -21.5, y: 3}
-        - {x: -21.5, y: -21}
-        - {x: -17.5, y: -25}
-        - {x: 4.5, y: -25}
-        - {x: 21.5, y: -8}
-        - {x: 21.5, y: 11}
-        - {x: 5.5, y: 16}
-    - name: TakaIdleAttackLeft_2
+      - - {x: -18.5, y: 16.5}
+        - {x: -21.5, y: 14.5}
+        - {x: -21.5, y: -16.5}
+        - {x: -14.5, y: -26.5}
+        - {x: 14.5, y: -26.5}
+        - {x: 21.5, y: -6.5}
+        - {x: 21.5, y: 16.5}
+    - name: TakaAttackLeft_2
       rect:
         serializedVersion: 2
-        x: 450
-        y: 120
-        width: 27
-        height: 37
+        x: 428
+        y: 119
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 14.5}
+        - {x: -17.5, y: -4.5}
+        - {x: -17.5, y: -9.5}
+        - {x: -13.5, y: -12.5}
+        - {x: -8.5, y: -12.5}
+        - {x: -11.5, y: -15.5}
+        - {x: -16.5, y: -23.5}
+        - {x: -12.5, y: -26.5}
+        - {x: 10.5, y: -26.5}
+        - {x: 13.5, y: -24.5}
+        - {x: 13.5, y: 13.5}
+        - {x: 9.5, y: 14.5}
+    - name: TakaAlertRight
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 60
+        width: 30
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: TakaIdleAttackLeft_1
+    - name: TakaAlertLeft
       rect:
         serializedVersion: 2
-        x: 482
-        y: 120
-        width: 27
-        height: 37
+        x: 327
+        y: 60
+        width: 30
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: "Lan\xE7a_DownRight"
+    - name: "TakaLan\xE7a"
       rect:
         serializedVersion: 2
-        x: 145
-        y: 168
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: "Lan\xE7a_Right"
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 192
-        width: 27
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: "Lan\xE7a_3"
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 132
+        x: 151
+        y: 123
         width: 5
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: "Lan\xE7a_Left"
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 203
-        width: 27
-        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

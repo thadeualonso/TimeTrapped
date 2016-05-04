@@ -1,0 +1,1018 @@
+fileFormatVersion: 2
+guid: a89e09f9925043e42846dc7344e4fb6a
+timeCreated: 1462333137
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Lukaz_0
+    21300002: Lukaz_1
+    21300004: Lukaz_2
+    21300006: Lukaz_3
+    21300008: Lukaz_4
+    21300010: Lukaz_5
+    21300012: Lukaz_6
+    21300014: Lukaz_7
+    21300016: Lukaz_8
+    21300018: Lukaz_9
+    21300020: Lukaz_10
+    21300022: Lukaz_11
+    21300024: Lukaz_12
+    21300026: Lukaz_13
+    21300028: Lukaz_14
+    21300030: Lukaz_15
+    21300032: Lukaz_16
+    21300034: Lukaz_17
+    21300036: Lukaz_18
+    21300038: Lukaz_19
+    21300040: Lukaz_20
+    21300042: Lukaz_21
+    21300044: Lukaz_22
+    21300046: Lukaz_23
+    21300048: Lukaz_24
+    21300050: Lukaz_25
+    21300052: Lukaz_26
+    21300054: Lukaz_27
+    21300056: Lukaz_28
+    21300058: Lukaz_29
+    21300060: Lukaz_30
+    21300062: Lukaz_31
+    21300064: Lukaz_32
+    21300066: Lukaz_33
+    21300068: Lukaz_34
+    21300070: Lukaz_35
+    21300072: Lukaz_36
+    21300074: Lukaz_37
+    21300076: Lukaz_38
+    21300078: Lukaz_39
+    21300080: Lukaz_40
+    21300082: Lukaz_41
+    21300084: Lukaz_42
+    21300086: Lukaz_43
+    21300088: Lukaz_44
+    21300090: Lukaz_45
+    21300092: Lukaz_46
+    21300094: Lukaz_47
+    21300096: Lukaz_48
+    21300098: Lukaz_49
+    21300100: Lukaz_50
+    21300102: Lukaz_51
+    21300104: Lukaz_52
+    21300106: Lukaz_53
+    21300108: Lukaz_54
+    21300110: Lukaz_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Lukaz_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 293
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 18}
+        - {x: -16.5, y: 12}
+        - {x: -16.5, y: -18}
+        - {x: 15.5, y: -18}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 12}
+        - {x: 14.5, y: 18}
+    - name: Lukaz_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 293
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 18}
+        - {x: -16.5, y: 11}
+        - {x: -16.5, y: -15}
+        - {x: -15.5, y: -18}
+        - {x: 16.5, y: -18}
+        - {x: 16.5, y: 11}
+        - {x: 13.5, y: 18}
+    - name: Lukaz_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 292
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 8}
+        - {x: 10.5, y: 18}
+        - {x: -16.5, y: 18}
+        - {x: -16.5, y: -18}
+        - {x: 13.5, y: -18}
+        - {x: 13.5, y: -13}
+        - {x: 16.5, y: -7}
+    - name: Lukaz_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 292
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 8}
+        - {x: 10.5, y: 18}
+        - {x: -16.5, y: 18}
+        - {x: -16.5, y: -18}
+        - {x: 13.5, y: -18}
+        - {x: 13.5, y: -13}
+        - {x: 16.5, y: -7}
+    - name: Lukaz_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 292
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 8}
+        - {x: 10.5, y: 18}
+        - {x: -16.5, y: 18}
+        - {x: -16.5, y: -18}
+        - {x: 13.5, y: -18}
+        - {x: 13.5, y: -13}
+        - {x: 16.5, y: -7}
+    - name: Lukaz_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 292
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.5}
+        - {x: -16.5, y: -11.5}
+        - {x: -14.5, y: -17.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 16.5, y: 14.5}
+        - {x: 10.5, y: 17.5}
+    - name: Lukaz_6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 292
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 17.5}
+        - {x: -16.5, y: 15.5}
+        - {x: -16.5, y: -9.5}
+        - {x: -14.5, y: -17.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 16.5, y: 14.5}
+        - {x: 10.5, y: 17.5}
+    - name: Lukaz_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 253
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 18}
+        - {x: -16.5, y: 12}
+        - {x: -16.5, y: -18}
+        - {x: 15.5, y: -18}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 12}
+        - {x: 14.5, y: 18}
+    - name: Lukaz_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 253
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 18}
+        - {x: -16.5, y: 11}
+        - {x: -16.5, y: -15}
+        - {x: -15.5, y: -18}
+        - {x: 16.5, y: -18}
+        - {x: 16.5, y: 11}
+        - {x: 13.5, y: 18}
+    - name: Lukaz_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 252
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 18}
+        - {x: -16, y: 11}
+        - {x: -16, y: -18}
+        - {x: 15, y: -18}
+        - {x: 16, y: -15}
+        - {x: 16, y: 18}
+    - name: Lukaz_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 252
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 18}
+        - {x: -16, y: 11}
+        - {x: -16, y: -18}
+        - {x: 15, y: -18}
+        - {x: 16, y: -15}
+        - {x: 16, y: 18}
+    - name: Lukaz_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 252
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 18}
+        - {x: -16, y: 11}
+        - {x: -16, y: -18}
+        - {x: 15, y: -18}
+        - {x: 16, y: -15}
+        - {x: 16, y: 18}
+    - name: Lukaz_12
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 251
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 17.5}
+        - {x: -16.5, y: -11.5}
+        - {x: -14.5, y: -17.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 16.5, y: 14.5}
+        - {x: 10.5, y: 17.5}
+    - name: Lukaz_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 251
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 17.5}
+        - {x: -16.5, y: 15.5}
+        - {x: -16.5, y: -9.5}
+        - {x: -14.5, y: -17.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 16.5, y: 14.5}
+        - {x: 10.5, y: 17.5}
+    - name: Lukaz_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 213
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 213
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_16
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 211
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 211
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_18
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 211
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_19
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 209
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_20
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 209
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 172
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 172
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 171
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 171
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 171
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 170
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 170
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lukaz_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 130
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 18}
+        - {x: -16, y: 12}
+        - {x: -16, y: -6}
+        - {x: -12, y: -18}
+        - {x: 16, y: -18}
+        - {x: 16, y: 10}
+        - {x: 8, y: 18}
+    - name: Lukaz_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 130
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 18}
+        - {x: -16, y: 11}
+        - {x: -16, y: -5}
+        - {x: -13, y: -17}
+        - {x: -13, y: -18}
+        - {x: 16, y: -18}
+        - {x: 16, y: 10}
+        - {x: 6, y: 18}
+    - name: Lukaz_30
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 130
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18}
+        - {x: -17, y: 17}
+        - {x: -17, y: -12}
+        - {x: -16, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 10}
+        - {x: 10, y: 18}
+    - name: Lukaz_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 130
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18}
+        - {x: -17, y: 17}
+        - {x: -17, y: -12}
+        - {x: -16, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 10}
+        - {x: 10, y: 18}
+    - name: Lukaz_32
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 130
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18}
+        - {x: -17, y: 17}
+        - {x: -17, y: -12}
+        - {x: -16, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 10}
+        - {x: 10, y: 18}
+    - name: Lukaz_33
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 129
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 17.5}
+        - {x: -16, y: 8.5}
+        - {x: -16, y: -17.5}
+        - {x: 15, y: -17.5}
+        - {x: 16, y: -16.5}
+        - {x: 16, y: 12.5}
+        - {x: 14, y: 17.5}
+    - name: Lukaz_34
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 129
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17.5}
+        - {x: -16, y: 9.5}
+        - {x: -16, y: -12.5}
+        - {x: -13, y: -17.5}
+        - {x: 13, y: -17.5}
+        - {x: 16, y: -15.5}
+        - {x: 16, y: 12.5}
+        - {x: 14, y: 17.5}
+    - name: Lukaz_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 91
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 18}
+        - {x: -16, y: 14}
+        - {x: -16, y: -13}
+        - {x: -14, y: -16}
+        - {x: -13, y: -18}
+        - {x: 16, y: -18}
+        - {x: 16, y: 8}
+        - {x: 11, y: 18}
+    - name: Lukaz_36
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 91
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 18}
+        - {x: -16, y: 8}
+        - {x: -16, y: -18}
+        - {x: 16, y: -18}
+        - {x: 16, y: 13}
+        - {x: 14, y: 18}
+    - name: Lukaz_37
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 90
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 18}
+        - {x: -17, y: 16}
+        - {x: -17, y: -7}
+        - {x: -13, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 8}
+        - {x: 11, y: 18}
+    - name: Lukaz_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 90
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 18}
+        - {x: -17, y: 16}
+        - {x: -17, y: -7}
+        - {x: -13, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 8}
+        - {x: 11, y: 18}
+    - name: Lukaz_39
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 90
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 18}
+        - {x: -17, y: 16}
+        - {x: -17, y: -7}
+        - {x: -13, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 8}
+        - {x: 11, y: 18}
+    - name: Lukaz_40
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 89
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17.5}
+        - {x: -16, y: 13.5}
+        - {x: -16, y: -17.5}
+        - {x: 16, y: -17.5}
+        - {x: 16, y: 11.5}
+        - {x: 11, y: 17.5}
+    - name: Lukaz_41
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 89
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 17.5}
+        - {x: -11, y: 17.5}
+        - {x: -16, y: 11.5}
+        - {x: -16, y: -10.5}
+        - {x: -12, y: -17.5}
+        - {x: 13, y: -17.5}
+        - {x: 16, y: -12.5}
+        - {x: 16, y: 8.5}
+    - name: Lukaz_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 50
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18}
+        - {x: -16, y: 17}
+        - {x: -16, y: -16}
+        - {x: -15, y: -18}
+        - {x: 13, y: -18}
+        - {x: 16, y: -15}
+        - {x: 16, y: 15}
+        - {x: 11, y: 18}
+    - name: Lukaz_43
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 50
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 18}
+        - {x: -10, y: 18}
+        - {x: -16, y: 12}
+        - {x: -16, y: -18}
+        - {x: 14, y: -18}
+        - {x: 14, y: -17}
+        - {x: 16, y: -9}
+        - {x: 16, y: 8}
+    - name: Lukaz_44
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 49
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 18}
+        - {x: -15, y: 18}
+        - {x: -17, y: 13}
+        - {x: -17, y: -15}
+        - {x: -15, y: -18}
+        - {x: 12, y: -18}
+        - {x: 16, y: -12}
+        - {x: 17, y: -9}
+        - {x: 17, y: 17}
+    - name: Lukaz_45
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 49
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 18}
+        - {x: -15, y: 18}
+        - {x: -17, y: 13}
+        - {x: -17, y: -15}
+        - {x: -15, y: -18}
+        - {x: 12, y: -18}
+        - {x: 16, y: -12}
+        - {x: 17, y: -9}
+        - {x: 17, y: 17}
+    - name: Lukaz_46
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 49
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 18}
+        - {x: -15, y: 18}
+        - {x: -17, y: 13}
+        - {x: -17, y: -15}
+        - {x: -15, y: -18}
+        - {x: 12, y: -18}
+        - {x: 16, y: -12}
+        - {x: 17, y: -9}
+        - {x: 17, y: 17}
+    - name: Lukaz_47
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 48
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 17.5}
+        - {x: -16, y: 13.5}
+        - {x: -16, y: -17.5}
+        - {x: 16, y: -17.5}
+        - {x: 16, y: 9.5}
+        - {x: 13, y: 17.5}
+    - name: Lukaz_48
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 48
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 17.5}
+        - {x: -16, y: 15.5}
+        - {x: -16, y: -17.5}
+        - {x: 16, y: -17.5}
+        - {x: 16, y: 14.5}
+        - {x: 11, y: 17.5}
+    - name: Lukaz_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 18}
+        - {x: -12, y: 18}
+        - {x: -16, y: 14}
+        - {x: -16, y: -13}
+        - {x: -14, y: -18}
+        - {x: 13, y: -18}
+        - {x: 15, y: -17}
+        - {x: 16, y: -15}
+        - {x: 16, y: 12}
+    - name: Lukaz_50
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 10
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 18}
+        - {x: -16, y: 12}
+        - {x: -16, y: -18}
+        - {x: 16, y: -18}
+        - {x: 16, y: 18}
+    - name: Lukaz_51
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 9
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 18}
+        - {x: -17, y: 15}
+        - {x: -17, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 18}
+    - name: Lukaz_52
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 9
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 18}
+        - {x: -17, y: 15}
+        - {x: -17, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 18}
+    - name: Lukaz_53
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 9
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 18}
+        - {x: -17, y: 15}
+        - {x: -17, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 18}
+    - name: Lukaz_54
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 8
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 17.5}
+        - {x: -16, y: 12.5}
+        - {x: -16, y: -16.5}
+        - {x: -15, y: -17.5}
+        - {x: 16, y: -17.5}
+        - {x: 16, y: 14.5}
+        - {x: 10, y: 17.5}
+    - name: Lukaz_55
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 8
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17.5}
+        - {x: -16, y: -17.5}
+        - {x: 16, y: -17.5}
+        - {x: 16, y: 10.5}
+        - {x: 12, y: 17.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

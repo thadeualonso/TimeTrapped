@@ -95,6 +95,8 @@ MonoBehaviour:
   explosao: {fileID: 179508, guid: b67893b1fddcca64eaea3ac36f9e9219, type: 2}
   dano: 2
   nivelTerreno: 1
+  direcao: 0
+  hitSound: {fileID: 8300000, guid: 2aa048d478bb224458705dfb643721f5, type: 3}
 --- !u!212 &21299298
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -121,7 +123,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1300772163
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300032, guid: ca2d6c156e13a184c8b95cfd6dd48c15, type: 3}
+  m_Sprite: {fileID: 21300020, guid: ca2d6c156e13a184c8b95cfd6dd48c15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -147,7 +149,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300032, guid: ca2d6c156e13a184c8b95cfd6dd48c15,
+      objectReference: {fileID: 21300020, guid: ca2d6c156e13a184c8b95cfd6dd48c15,
         type: 3}
     - target: {fileID: 0}
       propertyPath: m_LocalRotation.z
@@ -156,6 +158,22 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2aa048d478bb224458705dfb643721f5, type: 3}
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

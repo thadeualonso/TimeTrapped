@@ -8,6 +8,7 @@ public class TakaLanca : MonoBehaviour {
     public float dano;
     public NiveisTerrenos nivelTerreno;
     public Direcoes direcao;
+    public AudioClip hitSound;
 
     private Rigidbody2D rgbd2D;
 
@@ -57,6 +58,8 @@ public class TakaLanca : MonoBehaviour {
         if (collider.gameObject.tag == "Player" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {
             collider.SendMessageUpwards("AplicarDano", dano);
+            collider.gameObject.GetComponent<PlayerLukaz>().sourceAudio.clip = hitSound;
+            collider.gameObject.GetComponent<PlayerLukaz>().sourceAudio.Play();
             Instantiate(explosao, collider.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }

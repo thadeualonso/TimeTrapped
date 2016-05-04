@@ -20,7 +20,18 @@ public class GameManager : MonoBehaviour {
             ChamaGameOver();
         }
 
-        timer -= Time.deltaTime;
+        if (timer >= 0)
+        {
+            timer -= Time.deltaTime;
+        }
+
+        if (timer <= 0)
+        {
+            if (FindObjectOfType<PlayerLukaz>() != null)
+            {
+                FindObjectOfType<PlayerLukaz>().hp = 0;
+            }
+        }
 
 	}
 

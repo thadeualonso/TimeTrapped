@@ -30,6 +30,8 @@ public class EnemyTaka : Enemy
                 Debug.Log("Instancia Left");
                 GameObject lanca = (GameObject) Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, 90f));
                 lanca.GetComponent<TakaLanca>().direcao = direcao;
+                source.clip = attackSound;
+                source.Play();
             }
 
             if (direcao == Direcoes.Right)
@@ -37,6 +39,8 @@ public class EnemyTaka : Enemy
                 Debug.Log("Instancia Right");
                 GameObject lanca = (GameObject) Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, -90f));
                 lanca.GetComponent<TakaLanca>().direcao = direcao;
+                source.clip = attackSound;
+                source.Play();
             }
 
         }
@@ -71,12 +75,16 @@ public class EnemyTaka : Enemy
                 {
                     GameObject lanca = (GameObject)Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, 90f));
                     lanca.GetComponent<TakaLanca>().direcao = direcao;
+                    source.clip = attackSound;
+                    source.Play();
                 }
 
                 if (direcao == Direcoes.Right)
                 {
                     GameObject lanca = (GameObject)Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, -90f));
                     lanca.GetComponent<TakaLanca>().direcao = direcao;
+                    source.clip = attackSound;
+                    source.Play();
                 }
 
             }

@@ -16,9 +16,15 @@ public abstract class Enemy : Humanoid
     [HideInInspector]
     public Animator anim;
 
+    [HideInInspector]
+    public AudioSource source;
+    public AudioClip attackSound;
+    public AudioClip alertSound;
+
     void Awake()
     {
         anim = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -38,6 +44,8 @@ public abstract class Enemy : Humanoid
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Player no campo de visao");
+            source.clip = alertSound;
+            source.Play();
             currentState = EnemyStates.Atacando;
         }
     }

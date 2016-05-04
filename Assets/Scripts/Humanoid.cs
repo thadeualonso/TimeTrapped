@@ -8,6 +8,7 @@ public abstract class Humanoid : MonoBehaviour {
     public NiveisTerrenos nivelTerreno;
     public int hp;
     public int hpMax;
+    [HideInInspector]
     public int dano;
     public float speed;
     [HideInInspector]

@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class Personagem : Humanoid
 {
     public Tiro tiro;
-    public float InputX;
-    public float InputY;
+    private float InputX;
+    private float InputY;
     public int danoAtaqueNormal;
     public int danoAtaqueEspecial;
 

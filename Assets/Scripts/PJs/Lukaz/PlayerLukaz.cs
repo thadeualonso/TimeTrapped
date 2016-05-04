@@ -11,7 +11,8 @@ public class PlayerLukaz : Personagem {
 
     private bool canShootMissel;
     private bool canShootTiro;
-    private AudioSource sourceAudio;
+    [HideInInspector]
+    public AudioSource sourceAudio;
 
     private bool shooting;
     private float shootingTimer = 0;

@@ -17,6 +17,8 @@ public class EnemyGoro : Enemy {
                 attacking = false;
                 attackCounter = attackCoolDown;
                 Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, -180f));
+                source.clip = attackSound;
+                source.Play();
             }
         }
 
@@ -45,6 +47,8 @@ public class EnemyGoro : Enemy {
             attackCounter = attackCoolDown;
 
             Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, -180f));
+            source.clip = attackSound;
+            source.Play();
         }
 
         anim.SetBool("attacking", attacking);

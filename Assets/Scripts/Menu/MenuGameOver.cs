@@ -27,11 +27,51 @@ public class MenuGameOver : MonoBehaviour {
         ConfirmarSelecao();
     }
 
+    void MoverSelecao()
+    {
+        if (Input.GetButtonDown("Right") || Input.GetAxisRaw("DPad Horizontal") == 1f)
+        {
+            if (stickInUse == false)
+            {
+                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "direita");
+                stickInUse = true;
+            }
+        }
+
+        if (Input.GetButtonDown("Left") || Input.GetAxis("DPad Horizontal") == -1f)
+        {
+            if (stickInUse == false)
+            {
+                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "esquerda");
+                stickInUse = true;
+            }
+        }
+
+        if (Input.GetAxisRaw("DPad Horizontal") != 0)
+        {
+            stickInUse = true;
+        }
+        else {
+            stickInUse = false;
+        }
+
+        switch (opcaoSelecionada)
+        {
+            case 0:
+                selecao.transform.position = txtJogarNovamente.transform.position;
+                break;
+        
+            case 1:
+                selecao.transform.position = txtSair.transform.position;
+                break;
+        }
+    }
+
     int MenuSelecao(string[] menuItems, int itemSelecionado, string direcao)
     {
-        if(direcao == "direita")
+        if (direcao == "direita")
         {
-            if(itemSelecionado == 0)
+            if (itemSelecionado == 0)
             {
                 itemSelecionado = menuItems.Length - 1;
             }
@@ -54,46 +94,6 @@ public class MenuGameOver : MonoBehaviour {
         }
 
         return itemSelecionado;
-    }
-
-    void MoverSelecao()
-    {
-        if (Input.GetButtonDown("Right") || Input.GetAxisRaw("DPad Vertical") == -1)
-        {
-            if (stickInUse == false)
-            {
-                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "direita");
-                stickInUse = true;
-            }
-        }
-
-        if (Input.GetButtonDown("Left") || Input.GetAxis("DPad Vertical") == 1)
-        {
-            if (stickInUse == false)
-            {
-                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "esquerda");
-                stickInUse = true;
-            }
-        }
-
-        if (Input.GetAxisRaw("DPad Vertical") != 0)
-        {
-            stickInUse = true;
-        }
-        else {
-            stickInUse = false;
-        }
-
-        switch (opcaoSelecionada)
-        {
-            case 0:
-                selecao.transform.position = txtJogarNovamente.transform.position;
-                break;
-        
-            case 1:
-                selecao.transform.position = txtSair.transform.position;
-                break;
-        }
     }
 
     void ConfirmarSelecao()
