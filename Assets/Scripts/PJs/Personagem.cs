@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class Personagem : Humanoid
 {
     public Tiro tiro;
-    private float InputX;
-    private float InputY;
+    private float inputX;
+    private float inputY;
     public int danoAtaqueNormal;
     public int danoAtaqueEspecial;
 
@@ -19,13 +19,13 @@ public class Personagem : Humanoid
     // Chamar no Update
     public override void Mover()
     {
-        InputX = Input.GetAxisRaw("DPad Horizontal");
-        InputY = Input.GetAxisRaw("DPad Vertical");
+        inputX = Input.GetAxisRaw("DPad Horizontal");
+        inputY = Input.GetAxisRaw("DPad Vertical");
 
-        animator.SetFloat("SpeedX", InputX);
-        animator.SetFloat("SpeedY", InputY);
+        animator.SetFloat("SpeedX", inputX);
+        animator.SetFloat("SpeedY", inputY);
 
-        Vector3 movement = new Vector3(InputX * speed, InputY * speed, 0.0f);
+        Vector3 movement = new Vector3(inputX * speed, inputY * speed, 0.0f);
 
         movement *= Time.deltaTime;
 

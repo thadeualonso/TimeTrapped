@@ -1,22 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Tiro : MonoBehaviour {
-
-    public float velocidade;
-    public Direcoes direcao;
-    public NiveisTerrenos nivelTerreno;
-    public float dirX;
-    public float dirY;
-    public int dano;
-    public GameObject explosao;
+public class Tiro : Projetil {
 	
     void Start()
     {
         Invoke("DestruirTiro", 0.6f);
     }
 
-	// Update is called once per frame
 	void Update ()
     {
         GetComponent<Rigidbody2D>().velocity = transform.up * velocidade;
@@ -27,7 +18,7 @@ public class Tiro : MonoBehaviour {
         Destroy(gameObject);
     }
 
-    void OnTriggerEnter2D (Collider2D collider)
+    public override void OnTriggerEnter2D (Collider2D collider)
     {
         if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {

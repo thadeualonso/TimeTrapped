@@ -15,6 +15,7 @@ TagManager:
   - Limites Mundo
   - Vision
   - Inimigo
+  - "Op\xE7\xE3o"
   layers:
   - Default
   - TransparentFX

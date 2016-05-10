@@ -1,16 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TakaLanca : MonoBehaviour {
-
-    public float velocidade;
-    public GameObject explosao;
-    public float dano;
-    public NiveisTerrenos nivelTerreno;
-    public Direcoes direcao;
-    public AudioClip hitSound;
-
-    private Rigidbody2D rgbd2D;
+public class TakaLanca : Projetil{
 
     void Awake()
     {
@@ -53,7 +44,7 @@ public class TakaLanca : MonoBehaviour {
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    public override void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "Player" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {

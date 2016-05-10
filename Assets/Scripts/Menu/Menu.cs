@@ -3,33 +3,30 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Menu : MonoBehaviour {
+public abstract class Menu : MonoBehaviour {
 
     public Image selecao;
-    public Text txtControles;
-    public Text txtVoltar;
-    public string[] menuOpcoes;
+    public GameObject[] menuOpcoes;
     public int opcaoSelecionada;
+    public bool menuVertical;
 
-    private bool stickInUse = false;
+    [HideInInspector]
+    public bool stickInUse = false;
 
-    /*void Awake()
+    public void Awake()
     {
-        menuOpcoes[0] = "Controles";
-        menuOpcoes[1] = "Voltar";
-
         opcaoSelecionada = 0;
-    }*/
+    }
 
-    void Update()
+    public void Update()
     {
         MoverSelecao();
         ConfirmarSelecao();
     }
 
-    int MenuSelecao(string[] menuItems, int itemSelecionado, string direcao)
+    public int MenuSelecao(GameObject[] menuItems, int itemSelecionado, string direcao)
     {
-        if (direcao == "cima")
+        if (direcao == "cima" || direcao == "direita")
         {
             if (itemSelecionado == 0)
             {
@@ -41,7 +38,7 @@ public class Menu : MonoBehaviour {
             }
         }
 
-        if (direcao == "baixo")
+        if (direcao == "baixo" || direcao == "esquerda")
         {
             if (itemSelecionado == menuItems.Length - 1)
             {
@@ -56,23 +53,46 @@ public class Menu : MonoBehaviour {
         return itemSelecionado;
     }
 
-    void MoverSelecao()
+    public void MoverSelecao()
     {
-        if (Input.GetButtonDown("Down") || Input.GetAxisRaw("DPad Vertical") == -1)
+        if (menuVertical)
         {
-            if (stickInUse == false)
+            if (Input.GetButtonDown("Down") || Input.GetAxisRaw("DPad Vertical") == -1)
             {
-                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "baixo");
-                stickInUse = true;
+                if (stickInUse == false)
+                {
+                    opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "baixo");
+                    stickInUse = true;
+                }
+            }
+
+            if (Input.GetButtonDown("Up") || Input.GetAxis("DPad Vertical") == 1)
+            {
+                if (stickInUse == false)
+                {
+                    opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "cima");
+                    stickInUse = true;
+                }
             }
         }
-
-        if (Input.GetButtonDown("Up") || Input.GetAxis("DPad Vertical") == 1)
+        else
         {
-            if (stickInUse == false)
+            if (Input.GetButtonDown("Left") || Input.GetAxisRaw("DPad Horizontal") == -1)
             {
-                opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "cima");
-                stickInUse = true;
+                if (stickInUse == false)
+                {
+                    opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "esquerda");
+                    stickInUse = true;
+                }
+            }
+
+            if (Input.GetButtonDown("Right") || Input.GetAxis("DPad Horizontal") == 1)
+            {
+                if (stickInUse == false)
+                {
+                    opcaoSelecionada = MenuSelecao(menuOpcoes, opcaoSelecionada, "direita");
+                    stickInUse = true;
+                }
             }
         }
 
@@ -80,36 +100,26 @@ public class Menu : MonoBehaviour {
         {
             stickInUse = true;
         }
-        else {
+        else
+        {
             stickInUse = false;
         }
 
         switch (opcaoSelecionada)
         {
             case 0:
-                selecao.transform.position = txtControles.transform.position;
+                selecao.transform.position = menuOpcoes[0].transform.position;
                 break;
 
             case 1:
-                selecao.transform.position = txtVoltar.transform.position;
+                selecao.transform.position = menuOpcoes[1].transform.position;
+                break;
+
+            case 2:
+                selecao.transform.position = menuOpcoes[2].transform.position;
                 break;
         }
     }
 
-    void ConfirmarSelecao()
-    {
-        if (Input.GetButtonDown("X"))
-        {
-            if (opcaoSelecionada == 0)
-            {
-                SceneManager.LoadScene("MenuControles");
-            }
-
-            if (opcaoSelecionada == 1)
-            {
-                SceneManager.LoadScene("TelaInicial");
-            }
-
-        }
-    }
+    public abstract void ConfirmarSelecao();
 }

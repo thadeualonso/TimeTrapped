@@ -10,8 +10,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuOpcoes.unity
   - enabled: 1
-    path: Assets/Scenes/MenuControles.unity
-  - enabled: 1
     path: Assets/Scenes/TelaJogo.unity
   - enabled: 1
     path: Assets/Scenes/TelaJogo_2.unity

@@ -155,7 +155,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 163671844}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_AnchorMin: {x: 0.52729535, y: 0.254}
   m_AnchorMax: {x: 0.7694814, y: 0.35660738}
   m_AnchoredPosition: {x: -0.5, y: 1.5}
@@ -405,7 +405,6 @@ RectTransform:
   - {fileID: 923633911}
   - {fileID: 594131406}
   - {fileID: 25261457}
-  - {fileID: 1032227883}
   - {fileID: 17554121}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -509,7 +508,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 163671844}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 11487964, guid: 3a3b4763ab35f59459bf31a39362b0f7, type: 2}
       propertyPath: menuOpcoes.Array.size
@@ -517,11 +516,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 444692, guid: 3a3b4763ab35f59459bf31a39362b0f7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 236.29182
+      value: 435.7918
       objectReference: {fileID: 0}
     - target: {fileID: 444692, guid: 3a3b4763ab35f59459bf31a39362b0f7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 196.24695
+      value: 355.74695
       objectReference: {fileID: 0}
     - target: {fileID: 444692, guid: 3a3b4763ab35f59459bf31a39362b0f7, type: 2}
       propertyPath: m_LocalPosition.z
@@ -733,10 +732,10 @@ Transform:
   m_PrefabInternal: {fileID: 357903839}
   m_GameObject: {fileID: 1032227882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 236.29182, y: 196.24695, z: 0}
+  m_LocalPosition: {x: 435.7918, y: 355.74695, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 163671844}
+  m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!114 &1032227884
 MonoBehaviour:
@@ -750,12 +749,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selecao: {fileID: 594131407}
-  txtJogarNovamente: {fileID: 25261458}
-  txtSair: {fileID: 17554119}
   menuOpcoes:
-  - 
-  - 
+  - {fileID: 25261456}
+  - {fileID: 17554118}
   opcaoSelecionada: 0
+  stickInUse: 0
 --- !u!1 &1112616643
 GameObject:
   m_ObjectHideFlags: 0

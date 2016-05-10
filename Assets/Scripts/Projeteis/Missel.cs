@@ -1,15 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class Missel : MonoBehaviour {
-
-    public float velocidade;
-    public Direcoes direcao;
-    public NiveisTerrenos nivelTerreno;
-    public float dirX;
-    public float dirY;
-    public int dano;
-    public GameObject explosao;
+public class Missel : Projetil {
 
     private ParticleSystem smokeParticle;
 
@@ -29,7 +22,7 @@ public class Missel : MonoBehaviour {
         GetComponent<Rigidbody2D>().velocity = transform.up * velocidade;
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    public override void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {
