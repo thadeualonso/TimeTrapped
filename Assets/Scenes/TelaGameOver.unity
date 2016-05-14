@@ -636,6 +636,48 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 33665612}
   m_GameObject: {fileID: 594131405}
+--- !u!1001 &888467898
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 434396, guid: 5dbf7716b4482614d90263ab68b202f1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 198.71826
+      objectReference: {fileID: 0}
+    - target: {fileID: 434396, guid: 5dbf7716b4482614d90263ab68b202f1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 151.37917
+      objectReference: {fileID: 0}
+    - target: {fileID: 434396, guid: 5dbf7716b4482614d90263ab68b202f1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 434396, guid: 5dbf7716b4482614d90263ab68b202f1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434396, guid: 5dbf7716b4482614d90263ab68b202f1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434396, guid: 5dbf7716b4482614d90263ab68b202f1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434396, guid: 5dbf7716b4482614d90263ab68b202f1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 434396, guid: 5dbf7716b4482614d90263ab68b202f1, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5dbf7716b4482614d90263ab68b202f1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &923633910
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +795,10 @@ MonoBehaviour:
   - {fileID: 25261456}
   - {fileID: 17554118}
   opcaoSelecionada: 0
+  menuVertical: 0
+  analogX: 0
+  analogY: 0
+  inputManager: {fileID: 0}
   stickInUse: 0
 --- !u!1 &1112616643
 GameObject:
@@ -958,10 +1004,10 @@ MonoBehaviour:
   m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: X
-  m_CancelButton: Quadrado
+  m_HorizontalAxis: DPad Horizontal
+  m_VerticalAxis: DPad Vertical
+  m_SubmitButton: A
+  m_CancelButton: X
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0

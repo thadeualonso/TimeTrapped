@@ -53,7 +53,7 @@ public class LevelManager : MonoBehaviour {
 
     void TelaInicial()
     {
-        Debug.Log("Estado: " + telaAtual);
+
     }
 
     void MenuOpcoes()

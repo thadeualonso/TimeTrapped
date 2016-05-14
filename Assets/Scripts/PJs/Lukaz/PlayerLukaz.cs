@@ -71,7 +71,7 @@ public class PlayerLukaz : Personagem {
         missel.nivelTerreno = NiveisTerrenos.Superior;
 
         #region Ataque normal
-        if (Input.GetButtonDown("X") && !shooting)
+        if (Input.GetButtonDown("A") && !shooting)
         {
             if (canShootTiro)
             {
@@ -123,7 +123,7 @@ public class PlayerLukaz : Personagem {
         #endregion
 
         #region Ataque especial
-        if (Input.GetButtonDown("Quadrado") && !shooting)
+        if (Input.GetButtonDown("X") && !shooting)
         {
             if (canShootMissel)
             {

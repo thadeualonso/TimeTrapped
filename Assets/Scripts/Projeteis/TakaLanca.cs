@@ -12,6 +12,7 @@ public class TakaLanca : Projetil{
     {
         Invoke("MudaNivelTerreno", 0.6f);
         Invoke("ChamarCurva", 0.6f);
+        Invoke("Destruir", 3f);
     }
 
     void Update()
@@ -65,5 +66,10 @@ public class TakaLanca : Projetil{
     void MudaNivelTerreno()
     {
         nivelTerreno = NiveisTerrenos.Chao;
+    }
+
+    void Destruir()
+    {
+        Destroy(gameObject);
     }
 }

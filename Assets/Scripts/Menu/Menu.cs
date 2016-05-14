@@ -9,17 +9,36 @@ public abstract class Menu : MonoBehaviour {
     public GameObject[] menuOpcoes;
     public int opcaoSelecionada;
     public bool menuVertical;
+    public float horizontal;
+    public float vertical;
+    public InputManager inputManager;
 
-    [HideInInspector]
     public bool stickInUse = false;
 
     public void Awake()
     {
+        if (FindObjectOfType<InputManager>() != null)
+        {
+            inputManager = FindObjectOfType<InputManager>();
+        }
+        else
+        {
+            Debug.LogWarning("InputManager não encontrado");
+        }
+
         opcaoSelecionada = 0;
     }
 
     public void Update()
     {
+        if (inputManager == null)
+        {
+            inputManager = FindObjectOfType<InputManager>();
+        }
+
+        horizontal = inputManager.horizontal;
+        vertical = inputManager.vertical;
+
         MoverSelecao();
         ConfirmarSelecao();
     }
@@ -57,7 +76,7 @@ public abstract class Menu : MonoBehaviour {
     {
         if (menuVertical)
         {
-            if (Input.GetButtonDown("Down") || Input.GetAxisRaw("DPad Vertical") == -1)
+            if (vertical <= -0.1f)
             {
                 if (stickInUse == false)
                 {
@@ -66,7 +85,7 @@ public abstract class Menu : MonoBehaviour {
                 }
             }
 
-            if (Input.GetButtonDown("Up") || Input.GetAxis("DPad Vertical") == 1)
+            if (vertical >= 0.1f)
             {
                 if (stickInUse == false)
                 {
@@ -77,7 +96,7 @@ public abstract class Menu : MonoBehaviour {
         }
         else
         {
-            if (Input.GetButtonDown("Left") || Input.GetAxisRaw("DPad Horizontal") == -1)
+            if (horizontal <= -0.1f)
             {
                 if (stickInUse == false)
                 {
@@ -86,7 +105,7 @@ public abstract class Menu : MonoBehaviour {
                 }
             }
 
-            if (Input.GetButtonDown("Right") || Input.GetAxis("DPad Horizontal") == 1)
+            if (horizontal >= 0.1f)
             {
                 if (stickInUse == false)
                 {
@@ -95,8 +114,8 @@ public abstract class Menu : MonoBehaviour {
                 }
             }
         }
-
-        if (Input.GetAxisRaw("DPad Vertical") != 0)
+   
+        if (vertical != 0f || horizontal != 0f)
         {
             stickInUse = true;
         }

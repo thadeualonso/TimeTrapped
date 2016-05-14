@@ -6,10 +6,25 @@ using UnityEngine.SceneManagement;
 public class Personagem : Humanoid
 {
     public Tiro tiro;
-    private float inputX;
-    private float inputY;
     public int danoAtaqueNormal;
     public int danoAtaqueEspecial;
+
+    private float horizontal;
+    private float vertical;
+
+    public InputManager inputManager;
+
+    void Start()
+    {
+        if (FindObjectOfType<InputManager>() != null)
+        {
+            inputManager = FindObjectOfType<InputManager>();
+        }
+        else
+        {
+            Debug.LogWarning("InputManager não encontrado");
+        }
+    }
 
     public override void Ataque()
     {
@@ -19,17 +34,15 @@ public class Personagem : Humanoid
     // Chamar no Update
     public override void Mover()
     {
-        inputX = Input.GetAxisRaw("DPad Horizontal");
-        inputY = Input.GetAxisRaw("DPad Vertical");
+        horizontal = inputManager.horizontal;
+        vertical = inputManager.vertical;
 
-        animator.SetFloat("SpeedX", inputX);
-        animator.SetFloat("SpeedY", inputY);
+        animator.SetFloat("SpeedX", horizontal);
+        animator.SetFloat("SpeedY", vertical);
 
-        Vector3 movement = new Vector3(inputX * speed, inputY * speed, 0.0f);
+        Vector3 movement = new Vector3(horizontal * speed, vertical * speed, 0.0f);
 
         movement *= Time.deltaTime;
-
-        //gameObject.transform.Translate(movement);
 
         transform.Translate(movement);
     }
@@ -37,20 +50,20 @@ public class Personagem : Humanoid
     // Chamar no FixedUpdate
     public override void ChecaDirecao()
     {
-        float lastInputX = Input.GetAxisRaw("DPad Horizontal");
-        float lastInputY = Input.GetAxisRaw("DPad Vertical");
+        float lastInputX = horizontal;
+        float lastInputY = vertical;
 
         if (lastInputX != 0f || lastInputY != 0f)
         {
             animator.SetBool("walking", true);
 
             #region Checa o eixo X
-            if (lastInputX > 0f)
+            if (lastInputX > 0.1f)
             {
                 animator.SetFloat("LastX", 1f);
                 direcao = Direcoes.Right;
             }
-            else if (lastInputX < 0f)
+            else if (lastInputX < 0.1f)
             {
                 animator.SetFloat("LastX", -1f);
                 direcao = Direcoes.Left;
@@ -62,12 +75,12 @@ public class Personagem : Humanoid
             #endregion
 
             #region Checa o eixo Y e diagonais
-            if (lastInputY > 0f)
+            if (lastInputY > 0.1f)
             {
                 animator.SetFloat("LastY", 1f);
                 direcao = Direcoes.Up;
 
-                if (lastInputX > 0f)
+                if (lastInputX > 0.1f)
                 {
                     direcao = Direcoes.UpRight;
                 }

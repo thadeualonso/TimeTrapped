@@ -7,7 +7,7 @@ public class MenuGameOver : Menu {
 
     public override void ConfirmarSelecao()
     {
-        if (Input.GetButtonDown("X"))
+        if (Input.GetButtonDown("A"))
         {
             if(opcaoSelecionada == 0)
             {

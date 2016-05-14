@@ -11,12 +11,15 @@ public class MenuInicial : Menu
 
     new void Awake()
     {
-        audioManager = FindObjectOfType<AudioManager>();
+        if (FindObjectOfType<AudioManager>() != null)
+        {
+            audioManager = FindObjectOfType<AudioManager>();
+        }
     }
 
     public override void ConfirmarSelecao()
     {
-        if (Input.GetButtonDown("X"))
+        if (Input.GetButtonDown("A"))
         {
             audioManager.Play(confirmaSFX);
 

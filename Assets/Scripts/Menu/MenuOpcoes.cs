@@ -8,26 +8,32 @@ public class MenuOpcoes : Menu
 {
     public Image selecaoIcone;
     public Image teclado, joystick;
-    public bool joystickSelecionado = false;
-    public bool tecladoSelecionado = false;
+    public bool joypadSelecionado;
+    public bool keyboardSelecionado;
 
     public override void ConfirmarSelecao()
     {
-        if (Input.GetButtonDown("X"))
+        if (Input.GetButtonDown("A"))
         {
             if (opcaoSelecionada == 0)
             {
-                if (tecladoSelecionado)
+                if (keyboardSelecionado)
                 {
                     selecaoIcone.transform.position = joystick.transform.position;
-                    joystickSelecionado = true;
-                    tecladoSelecionado = false;
+                    /* joypadSelecionado = true;
+                     keyboardSelecionado = false; */
+
+                    inputManager.joystick = true;
+                    inputManager.keyboard = false;
                 }
                 else
                 {
                     selecaoIcone.transform.position = teclado.transform.position;
-                    tecladoSelecionado = true;
-                    joystickSelecionado = false;
+                   /* keyboardSelecionado = true;
+                    joypadSelecionado = false;*/
+
+                    inputManager.joystick = false;
+                    inputManager.keyboard = true;
                 }
                 
             }
