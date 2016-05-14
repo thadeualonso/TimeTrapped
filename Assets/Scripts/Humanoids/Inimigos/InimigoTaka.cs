@@ -27,7 +27,6 @@ public class InimigoTaka : Inimigo
 
             if (direcao == Direcoes.Left)
             {
-                Debug.Log("Instancia Left");
                 GameObject lanca = (GameObject) Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, 90f));
                 lanca.GetComponent<TakaLanca>().direcao = direcao;
                 source.clip = attackSound;
@@ -36,7 +35,6 @@ public class InimigoTaka : Inimigo
 
             if (direcao == Direcoes.Right)
             {
-                Debug.Log("Instancia Right");
                 GameObject lanca = (GameObject) Instantiate(projetil, transform.position, Quaternion.Euler(0f, 0f, -90f));
                 lanca.GetComponent<TakaLanca>().direcao = direcao;
                 source.clip = attackSound;

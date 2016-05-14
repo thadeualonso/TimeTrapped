@@ -193,6 +193,7 @@ MonoBehaviour:
   tiro: {fileID: 11495436, guid: 42617ad28d6dc1c4ea1f8cf0b2cb12cb, type: 2}
   danoAtaqueNormal: 1
   danoAtaqueEspecial: 5
+  inputManager: {fileID: 0}
   missel: {fileID: 11458998, guid: bae1034e618a8804993c691271b3badc, type: 2}
   coolDownMissel: 0
   coolDownTiro: 0

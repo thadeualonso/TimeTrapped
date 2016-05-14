@@ -26,7 +26,6 @@ public class GoroRock : Projetil {
 
         if (collider.gameObject.tag == "Limites Mundo")
         {
-            Debug.Log("Colidiu com limites da fase");
             Destroy(gameObject);
         }
     }

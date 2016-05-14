@@ -178,6 +178,7 @@ MonoBehaviour:
   tiro: {fileID: 0}
   danoAtaqueNormal: 0
   danoAtaqueEspecial: 0
+  inputManager: {fileID: 0}
 --- !u!212 &21279198
 SpriteRenderer:
   m_ObjectHideFlags: 1

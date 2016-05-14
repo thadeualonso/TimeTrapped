@@ -29,8 +29,6 @@ public class TakaLanca : Projetil{
     {
         while (true)
         {
-            Debug.Log("Coroutine");
-
             if (direcao == Direcoes.Left)
             {
                 transform.Rotate(0f, 0f, 20f);

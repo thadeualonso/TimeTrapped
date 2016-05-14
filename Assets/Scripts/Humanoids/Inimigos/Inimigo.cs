@@ -43,9 +43,15 @@ public abstract class Inimigo : Humanoid
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Player no campo de visao");
-            source.clip = alertSound;
-            source.Play();
+            if (source.isPlaying == false)
+            {
+                Debug.Log("Pode tocar");
+                source.clip = alertSound;
+                source.Play();
+            }
+
+            Debug.Log("Nao pode tocar");
+
             currentState = EnemyStates.Atacando;
         }
     }
@@ -54,7 +60,6 @@ public abstract class Inimigo : Humanoid
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Player saiu do campo de visao");
             currentState = EnemyStates.Patrulhando;
         }
     }
