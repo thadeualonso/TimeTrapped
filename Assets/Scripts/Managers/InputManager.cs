@@ -28,6 +28,9 @@ public class InputManager : MonoBehaviour {
 
     void Update()
     {
+
+        ChecarControle();
+
         if (joystick)
         {
             horizontal = Input.GetAxisRaw("LeftJoystickX");
@@ -42,6 +45,20 @@ public class InputManager : MonoBehaviour {
             btnX = Input.GetButton("X");
         }
 
+    }
+
+    void ChecarControle()
+    {
+        if (Input.GetJoystickNames()[0] == "Controller (Xbox One For Windows)")
+        {
+            joystick = true;
+            keyboard = false;
+        }
+        else
+        {
+            keyboard = true;
+            joystick = false;
+        }
     }
 
 }

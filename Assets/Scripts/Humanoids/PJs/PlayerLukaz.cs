@@ -7,12 +7,9 @@ public class PlayerLukaz : Personagem {
     public Missel missel;
     public float coolDownMissel;
     public float coolDownTiro;
-    public AudioClip[] soundEffects;
 
     private bool canShootMissel;
     private bool canShootTiro;
-    [HideInInspector]
-    public AudioSource sourceAudio;
 
     private bool shooting;
     private float shootingTimer = 0;
@@ -20,6 +17,8 @@ public class PlayerLukaz : Personagem {
 
     void Awake()
     {
+        base.Awake();
+
         sourceAudio = GetComponent<AudioSource>();
     }
 

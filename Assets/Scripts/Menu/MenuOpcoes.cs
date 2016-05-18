@@ -20,8 +20,6 @@ public class MenuOpcoes : Menu
                 if (keyboardSelecionado)
                 {
                     selecaoIcone.transform.position = joystick.transform.position;
-                    /* joypadSelecionado = true;
-                     keyboardSelecionado = false; */
 
                     inputManager.joystick = true;
                     inputManager.keyboard = false;
@@ -29,8 +27,6 @@ public class MenuOpcoes : Menu
                 else
                 {
                     selecaoIcone.transform.position = teclado.transform.position;
-                   /* keyboardSelecionado = true;
-                    joypadSelecionado = false;*/
 
                     inputManager.joystick = false;
                     inputManager.keyboard = true;

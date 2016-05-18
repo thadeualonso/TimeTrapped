@@ -8,8 +8,8 @@ public class UIManager : MonoBehaviour {
 
     void Update()
     {
-        textos[1].text = FindObjectOfType<EnemyManager>().inimigosCont.ToString();
         textos[0].text = FindObjectOfType<GameManager>().timer.ToString("0");
+        textos[1].text = FindObjectOfType<EnemyManager>().inimigosCont.ToString();
     }
 
 }

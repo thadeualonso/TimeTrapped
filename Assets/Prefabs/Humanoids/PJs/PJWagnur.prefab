@@ -13,7 +13,7 @@ GameObject:
   - 50: {fileID: 5024872}
   - 82: {fileID: 8254688}
   - 58: {fileID: 5891210}
-  - 114: {fileID: 11405412}
+  - 114: {fileID: 11481138}
   m_Layer: 0
   m_Name: PJWagnur
   m_TagString: Player
@@ -28,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.55, y: -3.05, z: 1}
+  m_LocalPosition: {x: 0.165308, y: 0.19871753, z: 1}
   m_LocalScale: {x: 6, y: 6, z: 0.74674207}
   m_Children: []
   m_Father: {fileID: 0}
@@ -155,7 +155,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11405412
+--- !u!114 &11481138
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -163,21 +163,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 123726}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 713f17144ca8c2142aca6151ccd37d19, type: 3}
+  m_Script: {fileID: 11500000, guid: 962a21b8fcfebe6448372d2a7faa5d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   direcao: 0
   nivelTerreno: 0
-  hp: 0
-  hpMax: 0
+  hp: 5
+  hpMax: 5
   dano: 0
   speed: 2
   animator: {fileID: 0}
   collider2D: {fileID: 0}
   enemyManager: {fileID: 0}
   tiro: {fileID: 0}
-  danoAtaqueNormal: 0
+  danoAtaqueNormal: 1
   danoAtaqueEspecial: 0
+  sourceAudio: {fileID: 0}
+  soundEffects: []
   inputManager: {fileID: 0}
 --- !u!212 &21279198
 SpriteRenderer:

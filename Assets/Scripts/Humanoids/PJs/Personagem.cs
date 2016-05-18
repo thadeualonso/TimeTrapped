@@ -5,12 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class Personagem : Humanoid
 {
-    public Tiro tiro;
+    public Projetil tiro;
     public int danoAtaqueNormal;
     public int danoAtaqueEspecial;
 
     private float horizontal;
     private float vertical;
+
+    [HideInInspector]
+    public AudioSource sourceAudio;
+    public AudioClip[] soundEffects;
 
     public InputManager inputManager;
 
@@ -60,24 +64,17 @@ public class Personagem : Humanoid
             #region Checa o eixo X
             if (lastInputX > 0.1f)
             {
-                animator.SetFloat("LastX", 1f);
                 direcao = Direcoes.Right;
             }
             else if (lastInputX < 0.1f)
             {
-                animator.SetFloat("LastX", -1f);
                 direcao = Direcoes.Left;
-            }
-            else
-            {
-                animator.SetFloat("LastX", 0f);
             }
             #endregion
 
             #region Checa o eixo Y e diagonais
             if (lastInputY > 0.1f)
             {
-                animator.SetFloat("LastY", 1f);
                 direcao = Direcoes.Up;
 
                 if (lastInputX > 0.1f)
@@ -91,7 +88,6 @@ public class Personagem : Humanoid
             }
             else if (lastInputY < 0f)
             {
-                animator.SetFloat("LastY", -1f);
                 direcao = Direcoes.Down;
 
                 if (lastInputX > 0f)
@@ -103,16 +99,16 @@ public class Personagem : Humanoid
                     direcao = Direcoes.DownLeft;
                 }
             }
-            else
-            {
-                animator.SetFloat("LastY", 0f);
-            }
+            #endregion
+
+            animator.SetFloat("LastX", horizontal);
+            animator.SetFloat("LastY", vertical);
         }
         else
         {
             animator.SetBool("walking", false);
         }
-        #endregion
+        
     }
 
     public void OnTriggerEnter2D(Collider2D other)

@@ -20,14 +20,14 @@ public abstract class Humanoid : MonoBehaviour {
     public Collider2D collider2D;
     public EnemyManager enemyManager;
 
-    void Awake()
+    public void Awake()
     {
         animator = GetComponent<Animator>();
         collider2D = GetComponent<Collider2D>();
         hpMax = hp;
     }
 
-    void Update()
+    public void Update()
     {
         Mover();
 
@@ -46,7 +46,7 @@ public abstract class Humanoid : MonoBehaviour {
         ChecaDirecao();
     }
 
-    void FixedUpdate()
+    public void FixedUpdate()
     {
         
     }
@@ -59,7 +59,7 @@ public abstract class Humanoid : MonoBehaviour {
         }
     }
 
-    void OnCollisionExit2D (Collision2D other)
+    public void OnCollisionExit2D (Collision2D other)
     {
         if (other.gameObject.tag == "Nivel Superior")
         {
