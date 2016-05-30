@@ -3,11 +3,6 @@ using System.Collections;
 
 public class TakaLanca : Projetil{
 
-    void Awake()
-    {
-        rgbd2D = GetComponent<Rigidbody2D>();
-    }
-
     void Start()
     {
         Invoke("MudaNivelTerreno", 0.6f);
@@ -17,7 +12,7 @@ public class TakaLanca : Projetil{
 
     void Update()
     {
-        rgbd2D.velocity = transform.up * velocidade;
+        GetComponent<Rigidbody2D>().velocity = transform.up * velocidade;
     }
 
     void ChamarCurva()
@@ -48,15 +43,14 @@ public class TakaLanca : Projetil{
         if (collider.gameObject.tag == "Player" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
         {
             collider.SendMessageUpwards("AplicarDano", dano);
-            collider.gameObject.GetComponent<PlayerLukaz>().sourceAudio.clip = hitSound;
-            collider.gameObject.GetComponent<PlayerLukaz>().sourceAudio.Play();
+            collider.gameObject.GetComponent<Personagem>().sourceAudio.clip = hitSound;
+            collider.gameObject.GetComponent<Personagem>().sourceAudio.Play();
             Instantiate(explosao, collider.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 
         if (collider.gameObject.tag == "Obstaculo" && nivelTerreno == NiveisTerrenos.Chao)
         {
-            Debug.Log("Colidiu com algum obstaculo");
             Destroy(gameObject);
         }
     }
@@ -66,8 +60,4 @@ public class TakaLanca : Projetil{
         nivelTerreno = NiveisTerrenos.Chao;
     }
 
-    void Destruir()
-    {
-        Destroy(gameObject);
-    }
 }

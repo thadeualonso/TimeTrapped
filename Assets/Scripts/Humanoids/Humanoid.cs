@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 
 public abstract class Humanoid : MonoBehaviour {
-
+    
     public Direcoes direcao;
     public NiveisTerrenos nivelTerreno;
     public int hp;
@@ -18,13 +18,14 @@ public abstract class Humanoid : MonoBehaviour {
 
     [HideInInspector]
     public Collider2D collider2D;
+    [HideInInspector]
     public EnemyManager enemyManager;
 
     public void Awake()
     {
         animator = GetComponent<Animator>();
         collider2D = GetComponent<Collider2D>();
-        hpMax = hp;
+        hp = hpMax;
     }
 
     public void Update()

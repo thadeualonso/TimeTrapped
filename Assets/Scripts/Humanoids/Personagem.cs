@@ -5,18 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class Personagem : Humanoid
 {
-    public Projetil tiro;
+    public Projetil projetilNormal;
+    public Projetil projetilEspecial;
     public int danoAtaqueNormal;
     public int danoAtaqueEspecial;
 
     private float horizontal;
     private float vertical;
 
+    // Audios
     [HideInInspector]
     public AudioSource sourceAudio;
     public AudioClip[] soundEffects;
 
+    [HideInInspector]
     public InputManager inputManager;
+
+    // Cooldown de ataques
+    [HideInInspector]
+    public bool isShooting, canShootEspecial, canShootNormal;
+    [HideInInspector]
+    public float shootingTimer = 0, shootingCD = 0.3f, coolDownAtaqueEspecial, coolDownAtaqueNormal;
+    public float delayAtaqueNormal;
+    public float delayAtaqueEspecial;
+
+    void Awake()
+    {
+        base.Awake();
+
+        sourceAudio = GetComponent<AudioSource>();
+    }
 
     void Start()
     {
@@ -32,7 +50,51 @@ public class Personagem : Humanoid
 
     public override void Ataque()
     {
-        
+        ChecaCoolDown();
+
+        projetilNormal.dano = danoAtaqueNormal;
+        projetilNormal.direcao = direcao;
+        projetilNormal.nivelTerreno = nivelTerreno;
+
+        /*projetilEspecial.dano = danoAtaqueEspecial;
+        projetilEspecial.direcao = direcao;
+        projetilEspecial.nivelTerreno = nivelTerreno;*/
+    }
+
+    public void ChecaCoolDown()
+    {
+        if (isShooting)
+        {
+            if (shootingTimer > 0)
+            {
+                shootingTimer -= Time.deltaTime;
+            }
+            else
+            {
+                isShooting = false;
+            }
+        }
+
+        if (coolDownAtaqueNormal >= 0.1f)
+        {
+            coolDownAtaqueNormal -= Time.deltaTime;
+            canShootNormal = false;
+        }
+        else
+        {
+            canShootNormal = true;
+        }
+
+
+        if (coolDownAtaqueEspecial >= 0.1f)
+        {
+            coolDownAtaqueEspecial -= Time.deltaTime;
+            canShootEspecial = false;
+        }
+        else
+        {
+            canShootEspecial = true;
+        }
     }
 
     // Chamar no Update

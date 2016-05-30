@@ -49,7 +49,7 @@ public class InputManager : MonoBehaviour {
 
     void ChecarControle()
     {
-        if (Input.GetJoystickNames()[0] == "Controller (Xbox One For Windows)")
+        if (Input.GetJoystickNames().Length != 0 && Input.GetJoystickNames()[0] == "Controller (Xbox One For Windows)")
         {
             joystick = true;
             keyboard = false;

@@ -28,8 +28,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.165308, y: 0.19871753, z: 1}
-  m_LocalScale: {x: 6, y: 6, z: 0.74674207}
+  m_LocalPosition: {x: 0.037860423, y: -4.0732317, z: 1}
+  m_LocalScale: {x: 4.5, y: 4.5, z: 0.74674207}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -175,12 +175,24 @@ MonoBehaviour:
   animator: {fileID: 0}
   collider2D: {fileID: 0}
   enemyManager: {fileID: 0}
-  tiro: {fileID: 0}
+  projetilNormal: {fileID: 11404310, guid: 497babe9ec9791f44a2168265f08ba4a, type: 2}
+  projetilEspecial: {fileID: 11492676, guid: 4467566c157047243b25f49b36896902, type: 2}
   danoAtaqueNormal: 1
-  danoAtaqueEspecial: 0
+  danoAtaqueEspecial: 5
   sourceAudio: {fileID: 0}
-  soundEffects: []
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
   inputManager: {fileID: 0}
+  isShooting: 0
+  canShootEspecial: 0
+  canShootNormal: 0
+  shootingTimer: 0
+  shootingCD: 0.3
+  coolDownAtaqueEspecial: 0
+  coolDownAtaqueNormal: 0
+  delayAtaqueNormal: 0.3
+  delayAtaqueEspecial: 3
 --- !u!212 &21279198
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -205,7 +217,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 97114541
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a62fd12ffc00f3a4092d205a8e249698, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

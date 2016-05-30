@@ -19,8 +19,8 @@ public class GoroRock : Projetil {
         {
             collider.SendMessageUpwards("AplicarDano", 2);
             Instantiate(explosao, collider.transform.position, Quaternion.identity);
-            collider.gameObject.GetComponent<PlayerLukaz>().sourceAudio.clip = hitSound;
-            collider.gameObject.GetComponent<PlayerLukaz>().sourceAudio.Play();
+            collider.gameObject.GetComponent<Personagem>().sourceAudio.clip = hitSound;
+            collider.gameObject.GetComponent<Personagem>().sourceAudio.Play();
             Destroy(gameObject);
         }
 

@@ -3,15 +3,37 @@ using System.Collections;
 
 public class PlayerWagnur : Personagem {
 
-    
-
     public override void Ataque()
     {
-        if (Input.GetButtonDown("A"))
+        base.Ataque();
+
+        if (Input.GetButtonDown("A") && !isShooting)
         {
-            WagnurLanca lanca = (WagnurLanca) Instantiate(tiro, transform.position, Quaternion.identity);
-            lanca.direcao = direcao;
+            if (canShootNormal)
+            {
+                projetilNormal.direcao = direcao;
+
+                coolDownAtaqueNormal += delayAtaqueNormal;
+
+                WagnurLanca lanca = (WagnurLanca)Instantiate(projetilNormal, transform.position, Quaternion.identity);
+            }
+            //TODO: usar esse codigo em alguma coisa irada
+            //projetil = gameObject.AddComponent<WagnurLanca>();
+
         }
+
+        if (Input.GetButtonDown("X") && !isShooting)
+        {
+            if (canShootEspecial)
+            {
+                projetilEspecial.direcao = direcao;
+
+                coolDownAtaqueEspecial += delayAtaqueEspecial;
+
+                WagnurToraMadeira tora = (WagnurToraMadeira)Instantiate(projetilEspecial, transform.position, Quaternion.identity);
+            }
+        }
+
     }
 
 }

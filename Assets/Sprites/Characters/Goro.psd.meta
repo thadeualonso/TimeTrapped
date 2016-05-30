@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0463a2806aa0a1143ac9cddbf98b93ee
-timeCreated: 1462332265
+timeCreated: 1463712458
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,6 +15,7 @@ TextureImporter:
     21300016: GoroAttack_3
     21300018: GoroAttack_2
     21300020: GoroAttack_1
+    21300022: sombra
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -247,6 +248,17 @@ TextureImporter:
         - {x: 18.5, y: -23}
         - {x: 18.5, y: 7}
         - {x: 8.5, y: 17}
+    - name: sombra
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 133
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 

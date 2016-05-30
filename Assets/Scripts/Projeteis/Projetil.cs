@@ -15,4 +15,9 @@ public abstract class Projetil : MonoBehaviour {
 
     public abstract void OnTriggerEnter2D (Collider2D collider);
 
+    public void Destruir()
+    {
+        Destroy(gameObject);
+    }
+
 }

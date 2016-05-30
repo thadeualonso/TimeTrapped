@@ -45,12 +45,9 @@ public abstract class Inimigo : Humanoid
         {
             if (source.isPlaying == false)
             {
-                Debug.Log("Pode tocar");
                 source.clip = alertSound;
                 source.Play();
             }
-
-            Debug.Log("Nao pode tocar");
 
             currentState = EnemyStates.Atacando;
         }
