@@ -20,7 +20,17 @@ public class Portal : MonoBehaviour {
 
             if (SceneManager.GetActiveScene().name == "TelaJogo_2")
             {
-                Application.Quit();
+                FindObjectOfType<GameManager>().CarregaFase("TelaJogo_3");
+            }
+
+            if (SceneManager.GetActiveScene().name == "TelaJogo_3")
+            {
+                FindObjectOfType<GameManager>().CarregaFase("TelaJogo_4");
+            }
+
+            if (SceneManager.GetActiveScene().name == "TelaJogo_4")
+            {
+                FindObjectOfType<GameManager>().CarregaFase("TelaJogo_5");
             }
 
         }

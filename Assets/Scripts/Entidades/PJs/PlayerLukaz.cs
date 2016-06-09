@@ -41,6 +41,15 @@ public class PlayerLukaz : Personagem {
                 missel1.direcao = direcao;
            }
         }
+
+        if (Input.GetButtonDown("Y"))
+        {
+            Debug.Log("God Mode");
+            speed = 4f;
+            hp = 50;
+            danoAtaqueNormal = 10;
+            delayAtaqueEspecial = 0;
+        }
         animator.SetBool("shooting", isShooting);
 
     }

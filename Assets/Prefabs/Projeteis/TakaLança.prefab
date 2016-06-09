@@ -93,7 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidade: 4
   direcao: 1
-  nivelTerreno: 1
+  nivelTerreno: 0
   dirX: 0
   dirY: 0
   dano: 2
@@ -181,6 +181,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: direcao
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: nivelTerreno
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

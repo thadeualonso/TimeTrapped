@@ -16,6 +16,7 @@ TagManager:
   - Vision
   - Inimigo
   - "Op\xE7\xE3o"
+  - GameManager
   layers:
   - Default
   - TransparentFX
