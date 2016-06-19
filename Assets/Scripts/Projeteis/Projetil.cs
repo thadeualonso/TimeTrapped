@@ -12,6 +12,12 @@ public abstract class Projetil : MonoBehaviour {
     public GameObject explosao;
     public AudioClip hitSound;
     public Rigidbody2D rgbd2D;
+    protected Animator anim;
+
+    void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     public abstract void OnTriggerEnter2D (Collider2D collider);
 

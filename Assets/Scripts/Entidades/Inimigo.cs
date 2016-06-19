@@ -21,6 +21,8 @@ public abstract class Inimigo : Humanoid
     public AudioClip attackSound;
     public AudioClip alertSound;
 
+    public Transform target;
+
     void Awake()
     {
         anim = GetComponent<Animator>();
@@ -31,15 +33,19 @@ public abstract class Inimigo : Humanoid
     {
         switch (currentState)
         {
-            case EnemyStates.Patrulhando: Patrulhando(); break;
-            case EnemyStates.Atacando: Atacando(); break;
+            case EnemyStates.Patrulhando:
+                Patrulhando();
+                break;
+            case EnemyStates.Atacando:
+                Atacando();
+                break;
         }
     }
 
     public abstract void Patrulhando();
     public abstract void Atacando();
 
-    void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
@@ -49,11 +55,12 @@ public abstract class Inimigo : Humanoid
                 source.Play();
             }
 
+            target = other.gameObject.transform;
             currentState = EnemyStates.Atacando;
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    public void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {

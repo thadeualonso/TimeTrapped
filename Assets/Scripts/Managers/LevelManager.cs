@@ -2,24 +2,9 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class LevelManager : MonoBehaviour {
-
-    static LevelManager instance = null;
+public class LevelManager : Singleton<LevelManager> {
 
     public Telas telaAtual;
-
-    void Awake()
-    {
-        if (instance != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            instance = this;
-            GameObject.DontDestroyOnLoad(gameObject);
-        }
-    }
 
     void Update()
     {

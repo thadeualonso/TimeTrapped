@@ -29,11 +29,14 @@ public class Personagem : Humanoid
     public float delayAtaqueNormal;
     public float delayAtaqueEspecial;
 
+    protected Rigidbody2D rgbd2D;
+
     void Awake()
     {
         base.Awake();
 
         sourceAudio = GetComponent<AudioSource>();
+        rgbd2D = GetComponent<Rigidbody2D>();
     }
 
     void Start()
@@ -60,6 +63,7 @@ public class Personagem : Humanoid
         projetilEspecial.direcao = direcao;
         projetilEspecial.nivelTerreno = nivelTerreno;*/
     }
+
 
     public void ChecaCoolDown()
     {
@@ -123,45 +127,53 @@ public class Personagem : Humanoid
         {
             animator.SetBool("walking", true);
 
-            #region Checa o eixo X
-            if (lastInputX > 0.1f)
+            // Direita
+            if(lastInputX > 0.1f)
             {
                 direcao = Direcoes.Right;
             }
-            else if (lastInputX < 0.1f)
+
+            // Esquerda
+            if (lastInputX < -0.1f)
             {
                 direcao = Direcoes.Left;
             }
-            #endregion
 
-            #region Checa o eixo Y e diagonais
+            // Cima
             if (lastInputY > 0.1f)
             {
                 direcao = Direcoes.Up;
-
-                if (lastInputX > 0.1f)
-                {
-                    direcao = Direcoes.UpRight;
-                }
-                else if (lastInputX < 0f)
-                {
-                    direcao = Direcoes.UpLeft;
-                }
             }
-            else if (lastInputY < 0f)
+
+            // Baixo
+            if (lastInputY < -0.1f)
             {
                 direcao = Direcoes.Down;
-
-                if (lastInputX > 0f)
-                {
-                    direcao = Direcoes.DownRight;
-                }
-                else if (lastInputX < 0f)
-                {
-                    direcao = Direcoes.DownLeft;
-                }
             }
-            #endregion
+
+            // Superior direito
+            if (lastInputX > 0.1f && lastInputY > 0.1f)
+            {
+                direcao = Direcoes.UpRight;
+            }
+
+            // Superior esquerdo
+            if (lastInputX < -0.1f && lastInputY > 0.1f)
+            {
+                direcao = Direcoes.UpLeft;
+            }
+
+            // Inferior direito
+            if (lastInputX > 0.1f && lastInputY < -0.1f)
+            {
+                direcao = Direcoes.DownRight;
+            }
+
+            // Inferior esquerdo
+            if (lastInputX < -0.1f && lastInputY < -0.1f)
+            {
+                direcao = Direcoes.DownLeft;
+            }
 
             animator.SetFloat("LastX", horizontal);
             animator.SetFloat("LastY", vertical);
@@ -175,10 +187,24 @@ public class Personagem : Humanoid
 
     public void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.tag == "Nivel Superior")
+        {
+            nivelTerreno = NiveisTerrenos.Superior;
+        }
+
         if (other.gameObject.CompareTag("TiroInimigo"))
         {
             this.hp--;
             SceneManager.LoadScene("TelaGameOver");
+        }
+
+    }
+
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Nivel Superior")
+        {
+            nivelTerreno = NiveisTerrenos.Chao;
         }
     }
 

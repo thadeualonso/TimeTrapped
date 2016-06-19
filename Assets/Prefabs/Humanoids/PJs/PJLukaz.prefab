@@ -29,7 +29,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.8106519, y: -4.214051, z: 0}
+  m_LocalPosition: {x: 1.08, y: -1.78, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 0.74674207}
   m_Children: []
   m_Father: {fileID: 0}
@@ -43,7 +43,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 123726}
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_IsKinematic: 0
@@ -206,8 +206,9 @@ MonoBehaviour:
   shootingCD: 0.3
   coolDownAtaqueEspecial: 0
   coolDownAtaqueNormal: 0
-  delayAtaqueNormal: 0.3
-  delayAtaqueEspecial: 3
+  delayAtaqueNormal: 0.15
+  delayAtaqueEspecial: 1.5
+  forcaRecuo: 0.3
 --- !u!212 &21279198
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -265,6 +266,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: delayAtaqueNormal
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: delayAtaqueEspecial
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

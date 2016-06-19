@@ -5,7 +5,7 @@ using System;
 public class InimigoGoro : Inimigo {
 
     public override void Patrulhando()
-    {
+    { 
         if (attacking)
         {
             if (attackCounter > 0)

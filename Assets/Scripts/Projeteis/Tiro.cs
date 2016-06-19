@@ -2,7 +2,10 @@
 using System.Collections;
 
 public class Tiro : Projetil {
-	
+
+    [SerializeField]
+    private GameObject explosaoTiro;
+
     void Start()
     {
         Invoke("Destruir", 0.6f);
@@ -22,24 +25,25 @@ public class Tiro : Projetil {
         GetComponent<Rigidbody2D>().velocity = transform.up * velocidade;
     }
 
-    public override void OnTriggerEnter2D (Collider2D collider)
+    public override void OnTriggerEnter2D (Collider2D other)
     {
-        if (collider.gameObject.tag == "Inimigo" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
+        if (other.gameObject.tag == "Inimigo" /*&& other.GetComponent<Humanoid>().nivelTerreno == nivelTerreno*/)
         {
-            collider.SendMessageUpwards("AplicarDano", dano);
-            Instantiate(explosao, collider.transform.position, Quaternion.identity);
+            other.SendMessageUpwards("AplicarDano", dano);
+            Instantiate(explosao, other.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 
-        if (collider.gameObject.tag == "Limite")
+        if (other.gameObject.tag == "Limite")
         {
             Debug.Log("Colidiu com limites da fase");
             Destroy(gameObject);
         }
 
-        if (collider.gameObject.tag == "Obstaculo" && nivelTerreno == NiveisTerrenos.Chao)
+        if (other.gameObject.tag == "Obstaculo" && nivelTerreno == NiveisTerrenos.Chao)
         {
             Debug.Log("Colidiu com algum obstaculo");
+            //Instantiate(explosaoTiro, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 

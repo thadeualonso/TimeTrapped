@@ -9,7 +9,6 @@ public abstract class Humanoid : MonoBehaviour {
     public int hp;
     public int hpMax;
 
-    [HideInInspector]
     public int dano;
     public float speed;
 
@@ -56,22 +55,6 @@ public abstract class Humanoid : MonoBehaviour {
     public void FixedUpdate()
     {
         
-    }
-
-    public void OnCollisionEnter2D (Collision2D other)
-    {
-        if (other.gameObject.tag == "Nivel Superior")
-        {
-            nivelTerreno = NiveisTerrenos.Superior;
-        }
-    }
-
-    public void OnCollisionExit2D (Collision2D other)
-    {
-        if (other.gameObject.tag == "Nivel Superior")
-        {
-            nivelTerreno = NiveisTerrenos.Chao;
-        }
     }
 
     // Implementar o ataque

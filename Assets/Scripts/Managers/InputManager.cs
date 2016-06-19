@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class InputManager : MonoBehaviour {
-
-    static InputManager instance = null;
+public class InputManager : Singleton<InputManager> {
 
     public float horizontal;
     public float vertical;
@@ -11,20 +9,6 @@ public class InputManager : MonoBehaviour {
     public bool btnA, btnX;
 
     public bool keyboard, joystick;
-
-    void Awake()
-    {
-        if (instance != null)
-        {
-            Destroy(gameObject);
-            Debug.Log("Duplicated input manager self-destructing");
-        }
-        else
-        {
-            instance = this;
-            GameObject.DontDestroyOnLoad(gameObject);
-        }
-    }
 
     void Update()
     {

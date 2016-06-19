@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.134141, y: -2.919329, z: -1}
+  m_LocalPosition: {x: 0.7351451, y: -0.82883406, z: -1}
   m_LocalScale: {x: 4, y: 4, z: 0.48784682}
   m_Children: []
   m_Father: {fileID: 0}
@@ -91,8 +91,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f661c974a51c84ab873800356b4ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 5
-  direcao: 0
+  velocidade: 10
+  direcao: 3
   nivelTerreno: 0
   dirX: 0
   dirY: 0
@@ -100,6 +100,7 @@ MonoBehaviour:
   explosao: {fileID: 182280, guid: e04d3add835cc934b99ed97935960bf7, type: 2}
   hitSound: {fileID: 0}
   rgbd2D: {fileID: 0}
+  explosaoTiro: {fileID: 104128, guid: 2f7ea2a37e70bfd48b9c3ea23f1e6a1a, type: 2}
 --- !u!212 &21270460
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -124,7 +125,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 97114541
+  m_SortingLayerID: -1300772163
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 50fd02fa8e03504449581ce27588f290, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -151,7 +152,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: velocidade
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Sprite
@@ -164,12 +165,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_SortingLayerID
-      value: 97114541
+      value: -1300772163
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: explosao
       value: 
       objectReference: {fileID: 182280, guid: e04d3add835cc934b99ed97935960bf7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: explosaoTiro
+      value: 
+      objectReference: {fileID: 104128, guid: 2f7ea2a37e70bfd48b9c3ea23f1e6a1a, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 169780}

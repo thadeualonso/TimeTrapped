@@ -18,6 +18,8 @@ public class PlayerLukaz : Personagem {
                 coolDownAtaqueNormal += delayAtaqueNormal;
 
                 Tiro tiro1 = (Tiro)Instantiate(projetilNormal, transform.position, Quaternion.identity);
+
+                tiro1.direcao = direcao;
             }
         }
 

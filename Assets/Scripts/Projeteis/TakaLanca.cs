@@ -5,7 +5,7 @@ public class TakaLanca : Projetil{
 
     void Start()
     {
-        //Invoke("MudaNivelTerreno", 0.6f);
+        Invoke("MudaNivelTerreno", 0.6f);
         Invoke("ChamarCurva", 0.6f);
         Invoke("Destruir", 3f);
     }
@@ -40,7 +40,7 @@ public class TakaLanca : Projetil{
 
     public override void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Player" && collider.GetComponent<Humanoid>().nivelTerreno == nivelTerreno)
+        if (collider.gameObject.tag == "Player" && collider.GetComponent<Personagem>().nivelTerreno == nivelTerreno)
         {
             collider.SendMessageUpwards("AplicarDano", dano);
             collider.gameObject.GetComponent<Personagem>().sourceAudio.clip = hitSound;
@@ -49,10 +49,10 @@ public class TakaLanca : Projetil{
             Destroy(gameObject);
         }
 
-        /*if (collider.gameObject.tag == "Obstaculo" && nivelTerreno == NiveisTerrenos.Chao)
+        if (collider.gameObject.tag == "Obstaculo" && nivelTerreno == NiveisTerrenos.Chao)
         {
             Destroy(gameObject);
-        }*/
+        }
     }
 
     void MudaNivelTerreno()

@@ -4,9 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
 
-public class GameManager : MonoBehaviour {
-
-    static GameManager instance = null;
+public class GameManager : Singleton<GameManager> {
 
     [Header("GUI")]
     public Image setaDireitaP1;
@@ -47,16 +45,7 @@ public class GameManager : MonoBehaviour {
 
     void Awake()
     {
-        if (instance != null)
-        {
-            Destroy(gameObject);
-            Debug.Log("Duplicated input manager self-destructing");
-        }
-        else
-        {
-            instance = this;
-            GameObject.DontDestroyOnLoad(gameObject);
-        }
+        base.Awake();
 
         if (FindObjectOfType<InputManager>() != null)
         {

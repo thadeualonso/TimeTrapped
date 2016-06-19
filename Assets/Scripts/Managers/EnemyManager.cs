@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyManager : MonoBehaviour {
+public class EnemyManager : Singleton<EnemyManager> {
 
     public int inimigosCont;
     public bool todosInimigosMortos = false;
