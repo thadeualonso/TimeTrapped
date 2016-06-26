@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Personagem : Humanoid
 {
+    public Sprite avatar;
+
     public Projetil projetilNormal;
     public Projetil projetilEspecial;
     public int danoAtaqueNormal;

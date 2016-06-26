@@ -219,6 +219,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   collider2D: {fileID: 0}
   enemyManager: {fileID: 0}
+  avatar: {fileID: 21300000, guid: 30278454e9653ca43b45783c967fe97c, type: 3}
   projetilNormal: {fileID: 0}
   projetilEspecial: {fileID: 0}
   danoAtaqueNormal: 0
@@ -323,6 +324,11 @@ Prefab:
       propertyPath: speed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: avatar
+      value: 
+      objectReference: {fileID: 21300000, guid: 30278454e9653ca43b45783c967fe97c,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 123726}

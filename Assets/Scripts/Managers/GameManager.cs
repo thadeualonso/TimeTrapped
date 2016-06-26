@@ -6,103 +6,144 @@ using System;
 
 public class GameManager : Singleton<GameManager> {
 
-    [Header("GUI")]
-    public Image setaDireitaP1;
-    //public Image setaDireitaP2;
-    public Image setaEsquerdaP1;
-    //public Image setaEsquerdaP2;
-    public Image screenFader;
-    public int indiceAvatarP1;
-    public Image avatarP1;
-    public GameObject[] arrayAvatarP1;
-    public Text txtTimer;
-    public Text txtCoolDownMissel;
-    public Text txtEquipeP1;
-    public Text txtSalvosP1;
-
     [Header("Spawn de personagens")]
+    // Indice que indica qual personagem esta selecionado
     public int indicePJ;
+    // Array contendo os personagens disponiveis para seleção
     public GameObject[] arrayPJs;
+    // Localização do spawn dos personagens do player 1
     public GameObject spawnP1;
-    //public GameObject spawnP2;
+    // Personagem selecionado pelo jogador
     public static GameObject charP1;
-    //public GameObject charP2;
+    // Imagem do personagem selecionado
+    private Image avatarSelecionado;
 
     [Header("Informação dos jogadores", order = 1)]
     [Header("Player 1", order = 2)]
+    // Quantidade de personagens na equipe do player 1
     public static int equipeP1;
+    // Quantidade de personagens salvos do player 1
     public static int salvosP1;
+    //public static int equipeP2;
+    //public static int salvosP2;
 
     [Header("Regras")]
+    // Tempo da fase
     public float timer;
+    // Flag indicando se o jogo iniciou 
     public bool gameStart = false;
+    // Flag indicando se o game over foi chamado
     public bool gameOver = false;
+    // Flah indicando se todos os personagens da cena estão mortos
     public bool pjsMortos = false;
+    // Flag indicando se o teclado ou joystick está sendo utilizado
     public bool stickInUse = false;
 
+    float analogHorizontal;
+
     [Header("Componentes do sistema")]
-    private InputManager inputManager;
+    public InputManager inputManager;
+    public UIManager uiManager;
 
     void Awake()
     {
         base.Awake();
 
-        if (FindObjectOfType<InputManager>() != null)
+        // Atribuição de componentes
+        inputManager = FindObjectOfType<InputManager>();
+        uiManager = FindObjectOfType<UIManager>();
+
+        // Busca na cena e atribui o gameObject 'Spawn1'
+        spawnP1 = GameObject.Find("SpawnP1");
+
+        // Indice do personagem inicia em 0
+        indicePJ = 0;
+
+        avatarSelecionado = GameObject.Find("imgJogadorP1").GetComponent<Image>();
+    }
+
+    void Start()
+    {
+        equipeP1 = ChecaEquipe();
+    }
+
+	void Update ()
+    {
+        // Representa o analogico ou setas no eixo horizontal
+        analogHorizontal = inputManager.horizontal;
+
+        if(analogHorizontal != 0f)
         {
-            inputManager = FindObjectOfType<InputManager>();
+            SelecaoDePersonagens();
         }
         else
         {
-            Debug.LogWarning("InputManager não encontrado");
+            stickInUse = false;
         }
 
-        spawnP1 = GameObject.Find("SpawnP1");
+        if (Input.GetButtonDown("A"))
+        {
+            ConfirmarSelecao();
+        }
 
-        indicePJ = 0;
-        indiceAvatarP1 = 0;
-    }
-
-	// Update is called once per frame
-	void Update ()
-    {
-        SelecaoDePersonagens();
-        AtualizaGUI();
-
+        // Se a flag 'gameOver' for true...
         if (gameOver)
         {
+            // Chama o método de GameOver
             ChamaGameOver();
         }
 
+        // Se a flag 'gameStart' for true...
         if (gameStart)
         {
+            // Se o timer for maior ou igual a zero...
             if (timer >= 0)
             {
                 timer -= Time.deltaTime;
             }
             else
             {
-                if (FindObjectOfType<PlayerLukaz>() != null)
+                //ChamaGameOver();
+
+                // Se tiver ao menos 1 personagem em cena...
+                if (FindObjectOfType<Personagem>() != null)
                 {
-                    FindObjectOfType<PlayerLukaz>().hp = 0;
+                    // Zera o HP do personagem
+                    FindObjectOfType<Personagem>().hp = 0;
                 }
             }
         }
 	}
+
+    int ChecaEquipe()
+    {
+        int contagem = 0;
+
+        for (int i = 0; i < arrayPJs.Length; i++)
+        {
+            if(arrayPJs[i] != null)
+            {
+                contagem++;
+            }
+        }
+
+        return contagem;
+    }
+
+    void ChecaGameOver()
+    {
+        if (equipeP1 <= 0)
+        {
+            pjsMortos = true;
+            CarregaGameOver();
+        }
+    }
 
     void OnLevelWasLoaded(int level)
     {
         gameStart = false;
         timer = 240;
         spawnP1 = GameObject.Find("SpawnP1");
-
-        txtEquipeP1 = GameObject.Find("qntEquipeP1").GetComponent<Text>();
-        setaDireitaP1 = GameObject.Find("SetaDireitaP1").GetComponent<Image>();
-        setaEsquerdaP1 = GameObject.Find("SetaEsquerdaP1").GetComponent<Image>();
-    }
-
-    private void AtualizaGUI()
-    {
-        txtEquipeP1.text = equipeP1.ToString();
     }
 
     public void CarregaFase(string fase)
@@ -112,29 +153,13 @@ public class GameManager : Singleton<GameManager> {
 
     public void ChamaGameOver()
     {
-        StartCoroutine(ScreenFade());
+        StartCoroutine(uiManager.ScreenFade());
         Invoke("CarregaGameOver", 3f);
-        
     }
 
     void CarregaGameOver()
     {
         SceneManager.LoadScene("TelaGameOver");
-    }
-
-    IEnumerator ScreenFade()
-    {
-        while (true)
-        {
-            Debug.Log("Aplicando alfa");
-
-            Color color = screenFader.color;
-            color.a += 0.01f;
-            screenFader.color = color;
-
-            yield return new WaitForSeconds(0.01f);
-        }
-
     }
 
     void ChecaTempo()
@@ -157,77 +182,83 @@ public class GameManager : Singleton<GameManager> {
     {
         if (gameStart == false || pjsMortos == true)
         {
-            MoverSelecao();
-            ConfirmarSelecao();
+            string direcao = null;
+
+            if(analogHorizontal >= 0.1f)
+            {
+                direcao = "right";
+            }
+            
+            if(analogHorizontal <= -0.1f)
+            {
+                direcao = "left";
+            }
+
+            MoverSelecao(direcao);
         }
     }
 
-    void MoverSelecao()
+    // Método para selecionar o personagem que será instanciado na cena
+    void MoverSelecao(string direcao)
     {
-        // Representa o analogico ou setas no eixo horizontal
-        float analogHorizontal = inputManager.horizontal;
-
-        if (analogHorizontal <= -0.1f)
+        // Se o controle ou teclado nao estiver sendo usado...
+        if (stickInUse == false)
         {
-            if (stickInUse == false)
+            // Indice do personagem selecionado recebe o retorno do método Selecao()
+            // Método Selecao anda no array decrementando o indicePJ
+            indicePJ = Selecao(arrayPJs, indicePJ, direcao);
+
+            if(arrayPJs[indicePJ] != null)
             {
-                indicePJ = Selecao(arrayPJs, indicePJ, "left");
-                //indiceAvatarP1 = Selecao(arrayAvatarP1, indiceAvatarP1, "left");
-                stickInUse = true;
+                avatarSelecionado.sprite = arrayPJs[indicePJ].GetComponent<Personagem>().avatar;
             }
-        }
-
-        if (analogHorizontal >= 0.1f)
-        {
-            if (stickInUse == false)
+            else
             {
-                indicePJ = Selecao(arrayPJs, indicePJ, "right");
-                //indiceAvatarP1 = Selecao(arrayAvatarP1, indiceAvatarP1, "right");
-                stickInUse = true;
+                return;
             }
-        }
 
-        if (analogHorizontal != 0f)
-        {
+            //avatarSelecionado.sprite = arrayPJs[indicePJ].GetComponent<Personagem>().avatar;
+            // Flag para indicar o uso do controle
             stickInUse = true;
         }
-        else
-        {
-            stickInUse = false;
-        }
-
     }
 
+    // Método para confirmar a seleção feita com o método MoverSeleção()
     void ConfirmarSelecao()
     {
-        if (Input.GetButtonDown("A"))
+        if (gameStart == false || pjsMortos == true)
         {
-
-            if(pjsMortos)
+            // Se todos os personagens da cena estiverem mortos...
+            if (pjsMortos)
             {
+                // Flag para indicar que existe pelo menos 1 personagem na cena
                 pjsMortos = false;
             }
 
-            GameObject P1 = GameManager.charP1;
+            // P1 recebe o personagem selecionado presente no script GameManager
+            GameObject P1;
 
+            // P1 recebe o personagem ativo
             P1 = arrayPJs[indicePJ];
 
-            if (P1 == null)
-            {
-                if (indicePJ == 1)
-                {
-                    P1 = arrayPJs[0];
-                }
-                
-                if (indicePJ == 0)
-                {
-                    P1 = arrayPJs[1];
-                }
-            }
+            //// Se o personagem selecionado não estiver disponivel na equipe...
+            //if (P1 == null)
+            //{
+            //    // Se o indice de personagem for igual a 1
+            //    if (indicePJ == 1)
+            //    {
+            //        P1 = arrayPJs[0];
+            //    }
+
+            //    if (indicePJ == 0)
+            //    {
+            //        P1 = arrayPJs[1];
+            //    }
+            //}
 
             Instantiate(P1, spawnP1.transform.position, Quaternion.identity);
-            setaDireitaP1.GetComponent<Animator>().SetBool("selecao", false);
-            setaEsquerdaP1.GetComponent<Animator>().SetBool("selecao", false);
+            //setaDireitaP1.GetComponent<Animator>().SetBool("selecao", false);
+            //setaEsquerdaP1.GetComponent<Animator>().SetBool("selecao", false);
 
             gameStart = true;
         }

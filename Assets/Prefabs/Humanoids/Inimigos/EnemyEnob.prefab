@@ -28,7 +28,10 @@ GameObject:
   - 50: {fileID: 5091244}
   - 82: {fileID: 8234582}
   - 114: {fileID: 11453412}
-  - 58: {fileID: 5896470}
+  - 95: {fileID: 9562008}
+  - 61: {fileID: 6179218}
+  - 58: {fileID: 5825784}
+  - 61: {fileID: 6101434}
   m_Layer: 0
   m_Name: EnemyEnob
   m_TagString: Inimigo
@@ -43,8 +46,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.83, y: 2.9, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1.3524262}
+  m_LocalPosition: {x: -0.61200225, y: -2.285931, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.3524262}
   m_Children:
   - {fileID: 462898}
   m_Father: {fileID: 0}
@@ -78,6 +81,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!58 &5825784
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184720}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.09}
+  serializedVersion: 2
+  m_Radius: 0.13996816
 --- !u!58 &5852002
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -92,8 +109,8 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.3538945
---- !u!58 &5896470
-CircleCollider2D:
+--- !u!61 &6101434
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -103,9 +120,23 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.023084274, y: -0.17890358}
   serializedVersion: 2
-  m_Radius: 0.16181111
+  m_Size: {x: 0.21841012, y: 0.09910949}
+--- !u!61 &6179218
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184720}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.000000019868216, y: -0.06925281}
+  serializedVersion: 2
+  m_Size: {x: 0.36461064, y: 0.133736}
 --- !u!82 &8234582
 AudioSource:
   m_ObjectHideFlags: 1
@@ -180,6 +211,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &9562008
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184720}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e0a4dda1671adc04c859b0465e76209e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11453412
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -196,7 +244,7 @@ MonoBehaviour:
   hp: 5
   hpMax: 5
   dano: 1
-  speed: 1.5
+  speed: 1.3
   animator: {fileID: 0}
   collider2D: {fileID: 0}
   enemyManager: {fileID: 0}
@@ -239,7 +287,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 97114541
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300128, guid: a62fd12ffc00f3a4092d205a8e249698, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0256a976a967cd84d968f0bfb44328bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -257,6 +305,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: speed
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.y
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

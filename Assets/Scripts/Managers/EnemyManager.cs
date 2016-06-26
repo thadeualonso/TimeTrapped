@@ -9,7 +9,8 @@ public class EnemyManager : Singleton<EnemyManager> {
 
     void Update()
     {
-        GameObject[] inimigos = GameObject.FindGameObjectsWithTag("Inimigo");
+        Inimigo[] inimigos = GameObject.FindObjectsOfType<Inimigo>();
+        
         inimigosCont = inimigos.Length;
 
         if (inimigosCont <= 0)

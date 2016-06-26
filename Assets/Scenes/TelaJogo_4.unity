@@ -3528,9 +3528,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f9e1c14df41cd4ca46aa547d6f6107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textos:
-  - {fileID: 1752232874}
-  - {fileID: 1958594538}
+  setaDireitaP1: {fileID: 0}
+  setaEsquerdaP1: {fileID: 0}
+  screenFader: {fileID: 0}
+  indiceAvatarP1: 0
+  avatarP1: {fileID: 0}
+  arrayAvatarP1: []
+  txtTimer: {fileID: 0}
+  txtCoolDownMissel: {fileID: 0}
+  txtEquipeP1: {fileID: 0}
+  txtSalvosP1: {fileID: 0}
 --- !u!4 &2137149574 stripped
 Transform:
   m_PrefabParentObject: {fileID: 431680, guid: b0b7c8d67caf3784d9e82f41c42baaea, type: 2}

@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 470480}
   - 114: {fileID: 11405506}
   m_Layer: 0
-  m_Name: InputManager
+  m_Name: _InputManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

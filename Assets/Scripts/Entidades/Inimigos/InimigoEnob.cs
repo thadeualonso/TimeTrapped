@@ -17,6 +17,8 @@ public class InimigoEnob : Inimigo
 
             dirMovimento = heading / distancia;
 
+            ChecaDirecao(dirMovimento.x, dirMovimento.y);
+
             if (distancia > 0.7f)
             {
                 transform.Translate(dirMovimento * speed * Time.deltaTime);
@@ -24,6 +26,7 @@ public class InimigoEnob : Inimigo
             else
             {
                 attacking = true;
+                anim.SetBool("attacking", attacking);
 
                 if (attacking)
                 {
@@ -34,12 +37,14 @@ public class InimigoEnob : Inimigo
                     else
                     {
                         attacking = false;
+                        anim.SetBool("attacking", attacking);
                     }
                 }
 
                 if (!attacking)
                 {
                     attacking = true;
+                    anim.SetBool("attacking", attacking);
                     attackCounter = attackCoolDown;
 
                     source.clip = attackSound;
@@ -54,12 +59,16 @@ public class InimigoEnob : Inimigo
 
     public override void Patrulhando()
     {
+        anim.SetBool("attacking", false);
+
         if (timer <= 0f)
         {
             float randomX = UnityEngine.Random.Range(-1f, 1f);
             float randomY = UnityEngine.Random.Range(-1f, 1f);
 
             Vector2 heading = new Vector2(randomX, randomY);
+
+            ChecaDirecao(randomX, randomY);
 
             float distancia = heading.magnitude;
 
@@ -74,5 +83,38 @@ public class InimigoEnob : Inimigo
         }
     }
 
+
+    void ChecaDirecao(float x, float y)
+    {
+        if(x > 0.1f)
+        {
+            anim.SetFloat("SpeedX", 1f);
+        }
+
+        if (x < -0.1f)
+        {
+            anim.SetFloat("SpeedX", -1f);
+        }
+
+        if (y > 0.1f)
+        {
+            anim.SetFloat("SpeedY", 1f);
+        }
+
+        if (y < -0.1f)
+        {
+            anim.SetFloat("SpeedY", -1f);
+        }
+
+
+        if (x != 0f || y != 0f)
+        {
+            anim.SetBool("walking", true);
+        }
+        else
+        {
+            anim.SetBool("walking", false);
+        }
+    }
 
 }

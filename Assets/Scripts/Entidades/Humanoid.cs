@@ -37,15 +37,9 @@ public abstract class Humanoid : MonoBehaviour {
         {
             Destroy(gameObject);
 
-            if (gameObject.tag == "Player" && GameManager.equipeP1 <= 0)
-            {
-                FindObjectOfType<GameManager>().Invoke("ChamaGameOver", 2f);
-            }
-            else if (gameObject.tag == "Player")
+            if(gameObject.tag == "Player")
             {
                 GameManager.equipeP1--;
-                FindObjectOfType<GameManager>().pjsMortos = true;
-                FindObjectOfType<GameManager>().arrayPJs[0] = null;
             }
         }
 

@@ -39,19 +39,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ebcfcb67efcfd7448d022d5a43af88a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  setaDireitaP1: {fileID: 0}
-  setaEsquerdaP1: {fileID: 0}
-  screenFader: {fileID: 0}
-  indiceAvatarP1: 0
-  avatarP1: {fileID: 0}
-  arrayAvatarP1: []
-  txtTimer: {fileID: 0}
-  txtCoolDownMissel: {fileID: 0}
-  txtEquipeP1: {fileID: 0}
-  txtSalvosP1: {fileID: 0}
   indicePJ: 0
   arrayPJs:
   - {fileID: 123726, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   spawnP1: {fileID: 0}
   timer: 240
@@ -59,13 +50,25 @@ MonoBehaviour:
   gameOver: 0
   pjsMortos: 0
   stickInUse: 0
+  inputManager: {fileID: 11405506, guid: bfa1ba9ad91d5374c95aa4b3468ba947, type: 2}
+  uiManager: {fileID: 11453760, guid: 806acf6602b71554ca4b2648764046d6, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 11405506, guid: bfa1ba9ad91d5374c95aa4b3468ba947,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: uiManager
+      value: 
+      objectReference: {fileID: 11453760, guid: 806acf6602b71554ca4b2648764046d6,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 158794}
