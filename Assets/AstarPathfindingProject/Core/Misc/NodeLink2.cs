@@ -163,7 +163,6 @@ namespace Pathfinding {
 		}
 
 		void RemoveConnections (GraphNode node) {
-			//TODO, might be better to replace connection
 			node.ClearConnections(true);
 		}
 
@@ -178,7 +177,6 @@ namespace Pathfinding {
 		}
 
 		public void Apply (bool forceNewCheck) {
-			//TODO
 			//This function assumes that connections from the n1,n2 nodes never need to be removed in the future (e.g because the nodes move or something)
 			NNConstraint nn = NNConstraint.None;
 			int graph = (int)startNode.GraphIndex;

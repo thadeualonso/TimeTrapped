@@ -44,8 +44,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3754358, y: 1.394069, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1.3524262}
+  m_LocalPosition: {x: 0.331, y: -1.509, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.55876905}
   m_Children:
   - {fileID: 462898}
   m_Father: {fileID: 0}
@@ -90,9 +90,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0.0012634278, y: -0.1883236}
+  m_Offset: {x: 0.0012634278, y: -0.3493756}
   serializedVersion: 2
-  m_Size: {x: 5.5002856, y: 0.9091595}
+  m_Size: {x: 5.5002856, y: 1.231264}
 --- !u!61 &6126842
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -228,6 +228,7 @@ MonoBehaviour:
   source: {fileID: 0}
   attackSound: {fileID: 8300000, guid: 94f034aaebe80fe45b69a7cc115d1ad4, type: 3}
   alertSound: {fileID: 8300000, guid: d81c8c09e0ea8434c9364b59dd3840de, type: 3}
+  target: {fileID: 0}
 --- !u!212 &21253808
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -268,6 +269,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

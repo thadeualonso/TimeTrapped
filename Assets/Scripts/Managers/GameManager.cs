@@ -21,9 +21,9 @@ public class GameManager : Singleton<GameManager> {
     [Header("Informação dos jogadores", order = 1)]
     [Header("Player 1", order = 2)]
     // Quantidade de personagens na equipe do player 1
-    public static int equipeP1;
+    public int equipeP1;
     // Quantidade de personagens salvos do player 1
-    public static int salvosP1;
+    public int salvosP1;
     //public static int equipeP2;
     //public static int salvosP2;
 
@@ -41,9 +41,8 @@ public class GameManager : Singleton<GameManager> {
 
     float analogHorizontal;
 
-    [Header("Componentes do sistema")]
-    public InputManager inputManager;
-    public UIManager uiManager;
+    private InputManager inputManager;
+    private UIManager uiManager;
 
     void Awake()
     {
@@ -65,6 +64,9 @@ public class GameManager : Singleton<GameManager> {
     void Start()
     {
         equipeP1 = ChecaEquipe();
+
+        inputManager = GameObject.FindObjectOfType<InputManager>();
+        uiManager = GameObject.FindObjectOfType<UIManager>();
     }
 
 	void Update ()
@@ -180,22 +182,41 @@ public class GameManager : Singleton<GameManager> {
 
     void SelecaoDePersonagens()
     {
-        if (gameStart == false || pjsMortos == true)
+        if (!gameStart)
         {
-            string direcao = null;
-
-            if(analogHorizontal >= 0.1f)
+            if (!pjsMortos)
             {
-                direcao = "right";
-            }
-            
-            if(analogHorizontal <= -0.1f)
-            {
-                direcao = "left";
-            }
+                string direcao = null;
 
-            MoverSelecao(direcao);
+                if (analogHorizontal >= 0.1f)
+                {
+                    direcao = "right";
+                }
+
+                if (analogHorizontal <= -0.1f)
+                {
+                    direcao = "left";
+                }
+
+                MoverSelecao(direcao);
+            }
         }
+        //if (gameStart == false || pjsMortos == true)
+        //{
+        //    string direcao = null;
+
+        //    if(analogHorizontal >= 0.1f)
+        //    {
+        //        direcao = "right";
+        //    }
+            
+        //    if(analogHorizontal <= -0.1f)
+        //    {
+        //        direcao = "left";
+        //    }
+
+        //    MoverSelecao(direcao);
+        //}
     }
 
     // Método para selecionar o personagem que será instanciado na cena
@@ -271,10 +292,12 @@ public class GameManager : Singleton<GameManager> {
             if (indicePJ == arrayPJs.Length - 1)
             {
                 indicePJ = 0;
+                return indicePJ;
             }
             else
             {
                 indicePJ++;
+                return indicePJ;
             }
         }
 
@@ -283,10 +306,12 @@ public class GameManager : Singleton<GameManager> {
             if (indicePJ == 0)
             {
                 indicePJ = arrayPJs.Length - 1;
+                return indicePJ;
             }
             else
             {
                 indicePJ--;
+                return indicePJ;
             }
         }
 
@@ -296,6 +321,6 @@ public class GameManager : Singleton<GameManager> {
     public void RecrutaMembro(GameObject personagem)
     {
         arrayPJs[1] = personagem;
-        GameManager.equipeP1++;
+        equipeP1++;
     }
 }

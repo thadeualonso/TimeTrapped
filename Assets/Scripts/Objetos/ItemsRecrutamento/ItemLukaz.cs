@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ItemWagnur : MonoBehaviour {
+public class ItemLukaz : MonoBehaviour {
 
     public GameObject personagem;
 
@@ -20,5 +20,4 @@ public class ItemWagnur : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-
 }

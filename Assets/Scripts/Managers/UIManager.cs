@@ -48,7 +48,7 @@ public class UIManager : Singleton<UIManager>
             setaEsquerdaP1.GetComponent<Animator>().SetBool("selecao", false);
         }
 
-        qntEquipeP1.text = GameManager.equipeP1.ToString();
+        qntEquipeP1.text = gameManager.equipeP1.ToString();
         qntTimer.text = gameManager.timer.ToString("0");
         qntInimigos.text = enemyManager.inimigosCont.ToString();
 

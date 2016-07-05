@@ -92,8 +92,6 @@ public class EnemyAI : MonoBehaviour {
         // Se a referência do target for nula, encerra o método
         if (target == null) { return; }
 
-        //TODO: Sempre olhar para o player
-
         // Se o caminho for nulo, encerra o método
         if (path == null) { return; }
 

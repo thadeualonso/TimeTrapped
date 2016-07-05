@@ -14,16 +14,24 @@ public abstract class Humanoid : MonoBehaviour {
 
     [HideInInspector]
     public Animator animator;
-
     [HideInInspector]
     public Collider2D collider2D;
+
     [HideInInspector]
     public EnemyManager enemyManager;
+    [HideInInspector]
+    //TODO Mudar tipo de volta para 'GameManager'
+    public GameManagerTeste gameManager;
+    [HideInInspector]
+    public InputManager inputManager;
 
     public void Awake()
     {
+        ProcurarManagersNaCena();
+
         animator = GetComponent<Animator>();
         collider2D = GetComponent<Collider2D>();
+
         hp = hpMax;
     }
 
@@ -37,9 +45,9 @@ public abstract class Humanoid : MonoBehaviour {
         {
             Destroy(gameObject);
 
-            if(gameObject.tag == "Player")
+            if (gameObject.tag == "Player")
             {
-                GameManager.equipeP1--;
+                gameManager.RemoverDaEquipe();
             }
         }
 
@@ -61,5 +69,36 @@ public abstract class Humanoid : MonoBehaviour {
     public void AplicarDano(int dano)
     {
         hp -= dano;
+    }
+
+    void ProcurarManagersNaCena()
+    {
+        //TODO: Alterar o tipo de volta para 'GameManager'   
+        if(GameObject.FindObjectOfType<GameManagerTeste>() != null)
+        {
+            gameManager = GameObject.FindObjectOfType<GameManagerTeste>();
+        }
+        else
+        {
+            Debug.Log("Humanoid: GameManager não encontrado");
+        }
+
+        if (GameObject.FindObjectOfType<InputManager>() != null)
+        {
+            inputManager = GameObject.FindObjectOfType<InputManager>();
+        }
+        else
+        {
+            Debug.Log("Humanoid: InputManager não encontrado");
+        }
+
+        if (GameObject.FindObjectOfType<EnemyManager>() != null)
+        {
+            enemyManager = GameObject.FindObjectOfType<EnemyManager>();
+        }
+        else
+        {
+            Debug.Log("Humanoid: EnemyManager não encontrado");
+        }
     }
 }

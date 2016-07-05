@@ -27,8 +27,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7351451, y: -0.82883406, z: -1}
-  m_LocalScale: {x: 4, y: 4, z: 0.48784682}
+  m_LocalPosition: {x: -0.256, y: -2.445, z: -1}
+  m_LocalScale: {x: 2.4188344, y: 2.4188344, z: 0.29500517}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 10
-  direcao: 3
+  direcao: 0
   nivelTerreno: 0
   dirX: 0
   dirY: 0

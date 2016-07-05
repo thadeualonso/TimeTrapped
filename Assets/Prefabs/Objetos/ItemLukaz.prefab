@@ -11,9 +11,9 @@ GameObject:
   - 212: {fileID: 21283996}
   - 61: {fileID: 6135224}
   - 95: {fileID: 9539242}
-  - 114: {fileID: 11455898}
+  - 114: {fileID: 11411806}
   m_Layer: 0
-  m_Name: ItemWagnur
+  m_Name: ItemLukaz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,7 +62,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11455898
+--- !u!114 &11411806
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -70,11 +70,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 169836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7067f5495e09544f823363b8bc01959, type: 3}
+  m_Script: {fileID: 11500000, guid: 2467c0910db336a42b45db915c9907b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  personagem: {fileID: 123726, guid: 5afa9f1538e648642929c4de6564cebc, type: 2}
-  gm: {fileID: 0}
+  personagem: {fileID: 123726, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
+  gameManager: {fileID: 0}
 --- !u!212 &21283996
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -101,7 +101,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ff5f51efe77baf146870b3c5add2cf5e, type: 3}
+  m_Sprite: {fileID: 21300004, guid: ff5f51efe77baf146870b3c5add2cf5e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -111,7 +111,16 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300004, guid: ff5f51efe77baf146870b3c5add2cf5e,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: personagem
+      value: 
+      objectReference: {fileID: 123726, guid: 33e522876269ef24e9ceaf96784fd6fb, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 169836}

@@ -213,12 +213,14 @@ MonoBehaviour:
   direcao: 0
   nivelTerreno: 0
   hp: 0
-  hpMax: 50
+  hpMax: 5
   dano: 0
   speed: 2
   animator: {fileID: 0}
   collider2D: {fileID: 0}
   enemyManager: {fileID: 0}
+  gameManager: {fileID: 0}
+  inputManager: {fileID: 0}
   avatar: {fileID: 21300000, guid: 30278454e9653ca43b45783c967fe97c, type: 3}
   projetilNormal: {fileID: 0}
   projetilEspecial: {fileID: 0}
@@ -226,7 +228,6 @@ MonoBehaviour:
   danoAtaqueEspecial: 0
   sourceAudio: {fileID: 0}
   soundEffects: []
-  inputManager: {fileID: 0}
   isShooting: 0
   canShootEspecial: 0
   canShootNormal: 0
@@ -318,7 +319,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: hpMax
-      value: 50
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: speed

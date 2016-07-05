@@ -14,7 +14,10 @@ GameObject:
   - 82: {fileID: 8254688}
   - 114: {fileID: 11443772}
   - 61: {fileID: 6116320}
-  - 58: {fileID: 5825374}
+  - 61: {fileID: 6161518}
+  - 58: {fileID: 5891974}
+  - 61: {fileID: 6183802}
+  - 61: {fileID: 6153276}
   m_Layer: 0
   m_Name: PJLukaz
   m_TagString: Player
@@ -29,8 +32,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.08, y: -1.78, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 0.74674207}
+  m_LocalPosition: {x: -2.3639398, y: -2.3734555, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 0.60560876}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,7 +54,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &5825374
+--- !u!58 &5891974
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -62,9 +65,9 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0.02}
+  m_Offset: {x: 0, y: 0.09}
   serializedVersion: 2
-  m_Radius: 0.13249893
+  m_Radius: 0.09220473
 --- !u!61 &6116320
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -76,9 +79,51 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -0.007812691}
+  m_Offset: {x: 0, y: -0.004620075}
   serializedVersion: 2
-  m_Size: {x: 0.10499358, y: 0.32437474}
+  m_Size: {x: 0.10499358, y: 0.3467226}
+--- !u!61 &6153276
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123726}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0015123686, y: -0.14894533}
+  serializedVersion: 2
+  m_Size: {x: 0.22415052, y: 0.062109243}
+--- !u!61 &6161518
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123726}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.0015964508, y: 0.031127453}
+  serializedVersion: 2
+  m_Size: {x: 0.33000004, y: 0.04234018}
+--- !u!61 &6183802
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123726}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: -0.00000015894572, y: -0.041503113}
+  serializedVersion: 2
+  m_Size: {x: 0.26295644, y: 0.104595505}
 --- !u!82 &8254688
 AudioSource:
   m_ObjectHideFlags: 1
@@ -186,7 +231,7 @@ MonoBehaviour:
   hp: 5
   hpMax: 5
   dano: 1
-  speed: 2
+  speed: 1.7
   animator: {fileID: 9544656}
   collider2D: {fileID: 0}
   enemyManager: {fileID: 0}
@@ -280,6 +325,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 081f952a6c0cd8947aa44c359875a728,
         type: 3}
+    - target: {fileID: 0}
+      propertyPath: speed
+      value: 1.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 123726}

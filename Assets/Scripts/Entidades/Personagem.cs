@@ -20,8 +20,6 @@ public class Personagem : Humanoid
     public AudioSource sourceAudio;
     public AudioClip[] soundEffects;
 
-    [HideInInspector]
-    public InputManager inputManager;
 
     // Cooldown de ataques
     [HideInInspector]
@@ -39,18 +37,6 @@ public class Personagem : Humanoid
 
         sourceAudio = GetComponent<AudioSource>();
         rgbd2D = GetComponent<Rigidbody2D>();
-    }
-
-    void Start()
-    {
-        if (FindObjectOfType<InputManager>() != null)
-        {
-            inputManager = FindObjectOfType<InputManager>();
-        }
-        else
-        {
-            Debug.LogWarning("InputManager não encontrado");
-        }
     }
 
     public override void Ataque()
@@ -106,8 +92,11 @@ public class Personagem : Humanoid
     // Chamar no Update
     public override void Mover()
     {
-        horizontal = inputManager.horizontal;
-        vertical = inputManager.vertical;
+        if(inputManager != null)
+        {
+            horizontal = inputManager.horizontal;
+            vertical = inputManager.vertical;
+        }
 
         animator.SetFloat("SpeedX", horizontal);
         animator.SetFloat("SpeedY", vertical);
